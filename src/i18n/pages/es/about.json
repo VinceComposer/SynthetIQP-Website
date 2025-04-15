@@ -1,0 +1,45 @@
+{
+  "about": {
+    "title": "Sobre SynthetIQ Partners",
+    "subtitle": "Nuestro propósito es ser la Agencia de Automatizaciones de IA que proporciona la mejor solución de AI para cada negocio cada vez",
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "Empoderar a las organizaciones con soluciones de IA de vanguardia que impulsan la innovación, la eficiencia y el crecimiento"
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "description": "La excelencia, la innovación y el éxito del cliente guían todo lo que hacemos",
+      "list": {
+        "excellence": "Compromiso con la excelencia en cada solución",
+        "innovation": "Innovación continua en tecnología IA",
+        "integrity": "Integridad inquebrantable en todas las relaciones",
+        "collaboration": "Colaboración cercana con nuestros clientes"
+      }
+    },
+    "vision": {
+      "title": "Nuestra Visión",
+      "description": "Ser la Agencia de Automatizaciones de IA líder en soluciones empresariales de IA, transformando cómo las empresas operan y tienen éxito en la era digital"
+    },
+    "team": {
+      "title": "Equipo Central",
+      "description": "Nuestro equipo central reune expertise en IA, comportamiento humano, marketing, consultoría y transformación de negocios",
+      "members": {
+        "ceo": {
+          "name": "Vincenzo Russotto",
+          "role": "Director Ejecutivo",
+          "description": "Líder visionario con amplia experiencia en Startups, Transformación de Negocios e IA"
+        },
+        "coo": {
+          "name": "José Ramón Pérez",
+          "role": "Director de Estrategia",
+          "description": "Experto en Marketing y Gestión de Proyectos, con experiencia en implementación de soluciones de IA que escalan"
+        },
+        "cto": {
+          "name": "Carlos Mendoza",
+          "role": "Director de Tecnología",
+          "description": "Innovador tecnológico con amplia experiencia en IA y Machine Learning"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get answers to common questions about our AI solutions and implementation process",
+    "questions": {
+      "aiAgents": {
+        "question": "What’s a AI Agent and how can it help my business?",
+        "answer": "An AI Agent is a software program powered by artificial intelligence that can autonomously handle tasks, make decisions, and learn from data or user interactions. By automating repetitive processes and providing real-time insights, AI Agents help any kind of business save time, cut costs, reduce error, and boost overall efficiency. To learn more about AI Agents, visit: https://www.techtarget.com/searchenterpriseai/feature/Next-year-will-be-the-year-of-AI-agents"
+      },
+      "implementation": {
+        "question": "What’s the difference between a Professional and a Human-Like AI Agent?",
+        "answer": "Professional AI Agents: These are custom-developed to handle complex processes workflow optimization, system integrations, and routine business operations like a human employee would.
+Human-Like AI Agents: These AI Agents mimic the tone and behaviour of real users or customers. By replicating how people might respond or interact, they provide 24/7 user-like engagement, uncover customer insights, and let you test new ideas before releasing them to your actual audience."
+      },
+      "security": {
+        "question": "What’s the typical ROI for an AI Agent implementation?",
+        "answer": "While results vary by industry and project scope, many businesses report a substantial return on investment -sometimes exceeding 200% in the first year- after automating key processes or enhancing customer interactions with AI Agents. For instance, a study by Deloitte indicates that organizations adopting AI-driven automations often see significant gains in productivity and cost savings. You can read more about potential ROI figures here: ROI for artificial intelligence | Deloitte Insights"
+      },
+      "customization": {
+        "question": "Can AI agents be customized for our industry?",
+        "answer": "Yes, our AI agents are fully customizable to your industry's specific requirements. We work closely with your team to understand your unique processes, compliance needs, and business objectives to develop tailored solutions that align with your organization's goals."
+      },
+      "integration": {
+        "question": "How do AI agents integrate with existing systems?",
+        "answer": "Our AI agents are designed for seamless integration with your existing technology stack. We support standard APIs, custom connectors, and various integration protocols to ensure smooth communication between systems while maintaining data integrity and workflow efficiency."
+      },
+      "support": {
+        "question": "What kind of support do you provide?",
+        "answer": "We offer comprehensive support including 24/7 technical assistance, regular maintenance updates, performance monitoring, and continuous optimization. Our dedicated support team ensures your AI solutions operate at peak efficiency and adapt to your evolving needs."
+      },
+      "pricing": {
+        "question": "How is pricing structured?",
+        "answer": "Our pricing is based on your specific requirements and implementation scope. We offer flexible engagement models including subscription-based services and custom enterprise solutions. Contact us for a detailed quote tailored to your needs."
+      },
+      "pricing": {
+        "question": "How is pricing structured?",
+        "answer": "Our pricing is based on your specific requirements and implementation scope. We offer flexible engagement models including subscription-based services and custom enterprise solutions. Contact us for a detailed quote tailored to your needs."
+      },
+      "pricing": {
+        "question": "How is pricing structured?",
+        "answer": "Our pricing is based on your specific requirements and implementation scope. We offer flexible engagement models including subscription-based services and custom enterprise solutions. Contact us for a detailed quote tailored to your needs."
+      },
+      "pricing": {
+        "question": "How is pricing structured?",
+        "answer": "Our pricing is based on your specific requirements and implementation scope. We offer flexible engagement models including subscription-based services and custom enterprise solutions. Contact us for a detailed quote tailored to your needs."
+      },
+      "pricing": {
+        "question": "How is pricing structured?",
+        "answer": "Our pricing is based on your specific requirements and implementation scope. We offer flexible engagement models including subscription-based services and custom enterprise solutions. Contact us for a detailed quote tailored to your needs."
+      },
+      "pricing": {
+        "question": "How is pricing structured?",
+        "answer": "Our pricing is based on your specific requirements and implementation scope. We offer flexible engagement models including subscription-based services and custom enterprise solutions. Contact us for a detailed quote tailored to your needs."
+      }
+    }
+  }
+}

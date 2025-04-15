@@ -1,0 +1,168 @@
+{
+  "services": {
+    "title": "Soluciones de IA que se ajustan a tus necesidades",
+    "subtitle": "Transforma tu negocio con nuestra suite integral de soluciones",
+    "learnMore": "Saber Más",
+    "professionalAgents": {
+      "title": "Agentes IA Profesionales",
+      "description": "Agente de IA personalizado que puede encargarse de procesos complejos de negocio y mejorar la eficiencia operativa",
+      "features": {
+        "automation": "Automatización de procesos y optimización de flujos de trabajo",
+        "efficiency": "Mayor eficiencia operativa",
+        "integration": "Alto nivel de personalización",
+        "customization": "Integración perfecta con tus sistemas"
+      }
+    },
+    "userAgents": {
+      "title": "Agentes IA Tipo-Usuario",
+      "description": "Agentes de IA (Personas Sintéticas) que 'imitan' la voz de tus clientes de forma que puedas conocer de antemano la reacción que tendrán",
+      "features": {
+        "engagement": "Incrementa el enganche del usuario",
+        "support": "Acceso 24/7 a este 'usuario sintético'",
+        "personalization": "Alto nivel de personalización",
+        "analytics": "Insights valiosos sobre el comportamiento del usuario"
+      }
+    },
+    "consulting": {
+      "title": "Consultoría IA",
+      "description": "Guía profesional para el desarrollo e implementación de tu estrategia de IA e iniciativas de transformación digital",
+      "features": {
+        "strategy": "Desarrollo de Estrategia de implantación de IA",
+        "implementation": "Hoja de ruta para la implementación",
+        "training": "Capacitación y habilitación de equipos",
+        "optimization": "Soporte continuo"
+      }
+    },
+    "aioplatform": {
+      "title": "Plataforma All-In-One",
+      "description": "Plataforma integral con todas las herramientas, soporte y recursos necesarios para gestionar tu negocio efectivamente",
+      "features": {
+        "tools": "Herramientas integradas de gestión de negocio",
+        "automation": "Flujos de trabajo y procesos automatizados",
+        "analytics": "Métricas y reportes avanzados",
+        "support": "Soporte técnico 24/7"
+      }
+    },
+    "virtualstaff": {
+      "title": "Empleado Virtual",
+      "description": "Equipo dedicado de profesionales para la configuración, gestión y optimización de tu plataforma AIO para máximo beneficio para tu negocio",
+      "features": {
+        "setup": "Configuración de plataforma",
+        "management": "Gestión continua de plataforma",
+        "optimization": "Optimización del rendimiento de las herramientas",
+        "support": "Soporte a tus operaciones de negocio"
+      }
+    },
+    "education": {
+      "title": "Educación y Recursos IA",
+      "description": "Programas de aprendizaje y materiales diseñados para mantenerte a ti y a tu equipo a la vanguardia de IA",
+      "features": {
+        "courses": "Cursos de formación en IA",
+        "resources": "Materiales de aprendizaje",
+        "workshops": "Talleres y seminarios virtuales interactivos",
+        "certification": "Videos, Newsletters y Blogposts"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Precios Simples y Transparentes",
+    "subtitle": "Nuestro objetivo es ofrecerte una solución flexible que pueda crecer con tus necesidades. Nuestro compromiso es entregar la solución ofrecida o seguiremos trabajando gratis hasta que funcione.",
+    "period": {
+      "h": "/h",
+      "mo": "/mes"
+    },
+    "features": {
+      "roadmap": "Desarrollo de hoja de ruta personalizada",
+      "development": "Desarrollo de Agentes IA personalizados",
+      "manager": "Gerente de Proyecto Dedicado",
+      "communication": "Canal de Comunicación Privado",
+      "delivery": "1-2 semanas/agente tiempo promedio de entrega",
+      "support": "Optimización y Soporte Continuo",
+      "multiple": "Múltiples proyectos de agentes IA simultáneamente"
+    },
+    "plans": [
+      {
+        "key": "consulting",
+        "icon": "MessageSquare",
+        "price": "120",
+        "period": "/h",
+        "description": "¿Aún no estás seguro de cómo implementar la IA? Hablemos.\nSi tienes preguntas sobre cómo se puede implementar la IA, cómo trabajamos o si los Agentes de IA se pueden adaptar a tu negocio... Programa una Consulta Gratuita con uno de nuestros miembros del equipo.",
+        "cta": "Reservar una Llamada",
+        "highlight": false,
+        "group": 1
+      },
+      {
+        "key": "business",
+        "icon": "Briefcase",
+        "price": "5000",
+        "period": "/mes",
+        "features": [
+          { "name": "Desarrollo de hoja de ruta personalizada", "included": true },
+          { "name": "Desarrollo de agentes IA personalizados", "included": true },
+          { "name": "Gerente de Proyecto Dedicado", "included": true },
+          { "name": "Canal de Comunicación Privado", "included": true },
+          { "name": "1-2 semanas/agente tiempo promedio de entrega", "included": true },
+          { "name": "Optimización y Soporte Continuo", "included": true },
+          { "name": "Múltiples proyectos de Agentes IA simultáneamente", "included": false }
+        ],
+        "cta": "Comenzar",
+        "highlight": true,
+        "group": 1
+      },
+      {
+        "key": "enterprise",
+        "icon": "Building2",
+        "price": "Precio",
+        "period": " ?",
+        "features": [
+          { "name": "Desarrollo de hoja de ruta personalizada", "included": true },
+          { "name": "Desarrollo de Agentes IA personalizados", "included": true },
+          { "name": "Gerente de Proyecto Dedicado", "included": true },
+          { "name": "Canal de Comunicación Privado", "included": true },
+          { "name": "1-2 semanas/agente tiempo promedio de entrega", "included": true },
+          { "name": "Optimización y Soporte Continuo", "included": true },
+          { "name": "Múltiples proyectos de Agentes IA simultáneamente", "included": true }
+        ],
+        "cta": "Obtener Cotización",
+        "highlight": false,
+        "group": 1
+      },
+      {
+        "key": "AIO Platform",
+        "icon": "Monitor",
+        "price": "120",
+        "period": "/mes",
+        "features": [
+          { "name": "Acceso completo a la plataforma", "included": true },
+          { "name": "Panel de métricas avanzado", "included": true },
+          { "name": "Creación de zonas de membresía", "included": true },
+          { "name": "Integraciones personalizadas", "included": true },
+          { "name": "Creación ilimitada de automatizaciones", "included": true },
+          { "name": "Soporte técnico 24/7", "included": true },
+          { "name": "Gestión de leads, sitios web, embudos, calendarios y muchos otros servicios", "included": true }
+        ],
+        "cta": "Comenzar",
+        "highlight": false,
+        "group": 2
+      },
+      {
+        "key": "Virtual Staff",
+        "icon": "Headset",
+        "price": "60",
+        "period": "/hr",
+        "features": [
+          { "name": "Personal virtual dedicado", "included": true },
+          { "name": "Configuración y gestión de la plataforma AIO", "included": true },
+          { "name": "Optimización del proceso de conversión de clientes", "included": true },
+          { "name": "Optimización de herramientas de marketing", "included": true },
+          { "name": "Informes regulares de rendimiento", "included": true },
+          { "name": "Configuración de automatizaciones +$60/Hr", "included": true },
+          { "name": "Fácil cambio desde otras herramientas e importación de datos de tu negocio", "included": true }
+        ],
+        "cta": "Reservar una Llamada",
+        "highlight": false,
+        "group": 2
+      }
+    ]
+  }
+}

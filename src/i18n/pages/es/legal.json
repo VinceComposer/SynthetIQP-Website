@@ -1,0 +1,56 @@
+{
+  "privacy": {
+    "title": "Política de Privacidad",
+    "subtitle": "Tu privacidad es importante para nosotros",
+    "lastUpdated": "Última actualización: 21 de febrero de 2025",
+    "sections": {
+      "1": {
+        "title": "Introducción",
+        "content": "En SynthetIQ Partners, nos tomamos tu privacidad muy en serio. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos tu información cuando visitas nuestro sitio web, utilizas nuestros agentes de IA o interactúas con nuestros servicios. Estamos comprometidos con la protección de tu información personal y la transparencia en nuestras prácticas de datos. Por favor, lee esta política de privacidad cuidadosamente. Si no estás de acuerdo con los términos de esta política de privacidad, por favor no accedas al sitio ni uses nuestros servicios."
+      },
+      "2": {
+        "title": "Información que Recopilamos",
+        "content": "Recopilamos varios tipos de información para proporcionar y mejorar nuestros servicios: (1) Información Personal: Incluyendo nombre, correo electrónico, teléfono y detalles empresariales que proporcionas. (2) Datos de Uso: Información sobre cómo interactúas con nuestros agentes de IA y servicios. (3) Datos Técnicos: Incluyendo dirección IP, tipo de navegador, información del dispositivo y cookies. (4) Información Empresarial: Datos relacionados con los procesos y sistemas de tu organización al usar nuestras soluciones de IA. Recopilamos esta información a través de entrada directa del usuario, sistemas automatizados e integraciones de terceros."
+      },
+      "3": {
+        "title": "Cómo Usamos tu Información",
+        "content": "Tu información nos ayuda a proporcionar y mejorar nuestras soluciones de IA: (1) Para entregar y mantener nuestros servicios, incluyendo la personalización y optimización de agentes de IA. (2) Para comunicarnos contigo sobre nuestros servicios y proporcionar soporte. (3) Para mejorar nuestros algoritmos de IA y la calidad del servicio. (4) Para analizar patrones de uso y mejorar la experiencia del usuario. (5) Para cumplir con obligaciones legales y proteger nuestros derechos. Procesamos tus datos con medidas de seguridad estándar de la industria y solo los compartimos con tu consentimiento explícito o según lo requiera la ley."
+      },
+      "4": {
+        "title": "Procesamiento de Datos de IA",
+        "content": "Nuestros agentes de IA procesan datos según estrictos protocolos de privacidad y seguridad: (1) Todas las interacciones de IA están encriptadas y almacenadas de forma segura. (2) Los modelos de aprendizaje de IA se entrenan con datos anonimizados. (3) La información personal está segregada de los datos de entrenamiento. (4) Mantienes el control sobre el uso de datos de tu agente de IA. (5) Implementamos auditorías de seguridad regulares y actualizaciones para proteger tu información. Nuestros sistemas de IA están diseñados para respetar la privacidad del usuario mientras entregan un rendimiento óptimo."
+      },
+      "5": {
+        "title": "Tus Derechos y Opciones",
+        "content": "Tienes derechos completos sobre tu información personal: (1) Acceder o exportar tus datos en cualquier momento. (2) Corregir o actualizar tu información. (3) Eliminar tus datos o restringir su procesamiento. (4) Oponerte a ciertas actividades de procesamiento de datos. (5) Retirar el consentimiento para el procesamiento opcional de datos. Para ejercer estos derechos o discutir tus preocupaciones sobre privacidad, contacta a nuestro equipo dedicado de privacidad en privacy@synthetiqpartners.com."
+      }
+    }
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "subtitle": "Por favor, lee estos términos cuidadosamente antes de usar nuestros servicios",
+    "lastUpdated": "Última actualización: 21 de febrero de 2025",
+    "sections": {
+      "1": {
+        "title": "Acuerdo con los Términos",
+        "content": "Al acceder a nuestro sitio web o utilizar nuestros servicios impulsados por IA, aceptas estar vinculado por estos Términos de Servicio, nuestra Política de Privacidad y todas las leyes y regulaciones aplicables. Nuestros servicios están diseñados para uso empresarial, y al acceder a ellos, confirmas que tienes la autoridad para vincular a tu organización a estos términos. Si no estás de acuerdo con estos términos, por favor no uses nuestros servicios."
+      },
+      "2": {
+        "title": "Servicios de IA y Licencia",
+        "content": "Te otorgamos una licencia limitada y no exclusiva para usar nuestros agentes de IA y servicios para tus propósitos empresariales. Esta licencia incluye: (1) Acceso a nuestra plataforma y herramientas de IA. (2) Uso de agentes de IA personalizados. (3) Integración con tus sistemas aprobados. No puedes: (1) Realizar ingeniería inversa de nuestros sistemas de IA. (2) Usar nuestros servicios para propósitos no autorizados. (3) Compartir o revender acceso a nuestros agentes de IA. (4) Modificar o crear trabajos derivados sin permiso."
+      },
+      "3": {
+        "title": "Responsabilidades del Usuario",
+        "content": "Al usar nuestros servicios, aceptas: (1) Proporcionar información precisa para la configuración de agentes de IA. (2) Mantener la confidencialidad de tus credenciales de cuenta. (3) Usar nuestros agentes de IA en cumplimiento con las leyes aplicables. (4) Respetar los derechos de propiedad intelectual. (5) Reportar cualquier preocupación de seguridad prontamente. Eres responsable de todas las actividades bajo tu cuenta y de asegurar que tu uso de nuestros agentes de IA se alinee con las políticas de tu organización."
+      },
+      "4": {
+        "title": "Compromisos de Nivel de Servicio",
+        "content": "Nos esforzamos por mantener altos estándares de servicio: (1) Disponibilidad de agentes de IA del 99.9% de tiempo activo. (2) Actualizaciones regulares y mejoras en las capacidades de IA. (3) Soporte técnico durante horas laborables. (4) Monitoreo de seguridad y respuesta a incidentes. Sin embargo, podemos modificar o descontinuar características con aviso. Si bien implementamos medidas de seguridad robustas, no podemos garantizar seguridad absoluta o servicio ininterrumpido."
+      },
+      "5": {
+        "title": "Propiedad Intelectual y Derechos de Datos",
+        "content": "Nuestra tecnología de IA, incluyendo algoritmos, modelos y plataforma, permanece como nuestra propiedad intelectual. Tú mantienes los derechos sobre tus datos empresariales y configuraciones personalizadas. Al usar nuestros servicios: (1) Nos otorgas derechos limitados para procesar tus datos para la entrega del servicio. (2) Mantenemos la confidencialidad de tu información empresarial. (3) El aprendizaje de IA de tu uso es anonimizado. (4) Puedes exportar tus datos al terminar el servicio."
+      }
+    }
+  }
+}

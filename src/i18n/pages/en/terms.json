@@ -1,0 +1,29 @@
+{
+  "terms": {
+    "title": "Terms of Service",
+    "subtitle": "Please read these terms carefully before using our services",
+    "lastUpdated": "Last updated: February 21, 2025",
+    "sections": {
+      "1": {
+        "title": "Agreement to Terms",
+        "content": "By accessing our website or using our services, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any of these terms, you are prohibited from using or accessing our services."
+      },
+      "2": {
+        "title": "Use License",
+        "content": "Permission is granted to temporarily access our services for personal, non-commercial use only. This is the grant of a license, not a transfer of title, and under this license you may not modify, copy, distribute, transmit, display, perform, reproduce, or use our content for any commercial purpose."
+      },
+      "3": {
+        "title": "Service Modifications",
+        "content": "We reserve the right to withdraw or amend our service, and any service or material we provide, in our sole discretion without notice. We will not be liable if for any reason all or any part of our service is unavailable at any time or for any period."
+      },
+      "4": {
+        "title": "Limitation of Liability",
+        "content": "In no event shall SynthetIQ Partners, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages arising from your use of our services."
+      },
+      "5": {
+        "title": "Governing Law",
+        "content": "These Terms shall be governed by and construed in accordance with the laws of the United Kingdom, without regard to its conflict of law provisions."
+      }
+    }
+  }
+}

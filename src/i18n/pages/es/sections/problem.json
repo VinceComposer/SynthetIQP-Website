@@ -1,0 +1,28 @@
+{
+  "problem": {
+    "title": "Desafíos Empresariales Comunes",
+    "description": "Las organizaciones enfrentan una presión creciente para innovar mientras mantienen la eficiencia y la calidad",
+    "challenges": {
+      "inefficientProcesses": "Procesos manuales que consumen tiempo y recursos valiosos",
+      "skillGap": "Dificultad para encontrar/retener profesionales de Automatizaciones/IA cualificados",
+      "integration": "Manejo de múltiples sistemas complejos que dificultan la integración",
+      "scalability": "Incapacidad para escalar operaciones eficientemente",
+      "overhead": "Costes operativos y complejidad crecientes"
+    }
+  },
+  "solution": {
+    "title": "Nuestras Soluciones de IA",
+    "description": "Soluciones integrales de automatización que transforman el funcionamiento de tu empresa",
+    "benefits": {
+      "customAgents": "Agentes IA personalizados que se encargan por completo de procesos/roles",
+      "expertise": "Accede a las últimas Automatizaciones y Agentes de IA con un ROI muy atractivo",
+      "seamless": "Integración perfecta con tus sistemas de negocio",
+      "futureProof": "Soluciones preparadas para el futuro que crecen con tu negocio",
+      "profitability": "Inversión controlada que reduce la complejidad e incrementa la rentabilidad"
+    }
+  },
+  "section": {
+    "title": "Te entendemos",
+    "subtitle": "El día a día de tu negocio te impide ver más allá. Además, los cambios en la IA estan ocurrriendo tan rápido que es imposible mantenerse al día. Por ello, es fundamental contar con un socio que te ayude a entender y adaptarte cuanto antes."
+  }
+}

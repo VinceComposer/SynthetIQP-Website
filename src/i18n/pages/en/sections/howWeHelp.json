@@ -1,0 +1,24 @@
+{
+  "howWeHelp": {
+    "title": "How we can help you",
+    "subtitle": "Comprehensive solutions to Automate Roles, Not Just Tasks. Unlock unprecedented scale by outsourcing some of your most time-consuming, repeated processes to tailor made AI Automations.",
+    "services": {
+      "efficiency": {
+        "title": "Boost Efficiency",
+        "description": "Outsource even the most complex in your business. Not just drafting emails."
+      },
+      "errors": {
+        "title": "Minimize Errors",
+        "description": "Reduce costly mistakes and make smarter business decisions."
+      },
+      "ahead": {
+        "title": "Stay Ahead",
+        "description": "Adapt quickly to new advancements in AI and stay ahead of your competition."
+      },
+      "scale": {
+        "title": "Scale Seamlessly",
+        "description": "Add more agents as needed. Scale without affecting your overhead."
+      }
+    }
+  }
+}

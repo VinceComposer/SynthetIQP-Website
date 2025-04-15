@@ -1,0 +1,29 @@
+{
+  "refund": {
+    "title": "Política de Reembolso",
+    "subtitle": "Nuestro compromiso con tu satisfacción",
+    "lastUpdated": "Última actualización: 21 de febrero de 2025",
+    "sections": {
+      "1": {
+        "title": "Descripción General",
+        "content": "En SynthetIQ Partners, nos esforzamos por asegurar tu completa satisfacción con nuestros servicios. Esta política de reembolso describe los términos y condiciones para solicitar y recibir reembolsos por nuestros servicios."
+      },
+      "2": {
+        "title": "Elegibilidad para Reembolsos",
+        "content": "Las solicitudes de reembolso se evalúan caso por caso. Puedes ser elegible para un reembolso si: (1) El servicio no se entregó como se describió, (2) Problemas técnicos impidieron la entrega del servicio, o (3) Cancelas dentro del período de cancelación especificado para tu plan de servicio."
+      },
+      "3": {
+        "title": "Proceso de Reembolso",
+        "content": "Para solicitar un reembolso, por favor contacta a nuestro equipo de soporte con los detalles de tu pedido y el motivo de la solicitud de reembolso. Revisaremos tu solicitud y responderemos dentro de 2-3 días hábiles. Si se aprueba, los reembolsos se procesan típicamente dentro de 5-7 días hábiles."
+      },
+      "4": {
+        "title": "Elementos No Reembolsables",
+        "content": "Ciertos servicios y tarifas no son reembolsables, incluyendo pero no limitado a: (1) Tarifas de configuración, (2) Trabajo de desarrollo personalizado que ha sido entregado, (3) Servicios utilizados o consumidos, y (4) Cancelaciones después del período de reembolso especificado."
+      },
+      "5": {
+        "title": "Contáctanos",
+        "content": "Si tienes alguna pregunta sobre nuestra política de reembolso o deseas solicitar un reembolso, por favor contacta a nuestro equipo de soporte en support@synthetiqpartners.com."
+      }
+    }
+  }
+}

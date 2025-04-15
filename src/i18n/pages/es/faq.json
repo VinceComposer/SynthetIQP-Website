@@ -1,0 +1,84 @@
+{
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Obtén respuestas a preguntas comunes sobre nuestras soluciones de IA y proceso de implementación",
+    "questions": {
+      "aiAgents": {
+        "question": "¿Qué es un Agente IA y cómo puede ayudar a mi negocio?",
+        "answer": "Un Agente IA es un programa de software impulsado por inteligencia artificial que puede manejar tareas de forma autónoma, tomar decisiones y aprender de datos o interacciones con usuarios. Al automatizar procesos repetitivos y proporcionar información en tiempo real, los Agentes IA ayudan a cualquier tipo de negocio a ahorrar tiempo, reducir costos, disminuir errores y aumentar la eficiencia general. Para obtener más información sobre los Agentes IA, visite: https://www.techtarget.com/searchenterpriseai/feature/Next-year-will-be-the-year-of-AI-agents"
+      },
+      "implementation": {
+        "question": "¿Cuál es la diferencia entre un Agente IA Profesional y uno Tipo-Usuario?",
+        "answer": "Agentes IA Profesionales: Estos están desarrollados a medida para manejar procesos complejos, optimización de flujos de trabajo, integraciones de sistemas y operaciones comerciales rutinarias como lo haría un empleado humano.\nAgentes IA Tipo-Usuario: Estos Agentes IA imitan el tono y comportamiento de usuarios o clientes reales. Al replicar cómo las personas podrían responder o interactuar, proporcionan información similar a la de un usuario o persona real las 24 horas del día, descubren información valiosa sobre los clientes y permiten probar nuevas ideas antes de lanzarlas a una audiencia real."
+      },
+      "security": {
+        "question": "¿Cuál es el ROI típico para una implementación de Agentes IA?",
+        "answer": "Aunque los resultados varían según la industria y el alcance del proyecto, muchas empresas reportan un retorno de inversión sustancial -a veces superando el 200% en el primer año- después de automatizar procesos clave o mejorar las interacciones con los clientes mediante Agentes IA. Por ejemplo, un estudio de Deloitte indica que las organizaciones que adoptan automatizaciones impulsadas por IA a menudo ven ganancias significativas en productividad y ahorro de costos. Puede leer más sobre las cifras potenciales de ROI aquí: ROI for artificial intelligence | Deloitte Insights"
+      },
+      "customization": {
+        "question": "¿Cuánto tiempo toma implementar mis Automatizaciones o Agentes IA?",
+        "answer": "Los plazos de entrega varían según la complejidad del sistema de agentes requerido, nuestros tiempos comunes son 1-2 semanas/agente para desarrollo y 1-2 semanas/agente para implementación. Al recibir los detalles de su proyecto, le proporcionaremos un cronograma estimado y le mantendremos informado sobre nuestro progreso."
+      },
+      "integration": {
+        "question": "¿Qué está incluído al contratar la subscripción mensual?",
+        "answer": "Un equipo dedicado y todo lo que necesita para automatizar su negocio con IA, incluyendo desarrollo e implementación de Agentes IA, entrenamiento y ajuste de modelos personalizados, procesamiento y vectorización de datos, automatizaciones de IA y más. Cada servicio está personalizado para integrarse perfectamente con sus procesos actuales."
+      },
+      "support": {
+        "question": "¿Qué pasa si no sé qué Agentes IA necesito?",
+        "answer": "Para eso estamos aquí exactamente. Nuestro proceso de consultoría de IA está diseñado para descubrir las aplicaciones de IA más beneficiosas para su negocio. Al examinar sus operaciones actuales, desafíos y objetivos, identificamos áreas clave donde la IA puede generar el mayor impacto."
+      },
+      "pricing": {
+        "question": "¿Hay un límite en cuántos Agentes IA puedo solicitar?",
+        "answer": "Aunque no hay un límite en el número de agentes que puede solicitar, nos enfocamos en entregarlos secuencialmente uno a la vez para asegurar que cada solución cumpla con nuestros estándares de calidad y se alinee con los objetivos de su negocio."
+      },
+      "singleAgent": {
+        "question": "¿Puedo solicitar un solo Agente IA?",
+        "answer": "Nuestro modelo de servicio flexible le permite pausar y reanudar su suscripción mensual según sea necesario. Ya sea que comience con un solo agente o planee escalar, nos adaptamos a su estrategia y requisitos de IA en evolución."
+      },
+      "dataPrivacy": {
+        "question": "¿Cómo garantizan la seguridad de los datos?",
+        "answer": "Para clientes preocupados por la privacidad de los datos, ofrecemos soluciones utilizando Azure OpenAI, asegurando que sus datos permanezcan confidenciales y no se compartan con OpenAI."
+      },
+      "techStack": {
+        "question": "¿Qué stack tecnológico utilizan?",
+        "answer": "Nuestros agentes se desarrollan principalmente utilizando los frameworks Make.com y N8N.io, y principalmente la API de Asistentes de OpenAI. Implementamos nuestros agentes utilizando las plataformas Make.com o N8N.io, sin embargo, también podemos implementarlos en cualquier infraestructura proporcionada de su elección si es necesario."
+      },
+      "underperforming": {
+        "question": "¿Qué sucede si mis Agentes IA no rinden como se esperaba?",
+        "answer": "Si algún agente no cumple con las expectativas después del plazo de implementación, nos comprometemos a mejorar su rendimiento **sin costo adicional**. Iteraremos la solución hasta que gestione perfectamente los procesos designados de principio a fin."
+      },
+      "moneyBack": {
+        "question": "¿Tienen garantía de devolución de dinero?",
+        "answer": "Sí, si no está satisfecho con nuestro servicio después de 1 semana, puede obtener un reembolso del 75%."
+      },
+      "aioQuality": {
+        "question": "¿Qué tan buena es su plataforma All-In-One?",
+        "answer": "Nuestra plataforma AIO funciona gracias a Go High Level, reconocido como uno de los mejores sistemas integrales de marketing y gestión de negocios en el mercado. Destaca en la gestión CRM, la automatización de marketing, la creación de embudos de venta, la captación de leads y mucho más. Esta potente plataforma integra perfectamente todos tus procesos empresariales, ahorrándote tiempo y ayudándote a ofrecer una mejor experiencia al cliente."
+      },
+      "aioSubscription": {
+        "question": "¿Qué incluye la suscripción mensual de la plataforma AIO?",
+        "answer": "Al suscribirte a nuestra plataforma AIO, obtienes acceso a una amplia gama de herramientas y servicios de negocio, que incluyen (pero no se limitan a):\n\nCRM avanzado para gestionar leads y clientes de forma más efectiva.\nAutomatización de marketing por email y SMS para campañas más ágiles.\nCreadores de páginas web y embudos para una conversión eficaz de leads.\nProgramación de citas que se sincroniza con calendarios.\nAnálisis e informes para monitorear el rendimiento.\nIntegraciones fluidas con tus flujos de trabajo y Bases de Datos existentes.\nEstas funciones, potenciadas por Go High Level, están diseñadas para optimizar tu marketing, ventas y operaciones, para que puedas centrarte en hacer crecer tu negocio."
+      },
+      "aioCancellation": {
+        "question": "¿Puedo cancelar mi suscripción a la plataforma AIO?",
+        "answer": "Sí. Nuestra suscripción a la plataforma AIO es flexible y se factura mensualmente, asi que puedes cancelarla en cualquier momento sin penalización. Queremos que te sientas seguro del valor que ofrece la plataforma—prueba la plataforma, explora sus características y continua solo si cumple con tus expectativas."
+      },
+      "whyVirtualStaff": {
+        "question": "¿Por qué debería contratar a su Empleado Virtual para que maneje mi plataforma AIO?",
+        "answer": "Nuestro personal virtual se compone de expertos completamente capacitados en la plataforma AIO, lo que garantiza que puedan configurarla y administrarla para aprovechar todo su potencial. Al confiar en nuestro equipo, ahorras dinero en la formación de personal interno y evitas los costos administrativos habituales (como beneficios y cargas laborales). Ademas, nuestros especialistas aportan una gran experiencia que se traduce en resultados más rapidos y flujos de trabajo más eficientes para tu empresa."
+      },
+      "virtualStaffHours": {
+        "question": "¿Cuántas horas debería contratar para el Empleado Virtual y cómo funciona?",
+        "answer": "Ofrecemos un modelo flexible de \"bolsa de horas\". Para la configuración inicial, recomendamos generalmente 25-30 horas, durante las cuales nuestro personal virtual integra sistemas, personaliza los flujos de trabajo y optimiza por completo tu plataforma AIO. Después de eso, el número de horas que necesites dependerá de tus tareas específicas y los objetivos de tu negocio. Puedes aumentar o disminuir las horas según sea necesario."
+      },
+      "automationCost": {
+        "question": "¿Por qué el servicio de automatizaciones para la plataforma AIO cuesta $60 más por hora?",
+        "answer": "Trabajar en automatizaciones requiere un nivel de experiencia más alto con la plataforma, los procesos de negocio y las tecnologías relacionadas. Debido a estas habilidades especializadas, asignamos personal experimentado para manejar automatizaciones, asegurando que se implementen de forma rápida y correcta, lo que justifica la tarifa adicional por hora."
+      },
+      "selfManagement": {
+        "question": "¿Puedo administrar la plataforma AIO por mi cuenta o necesito contratar a su Empleado Virtual?",
+        "answer": "¡Por supuesto! Puedes configurar y administrar la plataforma AIO por tu cuenta o con tu propio equipo interno. Existen muchos tutoriales en video y guías disponibles para cada función principal. Si en algún momento necesitas ayuda o prefieres que nuestros expertos se encarguen de todo, contamos con servicios especializados de Personal Virtual para apoyarte."
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "dashboard": {
+    "header": {
+      "search": "Buscar..."
+    },
+    "welcome": "¡Bienvenido de nuevo!",
+    "subtitle": "Esto es lo que está sucediendo con tus usuarios sintéticos",
+    "menu": {
+      "overview": "Vista General",
+      "projects": "Proyectos",
+      "samples": "Muestras SynthetIQ",
+      "agents": "Usuarios SynthetIQ (Agentes)",
+      "characters": "Personajes Virtuales",
+      "conversations": "Conversaciones",
+      "analysis": "Análisis de Resultados",
+      "settings": "Ajustes",
+      "help": "Ayuda y Soporte",
+      "logout": "Cerrar Sesión"
+    },
+    "stats": {
+      "users": {
+        "value": "1,234",
+        "label": "Usuarios Activos"
+      },
+      "projects": {
+        "value": "12",
+        "label": "Proyectos"
+      },
+      "insights": {
+        "value": "856",
+        "label": "Insights"
+      },
+      "settings": {
+        "value": "4",
+        "label": "Ajustes"
+      }
+    },
+    "recentActivity": "Actividad Reciente",
+    "activities": {
+      "1": "Nuevo perfil de usuario sintético creado",
+      "2": "Informe de insights generado",
+      "3": "Configuración del proyecto actualizada"
+    },
+    "timeAgo": "horas atrás",
+    "quickActions": "Acciones Rápidas",
+    "actions": {
+      "1": {
+        "title": "Crear Usuario",
+        "description": "Generar un nuevo usuario sintético"
+      },
+      "2": {
+        "title": "Nuevo Proyecto",
+        "description": "Iniciar un nuevo proyecto de investigación"
+      },
+      "3": {
+        "title": "Generar Informe",
+        "description": "Crear un informe de insights"
+      },
+      "4": {
+        "title": "Ajustes",
+        "description": "Administrar tus preferencias"
+      }
+    }
+  }
+}

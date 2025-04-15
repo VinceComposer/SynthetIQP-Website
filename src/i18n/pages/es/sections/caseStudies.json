@@ -1,0 +1,60 @@
+{
+  "caseStudies": {
+    "title": "Historias de Éxito",
+    "subtitle": "Resultados claros y casos de éxito que demuestran un impacto positivo significativo en los negocios",
+    "enterprise": {
+      "title": "Soluciones Empresariales",
+      "description": "Compañía de servicios financieros utiliza un Agente Profesional de IA para responder a menciones en redes sociales",
+      "stats": {
+        "improvement": "85%",
+        "label": "Reducción en Tiempo de Procesamiento"
+      },
+      "outcome": "Logró el cumplimiento del acuerdo de servicio y mejoró la interacción con el cliente"
+    },
+    "retail": {
+      "title": "Innovación en Retail",
+      "description": "Gran minorista transforma el Servicio al Cliente con Agentes Telefónicos de IA",
+      "stats": {
+        "improvement": "93%",
+        "label": "Satisfacción del Cliente"
+      },
+      "outcome": "Redujo los tiempos de espera y mejoró la Experiencia del Cliente"
+    },
+    "healthcare": {
+      "title": "Excelencia en Servicios deSalud",
+      "description": "Proveedor de servicios de salud optimiza la coordinación de las visitas a pacientes con un sistema automatizado de citas",
+      "stats": {
+        "improvement": "67%",
+        "label": "Aumento de Eficiencia"
+      },
+      "outcome": "Mejoró la atención al paciente y se redujo la carga administrativa"
+    },
+    "consulting": {
+      "title": "Consultoría Empresarial",
+      "description": "Firma de consultoría estratégica optimiza proceso de 'conexión' con clientes con la Plataforma All-In-One y el uso de automatizaciones en el CRM, Email Marketing, Facturación, etc",
+      "stats": {
+        "improvement": "78%",
+        "label": "Tiempo Ahorrado"
+      },
+      "outcome": "Operaciones optimizadas y mejora en la satisfacción del cliente"
+    },
+    "technology": {
+      "title": "Innovación Tecnológica",
+      "description": "Empresa de software utiliza un Agente Profesional de IA para la creación de artículos de blog SEO-optimizados",
+      "stats": {
+        "improvement": "90%",
+        "label": "Creación de contenido más Rápido"
+      },
+      "outcome": "Aceleró la generación de contenido SEO y se optimizó el posicionamiento orgánico de la web"
+    },
+    "education": {
+      "title": "Transformación Educativa",
+      "description": "Plataforma de aprendizaje en línea utiliza un Agente Tipo-Usuario de IA (Usuario Sintético) para definir, diseñar y probar el contenido, la estructura y los materiales de los cursos",
+      "stats": {
+        "improvement": "82%",
+        "label": "'Enganche' Estudiantil"
+      },
+      "outcome": "Mejoras en los resultados de aprendizaje y la retención de estudiantes"
+    }
+  }
+}

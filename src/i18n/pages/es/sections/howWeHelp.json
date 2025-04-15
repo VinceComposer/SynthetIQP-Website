@@ -1,0 +1,24 @@
+{
+  "howWeHelp": {
+    "title": "Como te ayudamos",
+    "subtitle": "Soluciones integrales para automatizar roles y no solo tareas. Escala tu negocio al Automatizar con IA algunos de tus procesos más repetitivos y time-consuming.",
+    "services": {
+      "efficiency": {
+        "title": "Impulsa la Eficiencia",
+        "description": "Delega incluso lo más complejo de tu negocio. No solo redactar emails."
+      },
+      "errors": {
+        "title": "Minimiza Errores",
+        "description": "Reduce errores costosos y toma decisiones empresariales más inteligentes."
+      },
+      "ahead": {
+        "title": "Mantente a la vanguardia",
+        "description": "Adáptate rápidamente a los nuevos avances en IA y mantente por delante de tu competencia."
+      },
+      "scale": {
+        "title": "Escala sin Problemas",
+        "description": "Añade más agentes según sea necesario. Escala sin afectar tus costes fijos."
+      }
+    }
+  }
+}

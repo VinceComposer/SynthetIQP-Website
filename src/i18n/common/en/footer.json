@@ -1,0 +1,28 @@
+{
+  "footer": {
+    "services": {
+      "title": "Our Services",
+      "professionalAgents": "Professional AI Agents",
+      "userAgents": "User-Like AI Agents",
+      "consulting": "AI Consulting",
+      "aioplatform": "All-In-One Platform",
+      "virtualstaff": "Virtual Staff",
+      "education": "AI Education"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "refund": "Refund Policy",
+      "contact": "Contact Us"
+    },
+    "social": {
+      "title": "Connect With Us"
+    },
+    "copyright": "All rights reserved",
+    "contact": {
+      "email": "hello@synthetiqpartners.com",
+      "button": "Contact Us"
+    }
+  }
+}

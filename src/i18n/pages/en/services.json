@@ -1,0 +1,67 @@
+{
+  "services": {
+    "title": "AI Solutions that fit your needs",
+    "subtitle": "Transform your business with our suite of solutions",
+    "learnMore": "Learn More",
+    "professionalAgents": {
+      "title": "Professional AI Agents",
+      "description": "Custom-developed AI Agent that can take care of complex business processes and enhance operational efficiency",
+      "features": {
+        "automation": "Process automation and workflow optimization",
+        "efficiency": "Increased operational efficiency",
+        "integration": "Specific customization",
+        "customization": "Seamless system integration"
+      }
+    },
+    "userAgents": {
+      "title": "User-Like AI Agents",
+      "description": "Human-Like AI Agents that mimic the voices of your customers so you can see how they would respond before you ship",
+      "features": {
+        "engagement": "Enhanced user engagement",
+        "support": "24/7 access to user-like interaction",
+        "personalization": "Specific customization",
+        "analytics": "User behaviour and insights"
+      }
+    },
+    "consulting": {
+      "title": "AI Consulting",
+      "description": "Professional guidance for developing and implementing your AI Strategy and digital transformation initiatives",
+      "features": {
+        "strategy": "AI strategy development",
+        "implementation": "Implementation roadmap",
+        "training": "Team training and enablement",
+        "optimization": "Continuous support"
+      }
+    },
+    "aioplatform": {
+      "title": "All-In-One Platform",
+      "description": "Comprehensive platform with all the tools, support, and resources needed to manage your business effectively",
+      "features": {
+        "tools": "Integrated business management tools",
+        "automation": "Automated workflows and processes",
+        "analytics": "Advanced analytics and reporting",
+        "support": "24/7 technical support"
+      }
+    },
+    "virtualstaff": {
+      "title": "Virtual Staff",
+      "description": "Dedicated team of professionals to set up, manage, and optimize your AIO Platform for maximum business benefit",
+      "features": {
+        "setup": "Platform setup and configuration",
+        "management": "Ongoing platform management",
+        "optimization": "Performance optimization",
+        "support": "Business operation support"
+      }
+    },
+    "education": {
+      "title": "AI Education & Resources",
+      "description": "Learning programs and materials designed to help you and your team navigate the vast ocean of AI",
+      "features": {
+        "courses": "AI training courses",
+        "resources": "Learning materials",
+        "workshops": "Interactive workshops and webinars",
+        "certification": "Video-content, Newsletters and Blogposts"
+      }
+    }
+  }
+}

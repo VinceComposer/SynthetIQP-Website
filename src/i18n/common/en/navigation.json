@@ -1,0 +1,11 @@
+{
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "pricing": "Pricing",
+    "about": "About Us",
+    "contact": "Contact",
+    "resources": "Resources",
+    "clientPortal": "Client Portal"
+  }
+}

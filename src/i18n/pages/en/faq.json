@@ -1,0 +1,84 @@
+{
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get answers to common questions about our AI solutions and implementation process",
+    "questions": {
+      "aiAgents": {
+        "question": "What's a AI Agent and how can it help my business?",
+        "answer": "An AI Agent is a software program powered by artificial intelligence that can autonomously handle tasks, make decisions, and learn from data or user interactions. By automating repetitive processes and providing real-time insights, AI Agents help any kind of business save time, cut costs, reduce error, and boost overall efficiency. To learn more about AI Agents, visit: https://www.techtarget.com/searchenterpriseai/feature/Next-year-will-be-the-year-of-AI-agents"
+      },
+      "implementation": {
+        "question": "What's the difference between a Professional and a Human-Like AI Agent?",
+        "answer": "Professional AI Agents: These are custom-developed to handle complex processes workflow optimization, system integrations, and routine business operations like a human employee would.\nHuman-Like AI Agents: These AI Agents mimic the tone and behaviour of real users or customers. By replicating how people might respond or interact, they provide 24/7 user-like engagement, uncover customer insights, and let you test new ideas before releasing them to your actual audience."
+      },
+      "security": {
+        "question": "What's the typical ROI for an AI Agent implementation?",
+        "answer": "While results vary by industry and project scope, many businesses report a substantial return on investment -sometimes exceeding 200% in the first year- after automating key processes or enhancing customer interactions with AI Agents. For instance, a study by Deloitte indicates that organizations adopting AI-driven automations often see significant gains in productivity and cost savings. You can read more about potential ROI figures here: ROI for artificial intelligence | Deloitte Insights"
+      },
+      "customization": {
+        "question": "How long does it takes to deliver my Automations or AI Agents?",
+        "answer": "Delivery timelines vary based on the complexity of the agent system required, our common times are 1-2 week/agent for development and 1-2 week/agent for deployment. Upon receiving your project details, we'll provide an estimated timeline and keep you updated on our progress."
+      },
+      "integration": {
+        "question": "What's included when paying for your monthly subscription?",
+        "answer": "A full team and everything you need to automate your business with AI, including AI Agents development and deployment, custom model training and fine-tuning, data processing and vectorization, AI automations and more. Each service is customized to integrate seamlessly into your current business processes."
+      },
+      "support": {
+        "question": "What if I don't know what AI Agents I need?",
+        "answer": "That's exactly what we are here for. Our AI consultation process is designed to uncover the most beneficial AI applications for your business. By examining your current operations, challenges, and goals, we identify key areas where AI can deliver the greatest impact."
+      },
+      "pricing": {
+        "question": "Is there a limit on how many AI Agents I can request?",
+        "answer": "While there's no cap on the number of agents you can request, we focus on delivering them sequentially 1 at a time to ensure each solution meets our quality standards and aligns with your business objectives."
+      },
+      "singleAgent": {
+        "question": "Can I have one single AI Agent request?",
+        "answer": "Our flexible service model allows you to pause and resume your monthly subscription as needed. Whether you start with a single agent or plan to scale, we accommodate your evolving AI strategy and requirements."
+      },
+      "dataPrivacy": {
+        "question": "How do you ensure data security?",
+        "answer": "For clients concerned with data privacy, we offer solutions using Azure OpenAI, ensuring that your data remains confidential and isn't even shared with OpenAI itself."
+      },
+      "techStack": {
+        "question": "What Technology Stack do you use?",
+        "answer": "Our agents are developed using mainly Make.com N8N.io frameworks, and mainly OpenAI Assistants API. We deploy our agents using Make.com or N8N.io platforms, however, we can also deploy them on any infrastructure provided of your choice if needed."
+      },
+      "underperforming": {
+        "question": "What if my AI Agents are underperforming?",
+        "answer": "Should any agent fall short of expectations after the implementation deadline, we're committed to refining its performance **at no cost**. We'll iterate on the solution until it seamlessly manages the designated processes from start to finish."
+      },
+      "moneyBack": {
+        "question": "Do you have a Money Back Guarantee?",
+        "answer": "Yes, if you are not satisfied with our service after 1 week. You can get a 75% refund."
+      },
+      "aioQuality": {
+        "question": "How good is your All-In-One platform?",
+        "answer": "Our AIO platform is powered by Go High Level, which is widely regarded as one of the best all-in-one marketing and business management solutions available. It excels in CRM management, marketing automation, funnel building, lead nurturing, and more. This robust platform seamlessly integrates all your business processes, saving you time and helping you deliver a better customer experience."
+      },
+      "aioSubscription": {
+        "question": "What's included when paying for the monthly AIO Platform subscription?",
+        "answer": "When you subscribe to our AIO platform, you gain access to a broad suite of business tools and services, including but not limited to:\n\nAdvanced CRM for better lead and client management.\nAutomated email and SMS marketing for streamlined campaigns.\nLanding page and funnel builders to convert leads effectively.\nAppointment scheduling that syncs with calendars.\nAnalytics and reporting to track performance.\nSeamless data importing and integrations with your existing workflows.\nThese features—powered by Go High Level—are designed to optimize your marketing, sales, and operations so you can focus on growing your business."
+      },
+      "aioCancellation": {
+        "question": "Can I cancel my AIO Platform subscription?",
+        "answer": "Yes. Our AIO platform subscription is flexible and billed monthly, so you can cancel at any time without penalty. We want you to feel confident in the platform's value—try it, explore the features, and continue only if it meets your needs."
+      },
+      "whyVirtualStaff": {
+        "question": "Why should I hire your Virtual Staff to run my AIO Platform?",
+        "answer": "Our virtual staff are fully trained experts on the AIO platform, ensuring they can set up and manage it to its fullest potential. By relying on our team, you save money on training in-house staff and avoid typical overhead costs (e.g., benefits, payroll taxes). Plus, our specialists bring a wealth of experience that translates to faster results and more efficient workflows for your business."
+      },
+      "virtualStaffHours": {
+        "question": "How many hours should I hire for the Virtual Staff, and how does it work?",
+        "answer": "We offer a flexible \"pot of hours\" model. For initial setup, we generally recommend 25-30 hours, during which our virtual staff can integrate systems, customize workflows, and fully optimize your AIO platform. After that, the number of hours you need will depend on your specific tasks and business goals. You can scale the hours up or down as needed."
+      },
+      "automationCost": {
+        "question": "Why does the automations service for the AIO Platform cost $60 more per hour?",
+        "answer": "Working on automations requires a higher level of expertise with the platform, business processes, and related technologies. Because of this specialized skill set, we assign experienced staff to handle automations, ensuring they are implemented quickly and correctly, which justifies the additional hourly rate."
+      },
+      "selfManagement": {
+        "question": "Can I run the AIO Platform by myself or do I need to hire your Virtual Staff?",
+        "answer": "Absolutely! You can set up and run the AIO Platform on your own or with your in-house team. There are plenty of video tutorials and guides available for every core feature. If you ever need help or prefer having our experts handle the heavy lifting, we're always here with specialized Virtual Staff services."
+      }
+    }
+  }
+}

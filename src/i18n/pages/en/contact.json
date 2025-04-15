@@ -1,0 +1,56 @@
+{
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We'd love to hear from you",
+    "email": {
+      "title": "Email",
+      "value": "hello@synthetiqpartners.com"
+    },
+    "call": {
+      "title": "Call Now",
+      "description": "Start a voice conversation with our AI assistant",
+      "action": "Start Call"
+    },
+    "liveChat": {
+      "title": "Live Chat",
+      "description": "Get instant answers to your questions",
+      "button": "Start Chat"
+    },
+    "schedule": {
+      "title": "Book a Free Call",
+      "description": "Book a 30-minute Free consultation with our experts",
+      "action": "Book a Call"
+    },
+    "form": {
+      "title": "Send Message",
+      "description": "Fill out this form and let's start the conversation!",
+      "firstName": "First Name",
+      "firstNamePlaceholder": "Your First Name",
+      "lastName": "Last Name",
+      "lastNamePlaceholder": "Your Last Name",
+      "email": "Email",
+      "emailPlaceholder": "your.email@example.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+44 7700 900000",
+      "message": "How can we help you?",
+      "messagePlaceholder": "Tell us what you're looking for and how we can help...",
+      "privacyConsent": "I agree to the Privacy Policy and consent to having my data processed.",
+      "submit": "Send Message"
+    },
+    "inProgress": {
+      "title": "In Progress",
+      "call": "We are working on this feature and soon you'll be able to talk to our AI Agent",
+      "chat": "We are working on this feature and soon you'll be able to chat to our AI Agent",
+      "schedule": "We are working on this service and soon you'll be able to book a Free Call with a real person from our team",
+      "getStarted": "We are working on our subscription service and soon you'll be able to work with us",
+      "getQuote": "We are working on our Enterprise Service and soon you'll be able to request a quote",
+      "AIOPlatform": "We are working on our AIO Platform Subscription Service and soon you'll be able to buy it",
+      "VirtualStaff": "We are working on this service and soon you'll be able hire the best Virtual Staff",
+      "form": "Thank you for getting in touch. Your message has been sent. We will review it and get back to you as soon as possible!"
+    },
+    "confirmation": {
+      "title": "Your message has been sent",
+      "message": "Thank you for getting in touch. We will review it and get back to you as soon as possible!"
+    }
+  }
+}

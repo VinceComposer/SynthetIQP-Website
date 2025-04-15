@@ -1,0 +1,29 @@
+{
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "Your privacy is important to us",
+    "lastUpdated": "Last updated: February 21, 2025",
+    "sections": {
+      "1": {
+        "title": "Introduction",
+        "content": "At SynthetIQ Partners, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site."
+      },
+      "2": {
+        "title": "Information We Collect",
+        "content": "We collect information that you provide directly to us, including but not limited to your name, email address, phone number, and any other information you choose to provide. We also automatically collect certain information about your device when you use our services, including your IP address, web browser, and usage data."
+      },
+      "3": {
+        "title": "How We Use Your Information",
+        "content": "We use the information we collect to provide, maintain, and improve our services, to communicate with you, to send you marketing communications (with your consent), and to detect and prevent fraud or other malicious activities."
+      },
+      "4": {
+        "title": "Data Security",
+        "content": "We implement appropriate technical and organizational security measures to protect your personal information. However, please note that no method of transmission over the Internet or electronic storage is 100% secure."
+      },
+      "5": {
+        "title": "Your Rights",
+        "content": "You have the right to access, correct, or delete your personal information. You can also object to or restrict certain processing of your information. To exercise these rights, please contact us using the information provided below."
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "resources": {
+    "title": "Know More",
+    "subtitle": "Explore our comprehensive resources to help you get the most out of our AI solutions",
+    "tabs": {
+      "faqs": "FAQs",
+      "guides": "Blog Posts",
+      "videos": "Videos"
+    },
+    "workInProgress": {
+      "title": "In Progress",
+      "message": "We are working on this content and very soon you'll be able to access it"
+    }
+  }
+}

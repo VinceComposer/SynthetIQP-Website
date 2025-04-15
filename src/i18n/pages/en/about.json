@@ -1,0 +1,45 @@
+{
+  "about": {
+    "title": "About SynthetIQ Partners",
+    "subtitle": "Our purpose is to be the AI Automation Agency that provides the right AI solution for every business every time",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To empower organizations with cutting-edge AI solutions that drive innovation, efficiency, and growth"
+    },
+    "values": {
+      "title": "Our Values",
+      "description": "Excellence, innovation, and client success guide everything we do",
+      "list": {
+        "excellence": "Commitment to excellence in every solution",
+        "innovation": "Continuous innovation in AI technology",
+        "integrity": "Unwavering integrity in all relationships",
+        "collaboration": "Strong collaboration with our clients"
+      }
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be the AI Automation Agency leader in enterprise AI solutions, transforming how businesses operate and succeed in the digital age"
+    },
+    "team": {
+      "title": "Our Core Team",
+      "description": "Our team brings together expertise in AI, Human Behaviour, Marketing, Consulting, and business transformation",
+      "members": {
+        "ceo": {
+          "name": "Vincenzo Russotto",
+          "role": "Chief Executive Officer",
+          "description": "Visionary Leader with broad experience in Startups, Business Strategic Transformation and AI"
+        },
+        "coo": {
+          "name": "José Ramón Pérez",
+          "role": "Chief Strategy Officer",
+          "description": "Marketing expert with strong project management skills and expertise in implementing IA Solutions that Scale"
+        },
+        "cto": {
+          "name": "Carlos Mendoza",
+          "role": "Chief Technology Officer",
+          "description": "Technology innovator and automation advocate, with deep expertise in AI and Machine Learning"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Obtén respuestas a preguntas comunes sobre nuestras soluciones de IA y proceso de implementación",
+    "questions": {
+      "aiAgents": {
+        "question": "¿Qué son los Agentes IA Profesionales?",
+        "answer": "Los Agentes IA Profesionales son soluciones de inteligencia artificial desarrolladas a medida para automatizar procesos empresariales complejos, mejorar la eficiencia del flujo de trabajo y proporcionar soporte inteligente para la toma de decisiones. Nuestros agentes están construidos utilizando modelos avanzados de aprendizaje automático y pueden adaptarse a su industria específica y necesidades operativas."
+      },
+      "implementation": {
+        "question": "¿Cuánto tiempo toma la implementación?",
+        "answer": "La implementación típicamente toma de 4 a 12 semanas, dependiendo de la complejidad de sus requisitos y el alcance de la integración. Nuestra metodología probada incluye fases de descubrimiento, desarrollo, despliegue y optimización para asegurar una implementación exitosa con mínima interrupción en sus operaciones."
+      },
+      "security": {
+        "question": "¿Cómo aseguran la seguridad de los datos?",
+        "answer": "Mantenemos los más altos estándares de seguridad con encriptación de nivel empresarial, protocolos seguros de manejo de datos y cumplimiento con regulaciones de la industria. Todos los datos se procesan de acuerdo con GDPR, HIPAA y otros estándares relevantes, con auditorías y actualizaciones de seguridad regulares."
+      },
+      "customization": {
+        "question": "¿Se pueden personalizar los agentes IA para nuestra industria?",
+        "answer": "Sí, nuestros agentes IA son completamente personalizables según los requisitos específicos de su industria. Trabajamos estrechamente con su equipo para entender sus procesos únicos, necesidades de cumplimiento y objetivos comerciales para desarrollar soluciones adaptadas que se alineen con las metas de su organización."
+      },
+      "integration": {
+        "question": "¿Cómo se integran los agentes IA con los sistemas existentes?",
+        "answer": "Nuestros agentes IA están diseñados para una integración perfecta con su stack tecnológico existente. Soportamos APIs estándar, conectores personalizados y varios protocolos de integración para asegurar una comunicación fluida entre sistemas mientras mantenemos la integridad de datos y la eficiencia del flujo de trabajo."
+      },
+      "support": {
+        "question": "¿Qué tipo de soporte proporcionan?",
+        "answer": "Ofrecemos soporte integral incluyendo asistencia técnica 24/7, actualizaciones regulares de mantenimiento, monitoreo de rendimiento y optimización continua. Nuestro equipo dedicado de soporte asegura que sus soluciones IA operen con máxima eficiencia y se adapten a sus necesidades evolutivas."
+      },
+      "pricing": {
+        "question": "¿Cómo está estructurado el precio?",
+        "answer": "Nuestros precios se basan en sus requisitos específicos y el alcance de la implementación. Ofrecemos modelos flexibles de compromiso incluyendo servicios basados en suscripción y soluciones empresariales personalizadas. Contáctenos para obtener una cotización detallada adaptada a sus necesidades."
+      }
+    }
+  }
+}

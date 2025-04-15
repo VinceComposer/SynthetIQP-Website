@@ -1,0 +1,204 @@
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+import { Menu, X } from 'lucide-react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+import Logo from './Logo';
+
+export default function Header() {
+  const { t, i18n } = useTranslation();
+  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const toggleLanguage = React.useCallback(() => {
+    const newLang = i18n.language.startsWith('en') ? 'es' : 'en';
+    i18n.changeLanguage(newLang);
+    setIsMenuOpen(false);
+  }, [i18n]);
+
+  const currentLanguage = i18n.language.startsWith('en') ? 'EN' : 'ES';
+  const alternateLanguage = i18n.language.startsWith('en') ? 'ES' : 'EN';
+
+  const handleContactClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    setIsMenuOpen(false);
+    
+    if (location.pathname !== '/') {
+      navigate('/', { state: { scrollToContact: true } });
+    } else {
+      const contactSection = document.getElementById('contact');
+      if (contactSection) {
+        contactSection.scrollIntoView({ block: 'start' });
+      }
+    }
+  };
+
+  const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, path: string) => {
+    e.preventDefault();
+    setIsMenuOpen(false);
+
+    if (location.pathname === path) {
+      window.scrollTo({ top: 0 });
+    } else {
+      navigate(path);
+      window.scrollTo({ top: 0 });
+    }
+  };
+
+  return (
+    <header className="fixed w-full bg-white/90 backdrop-blur-sm z-50 border-b border-metallic-light/10">
+      <nav className="container mx-auto px-4 py-4">
+        <div className="flex items-center justify-between">
+          <a 
+            href="/"
+            onClick={(e) => handleLinkClick(e, '/')}
+            className="font-bold text-2xl text-primary relative inline-flex items-center"
+          >
+            SynthetIQ Partners
+          </a>
+
+          {/* Desktop Navigation */}
+          <div className="hidden md:flex items-center space-x-8">
+            <button
+              onClick={toggleLanguage}
+              className="flex items-center text-secondary hover:text-secondary-dark transition-colors"
+              type="button"
+            >
+              <span>{currentLanguage}</span>
+            </button>
+            <a 
+              href="/"
+              onClick={(e) => handleLinkClick(e, '/')}
+              className="text-dark hover:text-primary transition-colors"
+            >
+              {t('navigation.home')}
+            </a>
+            <a 
+              href="/services"
+              onClick={(e) => handleLinkClick(e, '/services')}
+              className="text-dark hover:text-primary transition-colors"
+            >
+              {t('navigation.services')}
+            </a>
+            <a 
+              href="/pricing"
+              onClick={(e) => handleLinkClick(e, '/pricing')}
+              className="text-dark hover:text-primary transition-colors"
+            >
+              {t('navigation.pricing')}
+            </a>
+            <a 
+              href="/about"
+              onClick={(e) => handleLinkClick(e, '/about')}
+              className="text-dark hover:text-primary transition-colors"
+            >
+              {t('navigation.about')}
+            </a>
+            <a 
+              href="/#contact" 
+              onClick={handleContactClick}
+              className="text-dark hover:text-primary transition-colors"
+            >
+              {t('navigation.contact')}
+            </a>
+            <a 
+              href="/resources"
+              onClick={(e) => handleLinkClick(e, '/resources')}
+              className={`text-dark hover:text-primary transition-colors ${
+                location.pathname === '/resources' ? 'text-primary' : ''
+              }`}
+            >
+              {t('navigation.resources')}
+            </a>
+            <a
+              href="https://app.hexonasystems.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              {t('navigation.clientPortal')}
+            </a>
+          </div>
+
+          {/* Mobile Menu Button */}
+          <button
+            className="md:hidden text-dark"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            type="button"
+          >
+            {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          </button>
+        </div>
+
+        {/* Mobile Navigation */}
+        {isMenuOpen && (
+          <div className="md:hidden absolute top-full left-0 right-0 bg-white border-b border-metallic-light/10 py-4">
+            <div className="flex flex-col space-y-4 px-4">
+              <button
+                onClick={toggleLanguage}
+                className="text-secondary hover:text-secondary-dark transition-colors flex items-center"
+                type="button"
+              >
+                {alternateLanguage}
+              </button>
+              <a 
+                href="/"
+                onClick={(e) => handleLinkClick(e, '/')}
+                className="text-dark hover:text-primary transition-colors"
+              >
+                {t('navigation.home')}
+              </a>
+              <a 
+                href="/services"
+                onClick={(e) => handleLinkClick(e, '/services')}
+                className="text-dark hover:text-primary transition-colors"
+              >
+                {t('navigation.services')}
+              </a>
+              <a 
+                href="/pricing"
+                onClick={(e) => handleLinkClick(e, '/pricing')}
+                className="text-dark hover:text-primary transition-colors"
+              >
+                {t('navigation.pricing')}
+              </a>
+              <a 
+                href="/about"
+                onClick={(e) => handleLinkClick(e, '/about')}
+                className="text-dark hover:text-primary transition-colors"
+              >
+                {t('navigation.about')}
+              </a>
+              <a 
+                href="/#contact"
+                onClick={handleContactClick}
+                className="text-dark hover:text-primary transition-colors"
+              >
+                {t('navigation.contact')}
+              </a>
+              <a 
+                href="/resources"
+                onClick={(e) => handleLinkClick(e, '/resources')}
+                className={`text-dark hover:text-primary transition-colors ${
+                  location.pathname === '/resources' ? 'text-primary' : ''
+                }`}
+              >
+                {t('navigation.resources')}
+              </a>
+              <a
+                href="https://app.hexonasystems.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary text-center"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {t('navigation.clientPortal')}
+              </a>
+            </div>
+          </div>
+        )}
+      </nav>
+    </header>
+  );
+}

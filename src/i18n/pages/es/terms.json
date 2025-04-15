@@ -1,0 +1,29 @@
+{
+  "terms": {
+    "title": "Términos de Servicio",
+    "subtitle": "Por favor, lee estos términos cuidadosamente antes de usar nuestros servicios",
+    "lastUpdated": "Última actualización: 21 de febrero de 2025",
+    "sections": {
+      "1": {
+        "title": "Acuerdo con los Términos",
+        "content": "Al acceder a nuestro sitio web o utilizar nuestros servicios, aceptas estar vinculado por estos Términos de Servicio y todas las leyes y regulaciones aplicables. Si no estás de acuerdo con alguno de estos términos, tienes prohibido usar o acceder a nuestros servicios."
+      },
+      "2": {
+        "title": "Licencia de Uso",
+        "content": "Se otorga permiso para acceder temporalmente a nuestros servicios solo para uso personal y no comercial. Esto es la concesión de una licencia, no una transferencia de título, y bajo esta licencia no puedes modificar, copiar, distribuir, transmitir, mostrar, ejecutar, reproducir o usar nuestro contenido para ningún propósito comercial."
+      },
+      "3": {
+        "title": "Modificaciones del Servicio",
+        "content": "Nos reservamos el derecho de retirar o modificar nuestro servicio, y cualquier servicio o material que proporcionemos, a nuestra sola discreción sin previo aviso. No seremos responsables si por cualquier razón todo o parte de nuestro servicio no está disponible en cualquier momento o por cualquier período."
+      },
+      "4": {
+        "title": "Limitación de Responsabilidad",
+        "content": "En ningún caso SynthetIQ Partners, ni sus directores, empleados, socios, agentes, proveedores o afiliados, serán responsables por cualquier daño indirecto, incidental, especial, consecuente o punitivo que surja de tu uso de nuestros servicios."
+      },
+      "5": {
+        "title": "Ley Aplicable",
+        "content": "Estos Términos se regirán e interpretarán de acuerdo con las leyes del Reino Unido, sin tener en cuenta sus disposiciones sobre conflictos de leyes."
+      }
+    }
+  }
+}

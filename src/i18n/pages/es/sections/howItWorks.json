@@ -1,0 +1,22 @@
+{
+  "howItWorks": {
+    "title": "Nuestro Proceso de Implementación",
+    "subtitle": "Una metodología probada que permite transformar tu negocio con Automatizaciones y Agentes de IA personalizados",
+    "discovery": {
+      "title": "Descubrimiento y Planeación",
+      "description": "Nuestra prioridad es entender tu negocio y posibilidades. Gracias a una consulta inicial, analizamos tus necesidades y diseñamos una estrategia de automatización personalizada."
+    },
+    "development": {
+      "title": "Desarrollo Personalizado",
+      "description": "El equipo se pone 'manos a la obra' y se incia el proceso de desarrollo. Tendrás el prototipo de tu solución en la primera semana y la versión final en la segunda semana"
+    },
+    "deployment": {
+      "title": "Implementación Sin Problemas",
+      "description": "Durante la seamana tres y cuatro integraremos a tu negocio tus nuevas Automatizaciones y Agentes de IA. Así aseguramos que generan valor desde el día uno."
+    },
+    "optimization": {
+      "title": "Apoyo Continuo",
+      "description": "Continuaremos trabajando en nuevos Agentes de IA y Automatizaciones, optimizando, refinando y ampliando sus capacidades para mantener tu negocio a la vanguardia."
+    }
+  }
+}

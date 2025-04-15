@@ -1,0 +1,56 @@
+{
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Nos encantaría saber de ti",
+    "email": {
+      "title": "Correo",
+      "value": "hola@synthetiqpartners.com"
+    },
+    "call": {
+      "title": "Llamar Ahora",
+      "description": "Inicia una conversación con nuestro Asistente IA",
+      "action": "Iniciar Llamada"
+    },
+    "liveChat": {
+      "title": "Chat en Vivo",
+      "description": "Obtén respuestas instantáneas a tus preguntas",
+      "button": "Iniciar Chat"
+    },
+    "schedule": {
+      "title": "Agenda una Llamada Gratis",
+      "description": "Reserva una consulta de 30 minutos con nuestros expertos",
+      "action": "Agendar Llamada"
+    },
+    "form": {
+      "title": "Enviar Mensaje",
+      "description": "¡Completa este formulario y conversemos!",
+      "firstName": "Nombre",
+      "firstNamePlaceholder": "Tu Nombre",
+      "lastName": "Apellido",
+      "lastNamePlaceholder": "Tu Apellido",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "tu.correo@ejemplo.com",
+      "phone": "Teléfono",
+      "phonePlaceholder": "+34 600 000 000",
+      "message": "¿Cómo podemos ayudarte?",
+      "messagePlaceholder": "Cuéntanos qué necesitas y cómo podemos ayudarte...",
+      "privacyConsent": "Acepto la Política de Privacidad y consiento el procesamiento de mis datos.",
+      "submit": "Enviar Mensaje"
+    },
+    "inProgress": {
+      "title": "En Progreso",
+      "call": "Estamos trabajando en esta función y pronto podrás hablar con nuestro Agente IA",
+      "chat": "Estamos trabajando en esta función y pronto podrás chatear con nuestro Agente IA",
+      "schedule": "Estamos trabajando en este servicio y pronto podrás agendar una Llamada Gratuita con una persona real de nuestro equipo",
+      "getStarted": "Estamos trabajando en nuestro Servicio de Suscripción y muy pronto podrás contratarlo",
+      "getQuote": "Estamos trabajando en nuestro Servicio Empresarial y muy pronto podrás solicitar una cotización",
+      "AIOPlatform": "Estamos trabajando en nuestro servicio de Plataforma AIO y muy pronto podrás contratarlo",
+      "VirtualStaff": "Estamos trabajando en este servicio y muy pronto podrás contratar a los mejores Empleados Virtuales",
+      "form": "Gracias por ponerte en contacto. Tu mensaje ha sido enviado. ¡Lo revisaremos y te responderemos cuanto antes!"
+    },
+    "confirmation": {
+      "title": "Tu mensaje ha sido enviado",
+      "message": "Gracias por ponerte en contacto. ¡Revisaremos tu mensaje y te responderemos cuanto antes!"
+    }
+  }
+}

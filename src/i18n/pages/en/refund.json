@@ -1,0 +1,29 @@
+{
+  "refund": {
+    "title": "Refund Policy",
+    "subtitle": "Our commitment to your satisfaction",
+    "lastUpdated": "Last updated: February 21, 2025",
+    "sections": {
+      "1": {
+        "title": "Overview",
+        "content": "At SynthetIQ Partners, we strive to ensure your complete satisfaction with our services. This refund policy outlines the terms and conditions for requesting and receiving refunds for our services."
+      },
+      "2": {
+        "title": "Eligibility for Refunds",
+        "content": "Refund requests are evaluated on a case-by-case basis. You may be eligible for a refund if: (1) The service was not delivered as described, (2) Technical issues prevented service delivery, or (3) You cancel within the specified cancellation period for your service plan."
+      },
+      "3": {
+        "title": "Refund Process",
+        "content": "To request a refund, please contact our support team with your order details and reason for the refund request. We will review your request and respond within 2-3 business days. If approved, refunds are typically processed within 5-7 business days."
+      },
+      "4": {
+        "title": "Non-Refundable Items",
+        "content": "Certain services and fees are non-refundable, including but not limited to: (1) Setup fees, (2) Custom development work that has been delivered, (3) Services used or consumed, and (4) Cancellations after the specified refund period."
+      },
+      "5": {
+        "title": "Contact Us",
+        "content": "If you have any questions about our refund policy or would like to request a refund, please contact our support team at support@synthetiqpartners.com."
+      }
+    }
+  }
+}

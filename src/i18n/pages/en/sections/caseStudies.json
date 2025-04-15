@@ -1,0 +1,60 @@
+{
+  "caseStudies": {
+    "title": "Success Stories",
+    "subtitle": "Proven results and success stories showcasing remarkable business impact",
+    "enterprise": {
+      "title": "Enterprise Solutions",
+      "description": "Banking Services Company uses AI Professional Agent to respond to mentions in Social Networks",
+      "stats": {
+        "improvement": "85%",
+        "label": "Reduction in Processing Time"
+      },
+      "outcome": "Achieved internal service agreement while improving interaction with customers"
+    },
+    "retail": {
+      "title": "Retail Innovation",
+      "description": "Major retailer transforms Customer Service with conversational AI agents",
+      "stats": {
+        "improvement": "93%",
+        "label": "Customer Satisfaction"
+      },
+      "outcome": "Reduced waiting times and improved Customer Experience"
+    },
+    "healthcare": {
+      "title": "Healthcare Excellence",
+      "description": "Healthcare provider streamlines patient care visits coordination with Scheduling System Automation",
+      "stats": {
+        "improvement": "67%",
+        "label": "Efficiency Increase"
+      },
+      "outcome": "Enhanced patient care while reducing administrative burden"
+    },
+    "consulting": {
+      "title": "Business Consulting",
+      "description": "Strategic consulting firm optimizes client engagement process with All-In-One Platform and Automations in CRM, Email Marketing, invoicing, etc.",
+      "stats": {
+        "improvement": "78%",
+        "label": "Time Saved"
+      },
+      "outcome": "Streamlined operations and improved client satisfaction"
+    },
+    "technology": {
+      "title": "Tech Innovation",
+      "description": "Software company uses AI Professional Agent to generate SEO-Friendly content for their Blog.",
+      "stats": {
+        "improvement": "90%",
+        "label": "Faster content creation"
+      },
+      "outcome": "Accelerated content creation and increased website organic positioning"
+    },
+    "education": {
+      "title": "Education Transformation",
+      "description": "Online learning platform uses User-Like AI Agent (SynthetIQ User) to define, design and test course content, structure and formats.",
+      "stats": {
+        "improvement": "82%",
+        "label": "Student Engagement"
+      },
+      "outcome": "Improved learning outcomes and student retention"
+    }
+  }
+}

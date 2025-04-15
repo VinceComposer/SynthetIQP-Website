@@ -1,0 +1,28 @@
+{
+  "footer": {
+    "services": {
+      "title": "Nuestros Servicios",
+      "professionalAgents": "Agentes IA Profesionales",
+      "userAgents": "Agentes IA Tipo-Usuario",
+      "consulting": "Consultoría IA",
+      "aioplatform": "Plataforma All-In-One",
+      "virtualstaff": "Personal Virtual",
+      "education": "Educación IA"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio",
+      "refund": "Política de Reembolso",
+      "contact": "Contáctanos"
+    },
+    "social": {
+      "title": "Conecta con Nosotros"
+    },
+    "copyright": "Todos los derechos reservados",
+    "contact": {
+      "email": "hola@synthetiqpartners.com",
+      "button": "Contáctanos"
+    }
+  }
+}

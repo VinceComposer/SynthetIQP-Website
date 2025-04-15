@@ -1,0 +1,29 @@
+{
+  "privacy": {
+    "title": "Política de Privacidad",
+    "subtitle": "Tu privacidad es importante para nosotros",
+    "lastUpdated": "Última actualización: 21 de febrero de 2025",
+    "sections": {
+      "1": {
+        "title": "Introducción",
+        "content": "En SynthetIQ Partners, nos tomamos tu privacidad en serio. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos tu información cuando visitas nuestro sitio web o utilizas nuestros servicios. Por favor, lee esta política de privacidad cuidadosamente. Si no estás de acuerdo con los términos de esta política de privacidad, por favor no accedas al sitio."
+      },
+      "2": {
+        "title": "Información que Recopilamos",
+        "content": "Recopilamos información que nos proporcionas directamente, incluyendo pero no limitado a tu nombre, dirección de correo electrónico, número de teléfono y cualquier otra información que elijas proporcionar. También recopilamos automáticamente cierta información sobre tu dispositivo cuando utilizas nuestros servicios, incluyendo tu dirección IP, navegador web y datos de uso."
+      },
+      "3": {
+        "title": "Cómo Usamos tu Información",
+        "content": "Utilizamos la información que recopilamos para proporcionar, mantener y mejorar nuestros servicios, para comunicarnos contigo, para enviarte comunicaciones de marketing (con tu consentimiento) y para detectar y prevenir fraudes u otras actividades maliciosas."
+      },
+      "4": {
+        "title": "Seguridad de Datos",
+        "content": "Implementamos medidas de seguridad técnicas y organizativas apropiadas para proteger tu información personal. Sin embargo, ten en cuenta que ningún método de transmisión por Internet o almacenamiento electrónico es 100% seguro."
+      },
+      "5": {
+        "title": "Tus Derechos",
+        "content": "Tienes derecho a acceder, corregir o eliminar tu información personal. También puedes oponerte o restringir cierto procesamiento de tu información. Para ejercer estos derechos, por favor contáctanos usando la información proporcionada a continuación."
+      }
+    }
+  }
+}

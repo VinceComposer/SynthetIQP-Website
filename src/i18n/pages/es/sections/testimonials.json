@@ -1,0 +1,72 @@
+{
+  "testimonials": {
+    "title": "Testimonios de Clientes",
+    "subtitle": "Nuestros clientes comparten sobre su experiencia con SynthetIQ Partners",
+    "cto": {
+      "author": "James Wilson",
+      "role": "Director de Tecnología",
+      "company": "Servicios Logísticos Globales",
+      "text": "Vincenzo y José generaron una solución de IA que ha transformado la forma en que gestionamos nuestro inventario. La experiencia de su equipo y su metodología de implementación hizo todo posible",
+      "results": {
+        "metric": "Automatización de Procesos",
+        "description": "Reducción en tareas manuales",
+        "value": "85%"
+      }
+    },
+    "director": {
+      "author": "Sarah Chen",
+      "role": "Directora de Innovación",
+      "company": "Retail Solutions Inc.",
+      "text": "Los Agentes de IA personalizados desarrollados por SynthetIQ Partners han revolucionado nuestro proceso de servicio al cliente. Los resultados superaron nuestras expectativas. Nuestros empleados y clientes están muy satisfechos con la solución",
+      "results": {
+        "metric": "Satisfacción del Cliente",
+        "description": "Mejora en puntuaciones CSAT",
+        "value": "93%"
+      }
+    },
+    "manager": {
+      "author": "Michael Rodriguez",
+      "role": "Gerente de Operaciones",
+      "company": "Healthcare Systems",
+      "text": "Trabajar con SynthetIQ Partners ha sido transformador. Sus consejos y recomendaciones han sido de muy alto nivel. Su compromiso con la excelencia y los detalles han mejorado significativamente nuestra eficiencia operativa para la coordinación de citas de pacientes",
+      "results": {
+        "metric": "Ganancia en Eficiencia",
+        "description": "Aumento en productividad",
+        "value": "67%"
+      }
+    },
+    "vp": {
+      "author": "Emily Thompson",
+      "role": "VP de Tecnología",
+      "company": "Enterprise Solutions",
+      "text": "Asociarnos con José y Vincenzo ha sido un acierto. El proceso de implementación fue fluido y los resultados fueron inmediatos. La productividad de nuestro equipo ha aumentado significativamente desde la adopción de nuestros Agentes de IA",
+      "results": {
+        "metric": "Productividad del Equipo",
+        "description": "Mejora en rendimiento",
+        "value": "75%"
+      }
+    },
+    "founder": {
+      "author": "David Park",
+      "role": "Fundador y CEO",
+      "company": "Tech Innovators",
+      "text": "Los Agentes IA de SynthetIQ se han convertido en parte integral de nuestra estrategia de marketing. Las capacidades de automatización han transformado la forma en que generamos y compartimos contenido con clientes y stakeholders",
+      "results": {
+        "metric": "Calidad del contenido",
+        "description": "Creación de contenido más rápido",
+        "value": "90%"
+      }
+    },
+    "lead": {
+      "author": "Rachel Martinez",
+      "role": "Director de Producto",
+      "company": "Digital Education",
+      "text": "El nivel de personalización y las capacidades tipo-humanas de los Agentes de SynthetIQ han revolucionado la forma en que generamos y entregamos contenido educativo para nuestros estudiantes",
+      "results": {
+        "metric": "Resultados de Aprendizaje",
+        "description": "Mejora en resultados",
+        "value": "82%"
+      }
+    }
+  }
+}

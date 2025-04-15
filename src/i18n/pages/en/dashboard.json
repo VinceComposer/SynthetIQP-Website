@@ -1,0 +1,65 @@
+{
+  "dashboard": {
+    "header": {
+      "search": "Search..."
+    },
+    "welcome": "Welcome back!",
+    "subtitle": "Here's what's happening with your synthetic users",
+    "menu": {
+      "overview": "Overview",
+      "projects": "Projects",
+      "samples": "SynthetIQ Samples",
+      "agents": "SynthetIQ Users (Agents)",
+      "characters": "Virtual Characters",
+      "conversations": "Conversations",
+      "analysis": "Results Analysis",
+      "settings": "Settings",
+      "help": "Help & Support",
+      "logout": "Log Out"
+    },
+    "stats": {
+      "users": {
+        "value": "1,234",
+        "label": "Active Users"
+      },
+      "projects": {
+        "value": "12",
+        "label": "Projects"
+      },
+      "insights": {
+        "value": "856",
+        "label": "Insights"
+      },
+      "settings": {
+        "value": "4",
+        "label": "Settings"
+      }
+    },
+    "recentActivity": "Recent Activity",
+    "activities": {
+      "1": "New synthetic user profile created",
+      "2": "Insight report generated",
+      "3": "Project settings updated"
+    },
+    "timeAgo": "hours ago",
+    "quickActions": "Quick Actions",
+    "actions": {
+      "1": {
+        "title": "Create User",
+        "description": "Generate a new synthetic user"
+      },
+      "2": {
+        "title": "New Project",
+        "description": "Start a new research project"
+      },
+      "3": {
+        "title": "Generate Report",
+        "description": "Create an insight report"
+      },
+      "4": {
+        "title": "Settings",
+        "description": "Manage your preferences"
+      }
+    }
+  }
+}
