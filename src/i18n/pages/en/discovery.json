@@ -38,7 +38,8 @@
     "deliverable": {
       "title": "After the Discovery you will receive:",
       "description": "A personalized Micro-Roadmap for the next 30 days. That is, a deliverable that combines the previous points: key pain, suggested automation and priority action."
-    }
+    },
+    "buttonText": "I Want the Discovery"
   },
   "testimonials": {
     "title": "SUCCESS STORIES",
