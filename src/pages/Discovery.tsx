@@ -86,7 +86,7 @@ const Discovery = () => {
             id="oferta-gratuita"
           >
             <div className="bg-white p-6 sm:p-10 rounded-2xl shadow-lg text-left">
-              <h2 className="text-2xl sm:text-3xl font-bold" style={{ color: '#1A1A2E' }}>
+              <h2 className="text-2xl sm:text-3xl font-bold mb-2" style={{ color: '#1A1A2E' }}>
                 {t('whatIncludes.title')}
               </h2>
               <h3 className="text-xl sm:text-2xl font-semibold text-[#7C3AED] mb-6">
@@ -116,15 +116,25 @@ const Discovery = () => {
                 </ul>
               </div>
               
-              <div className="border-t border-gray-200 pt-6">
+              <div className="border-t border-gray-200 pt-6 mb-8">
                 <h4 className="text-xl font-bold text-[#1A1A2E] mb-4">
                   {t('whatIncludes.deliverable.title')}
                 </h4>
-                <p className="text-[#1A1A2E]">
+                <p className="text-[#1A1A2E] bg-blue-50 p-4 rounded-lg border border-blue-100">
                   <strong>
                     {t('whatIncludes.deliverable.description')}
                   </strong>
                 </p>
+              </div>
+
+              <div className="text-center mt-8">
+                <a 
+                  href="#calendar" 
+                  className="inline-block bg-[#00B3FF] text-white font-bold py-3 px-8 rounded-lg hover:bg-[#0099DD] transition-colors shadow-md hover:shadow-lg"
+                >
+                  <i className="fas fa-arrow-right mr-2"></i>
+                  {t('whatIncludes.buttonText')}
+                </a>
               </div>
             </div>
           </motion.section>
