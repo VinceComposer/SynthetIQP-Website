@@ -282,11 +282,6 @@ const Discovery = () => {
                 </div>
               ))}
             </div>
-            <div className="text-center mt-12">
-              <a href={t('faqs.ctaUrl')} className="inline-block bg-[#00B3FF] text-white font-bold py-4 px-8 rounded-lg hover:bg-[#0099DD] transition-colors text-lg shadow-md hover:shadow-lg">
-                <i className="fas fa-arrow-right mr-2"></i>{t('faqs.ctaText')}
-              </a>
-            </div>
           </motion.section>
           
           {/* Calendar Booking Section */}
@@ -295,14 +290,18 @@ const Discovery = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
             className="mb-12 sm:mb-16"
+            id="calendar"
           >
-            <div className="bg-white p-6 sm:p-10 rounded-2xl shadow-lg">
-              <h2 className="text-3xl sm:text-4xl font-extrabold text-center mb-4" style={{ color: '#1A1A2E' }}>
+            <header className="text-center mb-12 sm:mb-16">
+              <h2 className="text-3xl sm:text-4xl font-extrabold" style={{ color: '#1A1A2E' }}>
                 {t('calendar.title')}
               </h2>
-              <p className="mt-4 text-base sm:text-lg lg:text-xl max-w-3xl mx-auto text-center" style={{ color: '#1A1A2E' }}>
+              <p className="mt-4 text-base sm:text-lg lg:text-xl max-w-3xl mx-auto" style={{ color: '#1A1A2E' }}>
                 {t('calendar.subtitle')}
               </p>
+            </header>
+            
+            <div className="bg-white p-6 sm:p-10 rounded-2xl shadow-lg">
               <div className="mt-8">
                 <div style={{ position: 'relative', paddingBottom: '1050px', height: 0, overflow: 'hidden', maxWidth: '100%', margin: '0 auto' }}>
                   <iframe 
