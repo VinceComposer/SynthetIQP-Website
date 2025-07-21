@@ -11,8 +11,8 @@
   },
   "whatIncludes": {
     "title": "¿Qué incluye esta Discovery gratuita?",
-    "subtitle": "Videollamada con los fundadores de Syntehtiq Partners + Documento con Micro-Hoja de Ruta",
-    "description": "Agenda una Sesión de Discovery de 30min bien enfocados (máximo 40min si hay interés mutuo), que te dará el punto de partida para visualizar el potencial de la IA en tu agencia.",
+    "subtitle": "Videollamada con los fundadores de Synthetiq Partners + Documento con Micro-Hoja de Ruta",
+    "description": "Agenda una Sesión de Discovery de 30min bien enfocados (máximo 40min si hay interés mutuo), que te dará el punto de partida para visualizar el potencial de la IA en tu negocio.",
     "note": "*Si ya tienes algún progreso con la implantación de IA, la Discovery te ayudará a validar tus prioridades para los próximos 30 días en término de las acciones clave a ejecutar.",
     "objectives": {
       "title": "¿Cuáles son los objetivos a lograr durante la Discovery?",
@@ -27,18 +27,19 @@
         },
         {
           "title": "Explorar buenas prácticas:",
-          "description": " para inspirarse con lo que otras Agencias están haciendo bien."
+          "description": " para inspirarse con lo que otros negocios están haciendo bien."
         },
         {
           "title": "Definir Próximo paso:",
-          "description": " o acción clave a ejecutar en tu camino de Implamentación de IA."
+          "description": " o acción clave a ejecutar en tu camino de Implementación de IA."
         }
       ]
     },
     "deliverable": {
       "title": "Luego de la Discovery recibirás:",
-      "description": " Una Micro-Hoja de Ruta personalizada para los próximos 30 días. Es decir, un entregable que combina los puntos anteriores: dolor clave, automatización sugerida y acción prioritaria."
-    }
+      "description": "Una Micro-Hoja de Ruta personalizada para los próximos 30 días. Es decir, un entregable que combina los puntos anteriores: dolor clave, automatización sugerida y acción prioritaria."
+    },
+    "buttonText": "Quiero la Discovery"
   },
   "testimonials": {
     "title": "CASOS DE ÉXITO",

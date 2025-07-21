@@ -12,14 +12,14 @@
   "whatIncludes": {
     "title": "What does this free Discovery include?",
     "subtitle": "Video call with the founders of Synthetiq Partners + Document with Micro-Roadmap",
-    "description": "Schedule a well-focused 30-minute Discovery Session (maximum 40min if there is mutual interest), which will give you the starting point to visualize the potential of AI in your agency.",
-    "note": "*If you already have some progress with AI implementation, Discovery will help you validate your priorities for the next 30 days in terms of key actions to execute.",
+    "description": "Schedule a 30-minute focused Discovery Session (maximum 40min if there is mutual interest), which will give you the starting point to visualize the potential of AI in your business.",
+    "note": "*If you already have some progress with AI implementation, the Discovery will help you validate your priorities for the next 30 days in terms of key actions to execute.",
     "objectives": {
-      "title": "What are the objectives to achieve during Discovery?",
+      "title": "What are the objectives to achieve during the Discovery?",
       "items": [
         {
           "title": "Identify Pain Points:",
-          "description": " that could be resolved with AI - Automations - Agents."
+          "description": " that could be solved with AI - Automations - Agents."
         },
         {
           "title": "Detect 1-2 Automations:",
@@ -27,17 +27,17 @@
         },
         {
           "title": "Explore best practices:",
-          "description": " to be inspired by what other Agencies are doing well."
+          "description": " to get inspired by what other businesses are doing well."
         },
         {
           "title": "Define Next step:",
-          "description": " or key action to execute on your AI Implementation journey."
+          "description": " or key action to execute in your AI Implementation journey."
         }
       ]
     },
     "deliverable": {
       "title": "After the Discovery you will receive:",
-      "description": " A personalized Micro-Roadmap for the next 30 days. That is, a deliverable that combines the previous points: key pain, suggested automation and priority action."
+      "description": "A personalized Micro-Roadmap for the next 30 days. That is, a deliverable that combines the previous points: key pain, suggested automation and priority action."
     }
   },
   "testimonials": {
