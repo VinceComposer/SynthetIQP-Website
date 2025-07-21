@@ -1,4 +1,4 @@
-import React from 'react';
+// React is automatically imported by JSX transform
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Target, Award, Lightbulb, Users } from 'lucide-react';
@@ -14,7 +14,7 @@ export default function AboutUs() {
   ];
 
   // Function to highlight specific phrases in text
-  const highlightText = (text) => {
+  const highlightText = (text: string) => {
     const currentLanguage = i18n.language;
     const phraseToHighlight = currentLanguage === 'es' 
       ? 'Agencia de Automatizaciones de IA' 
@@ -33,18 +33,22 @@ export default function AboutUs() {
   };
 
   // Team member data with profile picture URLs
-  const teamMembers = {
+  const teamMembers: Record<string, { role: string; imageUrl: string }> = {
     ceo: {
       role: 'ceo',
-      imageUrl: 'https://synthetiqpartners.com/Vince.jpg'
+      imageUrl: 'https://synthetiqpartners.com/images/vincenzo-enrico-russotto-garcia-chief-executive-officer.png'
     },
     coo: {
       role: 'coo',
-      imageUrl: 'https://synthetiqpartners.com/Jose.jpg'
+      imageUrl: 'https://synthetiqpartners.com/images/jose-ramon-perez-quintana-estrategy-director.png'
     },
     cto: {
       role: 'cto',
-      imageUrl: 'https://synthetiqpartners.com/Carlos.jpg'
+      imageUrl: 'https://synthetiqpartners.com/images/nicolas-tambussi-chief-technology-officer.png'
+    },
+    cm: {
+      role: 'cm',
+      imageUrl: 'https://synthetiqpartners.com/images/fatima-communication-manager.png'
     }
   };
 
@@ -102,9 +106,9 @@ export default function AboutUs() {
           <div className="bg-white rounded-2xl p-8 shadow-lg border border-metallic-light/10">
             <h2 className="text-2xl font-bold mb-6 text-center text-dark">{t('about.team.title')}</h2>
             <p className="text-metallic text-center mb-12">{t('about.team.description')}</p>
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-4 gap-8">
               {Object.keys(teamMembers).map((memberKey, index) => {
-                const member = teamMembers[memberKey];
+                const member = teamMembers[memberKey as keyof typeof teamMembers];
                 return (
                   <motion.div
                     key={memberKey}

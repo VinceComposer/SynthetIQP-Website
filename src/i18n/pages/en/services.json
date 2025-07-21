@@ -1,67 +1,317 @@
 {
-  "services": {
-    "title": "AI Solutions that fit your needs",
-    "subtitle": "Transform your business with our suite of solutions",
-    "learnMore": "Learn More",
-    "professionalAgents": {
-      "title": "Professional AI Agents",
-      "description": "Custom-developed AI Agent that can take care of complex business processes and enhance operational efficiency",
-      "features": {
-        "automation": "Process automation and workflow optimization",
-        "efficiency": "Increased operational efficiency",
-        "integration": "Specific customization",
-        "customization": "Seamless system integration"
-      }
+  "title": "This is How We Help You Implement AI",
+  "subtitle": "We guide you on a clear and structured journey. We start with strategy, move on to technical implementation, and culminate with the transformation of your Agency.",
+  
+  "steps": {
+    "step1": {
+      "title": "Step 1: Clarity and Strategy",
+      "description": "To master AI, you first need a plan. This phase is dedicated to giving you total clarity: from understanding the potential and defining where to start, to having the complete strategic roadmap to implement AI in your agency with a long-term vision."
     },
-    "userAgents": {
-      "title": "User-Like AI Agents",
-      "description": "Human-Like AI Agents that mimic the voices of your customers so you can see how they would respond before you ship",
-      "features": {
-        "engagement": "Enhanced user engagement",
-        "support": "24/7 access to user-like interaction",
-        "personalization": "Specific customization",
-        "analytics": "User behaviour and insights"
-      }
+    "step2": {
+      "title": "Step 2: Technical Implementation",
+      "description": "From strategy to reality. This is where we \"roll up our sleeves\" to build and implement AI tools, automations, and agents efficiently, stably, and scalably over time, so your team can start reaping the benefits of efficiency."
     },
-    "consulting": {
-      "title": "AI Consulting",
-      "description": "Professional guidance for developing and implementing your AI Strategy and digital transformation initiatives",
-      "features": {
-        "strategy": "AI strategy development",
-        "implementation": "Implementation roadmap",
-        "training": "Team training and enablement",
-        "optimization": "Continuous support"
-      }
-    },
-    "aioplatform": {
-      "title": "All-In-One Platform",
-      "description": "Comprehensive platform with all the tools, support, and resources needed to manage your business effectively",
-      "features": {
-        "tools": "Integrated business management tools",
-        "automation": "Automated workflows and processes",
-        "analytics": "Advanced analytics and reporting",
-        "support": "24/7 technical support"
-      }
-    },
-    "virtualstaff": {
-      "title": "Virtual Staff",
-      "description": "Dedicated team of professionals to set up, manage, and optimize your AIO Platform for maximum business benefit",
-      "features": {
-        "setup": "Platform setup and configuration",
-        "management": "Ongoing platform management",
-        "optimization": "Performance optimization",
-        "support": "Business operation support"
-      }
-    },
-    "education": {
-      "title": "AI Education & Resources",
-      "description": "Learning programs and materials designed to help you and your team navigate the vast ocean of AI",
-      "features": {
-        "courses": "AI training courses",
-        "resources": "Learning materials",
-        "workshops": "Interactive workshops and webinars",
-        "certification": "Video-content, Newsletters and Blogposts"
+    "step3": {
+      "title": "Step 3: Organizational Transformation",
+      "description": "When implementing AI automations and agents, your agency is no longer the same. It's faster, smarter, and more capable. This new reality makes it natural and necessary to transform your operational, organizational, commercial, and business model to capitalize on all that potential. In this phase, we help you build the future of your agency, both at the organizational and commercial level."
+    }
+  },
+  
+  "strategy": {
+    "tabs": {
+      "tab1": {
+        "name": "Opportunities Report",
+        "title": "AI Opportunities Report",
+        "price": "Free",
+        "description": "Request your personalized report and schedule a Discovery Session that will give you a starting point to visualize the potential of AI in your agency.",
+        "idealFor": "you want to gain clarity and understand more about how Agencies are adopting AI. You'll get insight into your industry and the size of the opportunity for your business.",
+        "includes": {
+          "title": "What does the Opportunities Report include?",
+          "items": [
+            {
+              "icon": "flag-checkered",
+              "text": "<strong>AI Maturity Level:</strong> Your result. (Based on Google's AI Adoption Framework)"
+            },
+            {
+              "icon": "list-check",
+              "text": "<strong>Recommendations:</strong> Next steps according to your business maturity level."
+            },
+            {
+              "icon": "bullseye",
+              "text": "<strong>Top 3 Opportunity Areas:</strong> Pain Points in your agency that could be resolved with AI."
+            },
+            {
+              "icon": "paperclip",
+              "text": "<strong>Appendix:</strong> Analysis of the AI opportunity for Agencies in Latin America."
+            }
+          ]
+        }
+      },
+      "tab2": {
+        "name": "Efficiency Audit",
+        "title": "Efficiency Audit",
+        "price": "(One-time payment)",
+        "priceColor": "#7C3AED",
+        "description": "We find and prioritize quick-wins with the highest ROI to take advantage of TODAY's most attractive opportunities for your business.",
+        "idealFor": "the free report opened your eyes and now you need to know <strong>exactly where to start</strong> with concrete actions and a clear ROI.",
+        "includes": {
+          "title": "What does the audit include?",
+          "items": [
+            {
+              "icon": "users",
+              "iconColor": "#7C3AED",
+              "text": "<strong>Mapping Sessions:</strong> Interviews with your team in key areas of your business."
+            },
+            {
+              "icon": "file-signature",
+              "iconColor": "#7C3AED",
+              "text": "<strong>Tactical Action Plan:</strong> Deliverable with tools, automations, or AI agents to implement in a prioritized manner."
+            },
+            {
+              "icon": "dollar-sign",
+              "iconColor": "#7C3AED",
+              "text": "<strong>ROI Analysis:</strong> Estimation of savings or Return on Investment."
+            }
+          ]
+        }
+      },
+      "tab3": {
+        "name": "Strategic Plan",
+        "title": "Strategic Plan",
+        "price": "(One-time payment)",
+        "description": "We design the implementation plan for AI, Agents, and Automations, so you can evolve sustainably thanks to AI.",
+        "idealFor": "you're ready to go beyond quick-wins and need the <strong>complete strategic map</strong> to build your AI unit in a structured way.",
+        "includes": {
+          "title": "What does the plan include?",
+          "items": [
+            {
+              "icon": "compass-drafting",
+              "iconColor": "#1B84F3",
+              "text": "<strong>Strategic Workshop:</strong> Intensive session."
+            },
+            {
+              "icon": "map-signs",
+              "iconColor": "#1B84F3",
+              "text": "<strong>Adoption Roadmap:</strong> Internal implementation timeline."
+            },
+            {
+              "icon": "cogs",
+              "iconColor": "#1B84F3",
+              "text": "<strong>AI Architecture:</strong> Design of your agency's AI management system."
+            }
+          ]
+        }
       }
     }
+  },
+  
+  "implementation": {
+    "onboarding": {
+      "title": "Strategic Onboarding Offer",
+      "description": "Ready for a subscription plan? Sign up for the Impulse or Scale Plan and get our <strong>Audit + Strategic Plan</strong> for a <strong class=\"text-[#7C3AED]\">DISCOUNTED</strong> one-time payment.",
+      "note": "Save almost 60% and start with a solid strategic foundation from day one."
+    },
+    "tabs": {
+      "tab1": {
+        "name": "Custom Solutions",
+        "title": "Custom Solutions",
+        "price": "Quote on request",
+        "description": "For specific needs. We develop custom tools, automations, or AI agents, with total flexibility for your agency.",
+        "idealFor": "you have a very specific need that doesn't fit into a standard plan and you're looking for maximum flexibility in the development and ownership of the solution.",
+        "includes": {
+          "title": "Maximum Flexibility",
+          "items": [
+            "<strong>Custom development:</strong> We create the exact solution you need.",
+            "<strong>Management and Maintenance:</strong> Can be handled by us or by you.",
+            "<strong>Hosting:</strong> In our environments or in yours.",
+            "<strong>Intellectual Property:</strong> The source code, documentation, credentials, and copyright can be yours or ours."
+          ]
+        }
+      },
+      "tab2": {
+        "name": "Impulse Plan",
+        "title": "IMPULSE Plan",
+        "price": "Payment <span class=\"text-lg font-medium text-gray-500\">/ month</span>",
+        "description": "The fastest way to get started. We do it for you on our infrastructure. Ideal for getting results without technical management. Source code is not delivered.",
+        "idealFor": "you're looking for the fastest way to get results and completely delegate technical management, without worrying about infrastructure.",
+        "includes": {
+          "title": "What do you receive with this subscription?",
+          "sections": [
+            {
+              "title": "Delivery pace:",
+              "items": [
+                "A new automation every 2-3 weeks.",
+                "4 Additional setups included per month (renewed monthly)."
+              ]
+            },
+            {
+              "title": "Conditions:",
+              "items": [
+                "The result of the automation is delivered (E.g., content for posts) not the source code.",
+                "Hosting, credentials, source code, and associated maintenance are handled by us.",
+                "Additional setup (not included in the plan) of automation is charged between $$."
+              ]
+            }
+          ]
+        }
+      },
+      "tab3": {
+        "name": "Scale Plan",
+        "title": "SCALE Plan",
+        "price": "<span class=\"text-[#7C3AED]\">Payment</span> <span class=\"text-lg font-medium text-gray-500\">(Setup)</span> <span class=\"text-xl font-light text-gray-400 mx-1\">+</span> <span class=\"text-[#7C3AED]\">Payment</span> <span class=\"text-lg font-medium text-gray-500\">/ month</span>",
+        "description": "We do it for you: we create the automation environment, manage and maintain it but in your own infrastructure. The hosting, source code, credentials, tools, and copyright are 100% yours.",
+        "idealFor": "you want to own the code and AI assets, having maximum control to scale and build a long-term competitive advantage.",
+        "includes": {
+          "title": "What do you receive with this subscription?",
+          "sections": [
+            {
+              "title": "Delivery pace:",
+              "items": [
+                "A new automation every 2-3 weeks.",
+                "4 Additional setups included per month (renewed monthly)."
+              ]
+            },
+            {
+              "title": "Conditions:",
+              "items": [
+                "Hosting, credentials, source code, and tools belong to the agency.",
+                "Solution documentation is delivered, and a handover session is conducted.",
+                "The automation environment is maintained and managed, as well as AI Agents and Automations.",
+                "Additional setup (not included in the plan) of automation is charged between $$."
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  
+  "transformation": {
+    "tabs": {
+      "tab1": {
+        "name": "Exponential Diagnosis",
+        "title": "Exponential Diagnosis",
+        "price": "<span class=\"text-lg font-medium text-gray-500\">(One-time payment)</span>",
+        "description": "The first step for any real transformation. This diagnosis analyzes your agency in depth from the perspective of an Exponential Organization, allowing you to clearly see what is working, what is blocking your growth, and what areas you can activate to scale.",
+        "idealFor": "you feel you're not leveraging the potential of your agency and need an external and expert vision to identify the organizational blocks that prevent your evolution.",
+        "includes": {
+          "title": "What is included?",
+          "items": [
+            {
+              "icon": "sitemap",
+              "iconColor": "#7C3AED",
+              "text": "ExO Organizational Maturity Assessment"
+            },
+            {
+              "icon": "chart-pie",
+              "iconColor": "#7C3AED",
+              "text": "Analysis of existing AI initiatives and their organizational impact"
+            },
+            {
+              "icon": "lock",
+              "iconColor": "#7C3AED",
+              "text": "Identification of structural and cultural blocks"
+            },
+            {
+              "icon": "file-alt",
+              "iconColor": "#7C3AED",
+              "text": "Strategic report with key recommendations"
+            }
+          ]
+        }
+      },
+      "tab2": {
+        "name": "Organizational Redesign",
+        "title": "Purpose and Organizational Redesign",
+        "price": "<span class=\"text-lg font-medium text-gray-500\">(One-time payment)</span>",
+        "description": "Your agency is no longer the same after AI. In this service, we redefine your transformative purpose with you and design a new organizational structure based on ExO principles. An agency prepared to scale sustainably needs a clear, distributed model aligned with its new reality.",
+        "idealFor": "you already know you need to change, but you lack the structure and purpose to align your team and redesign your organization for the future.",
+        "includes": {
+          "title": "What is included?",
+          "items": [
+            {
+              "icon": "lightbulb",
+              "iconColor": "#7C3AED",
+              "text": "MTP (Massive Transformative Purpose) definition workshop"
+            },
+            {
+              "icon": "bullhorn",
+              "iconColor": "#7C3AED",
+              "text": "Strategic declaration of purpose and vision"
+            },
+            {
+              "icon": "drafting-compass",
+              "iconColor": "#7C3AED",
+              "text": "Design of new organizational model adapted to the ExO framework"
+            },
+            {
+              "icon": "star",
+              "iconColor": "#7C3AED",
+              "text": "Priority ExO attributes to scale your agency"
+            }
+          ]
+        }
+      },
+      "tab3": {
+        "name": "Roadmap",
+        "title": "Roadmap",
+        "price": "<span class=\"text-lg font-medium text-gray-500\">(One-time payment)</span>",
+        "description": "We design the complete organizational transformation plan, with a detailed implementation timeline, so you can evolve sustainably thanks to AI.",
+        "idealFor": "you're ready to go beyond quick-wins and need the complete strategic map to transform your agency in a structured way.",
+        "includes": {
+          "title": "What is included?",
+          "items": [
+            {
+              "icon": "compass-drafting",
+              "iconColor": "#1B84F3",
+              "text": "Strategic Workshop: Intensive session"
+            },
+            {
+              "icon": "map-signs",
+              "iconColor": "#1B84F3",
+              "text": "Transformation Roadmap: Implementation timeline"
+            },
+            {
+              "icon": "cogs",
+              "iconColor": "#1B84F3",
+              "text": "Organizational Architecture: Management system design"
+            }
+          ]
+        }
+      },
+      "tab4": {
+        "name": "Accompaniment",
+        "title": "Accompaniment",
+        "price": "<span class=\"text-lg font-medium text-gray-500\">(Monthly payment)</span>",
+        "description": "We accompany you in the implementation of organizational transformation, with follow-up and adjustment sessions, to ensure that the evolution is carried out correctly and sustainably.",
+        "idealFor": "you need continuous support to implement organizational changes and ensure that the transformation is carried out correctly.",
+        "includes": {
+          "title": "What is included?",
+          "items": [
+            {
+              "icon": "users",
+              "iconColor": "#1B84F3",
+              "text": "Regular follow-up sessions"
+            },
+            {
+              "icon": "clipboard-check",
+              "iconColor": "#1B84F3",
+              "text": "Adjustments and corrections in implementation"
+            },
+            {
+              "icon": "graduation-cap",
+              "iconColor": "#1B84F3",
+              "text": "Team training and capacity building"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "callToAction": {
+    "heading": "YOU'RE JUST A FEW STEPS AWAY FROM GAINING CLARITY",
+    "title": "Shall we start with the easiest part?",
+    "description": "We don't sell anything without first understanding if we can help you. The Discovery Session is completely free and without commitment. Only if there's a fit, we continue.",
+    "button": "I WANT THE DISCOVERY"
   }
 }

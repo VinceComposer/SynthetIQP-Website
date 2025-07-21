@@ -35,7 +35,7 @@ export default function Footer() {
 
   const handleServiceClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
-    navigate('/resources');
+    navigate('/faqs');
     window.scrollTo({ top: 0 });
   };
 

@@ -35,9 +35,14 @@
           "description": "Marketing expert with strong project management skills and expertise in implementing IA Solutions that Scale"
         },
         "cto": {
-          "name": "Carlos Mendoza",
+          "name": "Nicolás A. Tambussi",
           "role": "Chief Technology Officer",
           "description": "Technology innovator and automation advocate, with deep expertise in AI and Machine Learning"
+        },
+        "cm": {
+          "name": "Fátima Díaz",
+          "role": "Communication Manager",
+          "description": "Strategic communication expert focused on building meaningful connections between our AI solutions and client success stories"
         }
       }
     }
