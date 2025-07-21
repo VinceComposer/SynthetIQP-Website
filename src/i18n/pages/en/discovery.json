@@ -69,25 +69,45 @@
     ]
   },
   "faqs": {
-    "title": "Frequently Asked Questions",
+    "title": "FREQUENTLY ASKED QUESTIONS",
+    "subtitle": "Common questions about our Discovery sessions",
+    "description": "Find answers to the most frequently asked questions about our Discovery sessions and how they can help your agency implement AI effectively.",
     "items": [
       {
-        "question": "What exactly is a Discovery session?",
-        "answer": "It's a 30-minute video call with one of the founders of Synthetiq Partners where we analyze your agency, identify AI opportunities, and provide you with a personalized micro-roadmap."
+        "question": "Does this only apply to large agencies?",
+        "answer": "No. In fact, many small and medium-sized agencies have found great value in our Discovery sessions. We adapt our approach according to the size, capabilities, and vision of each client."
       },
       {
-        "question": "How much does the Discovery session cost?",
-        "answer": "The Discovery session is completely free and without commitment. Our goal is to help you gain clarity on how AI can benefit your agency."
+        "question": "What exactly does the Discovery Session include?",
+        "answer": "A 30-40 minute video call and strategic conversation with our founders to identify your main pain points and opportunities with AI. No offers, no sales. Focused on AI and your Agency."
       },
       {
-        "question": "What do I get after the session?",
-        "answer": "You will receive a personalized Micro-Roadmap for the next 30 days, which includes: key pain point identified, suggested automation, and priority action to implement."
+        "question": "What if I have no idea how to implement AI in my Agency?",
+        "answer": "In that case, the Discovery Session is the perfect starting point. It's designed to give you clarity and a concrete direction, regardless of your technical knowledge level. You'll leave the call knowing exactly where to start."
       },
       {
-        "question": "Do I need prior technical knowledge?",
-        "answer": "No, it's not necessary. Our approach is practical and business-oriented, without technicalities. We explain everything clearly and accessibly for any profile."
+        "question": "What if I've already started using AI in my agency?",
+        "answer": "Great. The session will help you validate your current plan, find areas for improvement, and define or review actions for the next 30 days with an expert perspective. Most of our clients had already started before working with us."
+      },
+      {
+        "question": "Does the Discovery session have any cost?",
+        "answer": "No. The Discovery is completely free and without commitment. It's a strategic conversation to help you gain clarity. If we later see that there's a good fit, we can explore working together."
+      },
+      {
+        "question": "What happens after the discovery?",
+        "answer": "After the session, we'll provide you with a 'Micro-Roadmap' containing what was discussed in the Discovery and a clear next step for your Agency. If you request it and we see a good opportunity to work together, we'll make some proposals, without pressure."
+      },
+      {
+        "question": "What if I already know what I need and want to hire one of your services?",
+        "answer": "Before selling you solutions, we need to get to know you and make sure we can really help you. That is, the Discovery is always the best first step to take."
+      },
+      {
+        "question": "What if I just want to contact you?",
+        "answer": "In that case, you can always email us at hello@synthetiqpartners.com with what you have in mind and we'll gladly respond."
       }
-    ]
+    ],
+    "ctaText": "I WANT THE DISCOVERY",
+    "ctaUrl": "#calendar"
   },
   "calendar": {
     "title": "Select a date and time on the calendar and schedule your Discovery session.",
@@ -95,21 +115,9 @@
     "calendarUrl": "https://api.leadconnectorhq.com/widget/booking/Ye34YL3Fe6Nfo9R0et87"
   },
   "team": {
-    "title": "We'll Be There",
-    "subtitle": "Meet the team that will guide you in your AI implementation journey.",
-    "members": [
-      {
-        "name": "Vince",
-        "role": "AI & Business Strategist",
-        "image": "https://storage.googleapis.com/msgsndr/mCxuKf9ewPKsIRWcl5XQ/media/6867a1734f6d5cdf304065c8.jpg",
-        "description": "With 15+ years of experience in digital marketing and business strategy, Vince helps agencies identify the most impactful AI opportunities for their specific business model."
-      },
-      {
-        "name": "Mauro",
-        "role": "AI Implementation Expert",
-        "image": "https://storage.googleapis.com/msgsndr/mCxuKf9ewPKsIRWcl5XQ/media/6867a1734f6d5cdf304065c8.jpg",
-        "description": "Technical expert in AI implementation, Mauro translates business needs into practical AI solutions, ensuring they integrate seamlessly with your existing processes."
-      }
-    ]
+    "title": "We'll Be There...",
+    "description": "In this 1:1 session, you'll be with Vincenzo Russotto or José Ramón Pérez, co-founders of Synthetiq Partners. We'll have a brief working session with you to help you interpret what's happening in the industry, how you can implement AI in your business sustainably, and specifically, where to start.",
+    "image": "https://assets.cdn.filesafe.space/mCxuKf9ewPKsIRWcl5XQ/media/685a9a6bf1a8481482e86f81.png",
+    "imageAlt": "Photo of José and Vincenzo"
   }
 }

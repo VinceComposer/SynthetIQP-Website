@@ -136,11 +136,7 @@ const Discovery = () => {
                         <img 
                           src={testimonial.image} 
                           alt={testimonial.imageAlt} 
-<<<<<<< HEAD
-                          className="w-24 h-24 object-contain"
-=======
                           className="w-24 h-24 object-cover rounded-full"
->>>>>>> ebf88446f60fc4ee09a1a679b74b461bf0e83e0e
                         />
                       </div>
                       <h4 className="font-bold text-xl text-center text-[#1A1A2E] mb-2">"{testimonial.title}"</h4>
@@ -160,39 +156,26 @@ const Discovery = () => {
                 </div>
                 
                 {/* Mobile view: 1 card with navigation */}
-<<<<<<< HEAD
-                <div className="md:hidden">
-=======
                 <div className="md:hidden flex items-center justify-center">
                   {/* Navigation controls (Left) */}
                   <button 
                     onClick={prevTestimonial}
-                    className="bg-[#1A1A2E] text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#2A2A3E] transition-colors mr-4"
+                    className="bg-[#00B3FF] text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#0099DD] transition-colors mr-4"
                     aria-label="Testimonio anterior"
                   >
                     <span className="text-xl">&larr;</span>
                   </button>
-
->>>>>>> ebf88446f60fc4ee09a1a679b74b461bf0e83e0e
                   {/* Current testimonial */}
                   {(() => {
                     const testimonials = t('testimonials.items', { returnObjects: true }) as Array<{name: string, role: string, image: string, imageAlt: string, title: string, quote: string, stars: number}>;
                     const testimonial = testimonials[activeTestimonialIndex];
                     return (
-<<<<<<< HEAD
-                      <div className="bg-white p-6 rounded-xl shadow-md mb-4">
-=======
                       <div className="bg-white p-6 rounded-xl shadow-md flex-grow">
->>>>>>> ebf88446f60fc4ee09a1a679b74b461bf0e83e0e
                         <div className="flex justify-center mb-4">
                           <img 
                             src={testimonial.image} 
                             alt={testimonial.imageAlt} 
-<<<<<<< HEAD
-                            className="w-24 h-24 object-contain"
-=======
                             className="w-24 h-24 object-cover rounded-full"
->>>>>>> ebf88446f60fc4ee09a1a679b74b461bf0e83e0e
                           />
                         </div>
                         <h4 className="font-bold text-xl text-center text-[#1A1A2E] mb-2">"{testimonial.title}"</h4>
@@ -209,101 +192,66 @@ const Discovery = () => {
                     );
                   })()} 
 
-<<<<<<< HEAD
-                  {/* Navigation controls */}
-                  <div className="flex justify-center items-center gap-4 mt-4">
-                    <button 
-                      onClick={prevTestimonial}
-                      className="bg-[#1A1A2E] text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#2A2A3E] transition-colors"
-                      aria-label="Testimonio anterior"
-                    >
-                      <span className="text-xl">&larr;</span>
-                    </button>
-                    <div className="flex gap-2">
-                      {(t('testimonials.items', { returnObjects: true }) as Array<any>).map((_, index) => (
-                        <button
-                          key={index}
-                          onClick={() => setActiveTestimonialIndex(index)}
-                          className={`w-3 h-3 rounded-full ${index === activeTestimonialIndex ? 'bg-[#1A1A2E]' : 'bg-gray-300'}`}
-                          aria-label={`Ir al testimonio ${index + 1}`}
-                        />
-                      ))}
-                    </div>
-                    <button 
-                      onClick={nextTestimonial}
-                      className="bg-[#1A1A2E] text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#2A2A3E] transition-colors"
-                      aria-label="Siguiente testimonio"
-                    >
-                      <span className="text-xl">&rarr;</span>
-                    </button>
-                  </div>
-=======
                   {/* Navigation controls (Right) */}
                   <button 
                     onClick={nextTestimonial}
-                    className="bg-[#1A1A2E] text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#2A2A3E] transition-colors ml-4"
+                    className="bg-[#00B3FF] text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#0099DD] transition-colors ml-4"
                     aria-label="Siguiente testimonio"
                   >
                     <span className="text-xl">&rarr;</span>
                   </button>
                 </div>
 
-                {/* Dots Navigation */}
-                <div className="flex justify-center items-center gap-2 mt-4">
+                {/* Dots Navigation - hidden on desktop, visible on mobile */}
+                <div className="md:hidden flex justify-center items-center gap-2 mt-4">
                   {(t('testimonials.items', { returnObjects: true }) as Array<any>).map((_, index) => (
                     <button
                       key={index}
                       onClick={() => setActiveTestimonialIndex(index)}
-                      className={`w-3 h-3 rounded-full ${index === activeTestimonialIndex ? 'bg-[#1A1A2E]' : 'bg-gray-300'}`}
+                      className={`w-3 h-3 rounded-full ${index === activeTestimonialIndex ? 'bg-[#00B3FF]' : 'bg-gray-300'}`}
                       aria-label={`Ir al testimonio ${index + 1}`}
                     />
                   ))}
->>>>>>> ebf88446f60fc4ee09a1a679b74b461bf0e83e0e
                 </div>
               </div>
             </div>
           </motion.section>
           
           {/* FAQs Section */}
-          <motion.section
+          <motion.section 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="mb-12 sm:mb-16"
+            className="mb-16 sm:mb-24"
             id="faq"
           >
-            <div className="bg-white p-6 sm:p-10 rounded-2xl shadow-lg">
-              <h2 className="text-2xl sm:text-3xl font-bold mb-8 text-center" style={{ color: '#1A1A2E' }}>
-                {t('faqs.title')}
-              </h2>
-              
-              <div className="space-y-4 max-w-3xl mx-auto">
-                {(t('faqs.items', { returnObjects: true }) as Array<{question: string, answer: string}>).map((faq, index) => (
-                  <div key={index} className="border border-gray-200 rounded-lg overflow-hidden">
-                    <button
-                      className={`w-full text-left p-4 flex justify-between items-center ${activeFaqIndex === index ? 'bg-[#EDF1FC]' : 'bg-white'}`}
-                      onClick={() => toggleFaq(index)}
-                    >
-                      <span className="font-medium text-lg">{faq.question}</span>
-                      <svg
-                        className={`w-5 h-5 transition-transform ${activeFaqIndex === index ? 'transform rotate-180' : ''}`}
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                      >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                      </svg>
-                    </button>
-                    {activeFaqIndex === index && (
-                      <div className="p-4 bg-[#EDF1FC]">
-                        <p className="text-[#1A1A2E]">
-                          {faq.answer}
-                        </p>
-                      </div>
-                    )}
+            <header className="text-center mb-12 sm:mb-16">
+              <h3 className="text-lg font-semibold text-blue-500 uppercase tracking-wider">{t('faqs.title')}</h3>
+              <h2 className="text-3xl sm:text-4xl font-extrabold text-[#1A1A2E]">{t('faqs.subtitle')}</h2>
+              <p className="mt-4 text-base sm:text-lg text-[#1A1A2E] max-w-3xl mx-auto">{t('faqs.description')}</p>
+            </header>
+            <div className="bg-white p-6 sm:p-10 rounded-2xl shadow-lg space-y-4">
+              {(t('faqs.items', { returnObjects: true }) as Array<{question: string, answer: string}>).map((faq, index) => (
+                <div key={index} className="faq-item border-b border-gray-200 pb-4 last:border-b-0">
+                  <button 
+                    className="faq-question w-full flex justify-between items-center text-left text-lg font-semibold text-[#1A1A2E]"
+                    onClick={() => toggleFaq(index)}
+                  >
+                    <span>{faq.question}</span>
+                    <svg className="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                  </button>
+                  <div className={`faq-answer pt-4 text-gray-600 ${activeFaqIndex === index ? 'block' : 'hidden'}`}>
+                    <p>{faq.answer}</p>
                   </div>
-                ))}
-              </div>
+                </div>
+              ))}
+            </div>
+            <div className="text-center mt-12">
+              <a href={t('faqs.ctaUrl')} className="inline-block bg-[#00B3FF] text-white font-bold py-4 px-8 rounded-lg hover:bg-[#0099DD] transition-colors text-lg shadow-md hover:shadow-lg">
+                <i className="fas fa-arrow-right mr-2"></i>{t('faqs.ctaText')}
+              </a>
             </div>
           </motion.section>
           
@@ -341,33 +289,21 @@ const Discovery = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
+            id="equipo"
           >
             <div className="bg-blue-600 text-white p-8 sm:p-12 rounded-2xl shadow-lg text-center">
+              <div className="flex justify-center mb-8">
+                <img 
+                  src={t('team.image')} 
+                  alt={t('team.imageAlt')} 
+                  className="w-36 h-36 sm:w-48 sm:h-48 rounded-full object-cover border-4 border-blue-400 shadow-lg"
+                />
+              </div>
               <h2 className="text-3xl sm:text-4xl font-extrabold mb-6">
                 {t('team.title')}
               </h2>
-              <p className="text-xl mb-8">
-                {t('team.subtitle')}
-              </p>
-              <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-                {(t('team.members', { returnObjects: true }) as Array<{name: string, role: string, image: string, description: string}>).map((member, index) => (
-                  <div key={index} className="bg-blue-700 p-6 rounded-lg">
-                    <div className="flex flex-col items-center">
-                      <div className="w-24 h-24 rounded-full overflow-hidden mb-4">
-                        <img 
-                          src={member.image}
-                          alt={member.name}
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
-                      <h3 className="text-xl font-bold">{member.name}</h3>
-                      <p className="text-blue-200 mb-4">{member.role}</p>
-                      <p className="text-blue-100 text-sm">
-                        {member.description}
-                      </p>
-                    </div>
-                  </div>
-                ))}
+              <div className="max-w-4xl mx-auto text-lg space-y-4 text-blue-100">
+                <p>{t('team.description')}</p>
               </div>
             </div>
           </motion.section>
