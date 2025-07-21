@@ -69,25 +69,45 @@
     ]
   },
   "faqs": {
-    "title": "Preguntas Frecuentes",
+    "title": "¿Quieres saber más?",
+    "subtitle": "Preguntas y Respuestas Frecuentes",
+    "description": "Encuentra las respuestas a las preguntas más comúnmente planteadas.",
     "items": [
       {
-        "question": "¿Qué es exactamente una sesión Discovery?",
-        "answer": "Es una videollamada de 30 minutos con uno de los fundadores de Synthetiq Partners donde analizamos tu agencia, identificamos oportunidades de IA y te damos una micro-hoja de ruta personalizada."
+        "question": "¿Esto aplica solo a agencias grandes?",
+        "answer": "No. De hecho, muchas agencias pequeñas y medianas han encontrado gran valor en nuestras Discoverys. Adaptamos nuestro enfoque según el tamaño, capacidades y visión de cada cliente."
       },
       {
-        "question": "¿Cuánto cuesta la sesión Discovery?",
-        "answer": "La sesión Discovery es completamente gratuita y sin compromiso. Nuestro objetivo es ayudarte a ganar claridad sobre cómo la IA puede beneficiar a tu agencia."
+        "question": "¿Qué incluye exactamente la Sesión de Discovery?",
+        "answer": "Una videollamada y conversación estratégica de 30-40 minutos con nuestros fundadores para identificar tus principales dolores y oportunidades con IA. Sin ofertas, ni ventas. Con foco en la IA y tu Agencia."
       },
       {
-        "question": "¿Qué obtengo después de la sesión?",
-        "answer": "Recibirás una Micro-Hoja de Ruta personalizada para los próximos 30 días, que incluye: dolor clave identificado, automatización sugerida y acción prioritaria a implementar."
+        "question": "¿Qué pasa si no tengo ni idea sobre cómo implementar la IA en mi Agencia?",
+        "answer": "En ese caso, la Sesión de Discovery es el punto de partida perfecto. Está diseñada para darte claridad y una dirección concreta, sin importar tu nivel de conocimiento técnico. Saldrás de la llamada sabiendo exactamente por dónde empezar."
       },
       {
-        "question": "¿Necesito conocimientos técnicos previos?",
-        "answer": "No, no es necesario. Nuestro enfoque es práctico y orientado al negocio, sin tecnicismos. Explicamos todo de forma clara y accesible para cualquier perfil."
+        "question": "¿Qué pasa si ya he empezado a usar IA en mi agencia?",
+        "answer": "Genial. La sesión te ayudará a validar tu plan actual, encontrar áreas de mejora y definir o revisar las acciones para los próximos 30 días con una perspectiva experta. El grueso de nuestros clientes ya habían iniciado antes de trabajar con nosotros."
+      },
+      {
+        "question": "¿La sesión de Discovery tiene algún coste?",
+        "answer": "No. La Discovery es completamente gratuita y sin compromiso. Es una conversación estratégica para ayudarte a tener claridad. Si luego vemos que hay buen encaje, podemos explorar trabajar juntos."
+      },
+      {
+        "question": "¿Qué pasa después de la discovery?",
+        "answer": "Después de la sesión, te entregamos una \"Micro-Hoja de Ruta\" con lo conversado en la Discovery y un claro próximo paso para tu Agencia. Si lo solicitas y vemos que hay una buena oportunidad de trabajar juntos, te haremos algunas propuestas, sin presión."
+      },
+      {
+        "question": "¿Qué ocurre si ya tengo claro lo que necesito y quiero contratar uno de sus servicios?",
+        "answer": "Antes de venderte soluciones, necesitamos conocerte y asegurarnos de que podemos ayudarte realmente. Es decir, la Discovery es siempre el mejor primer paso a dar."
+      },
+      {
+        "question": "¿Qué ocurre si solo quiero contactarlos?",
+        "answer": "En ese caso, siempre puedes escribirnos un email a hello@synthetiqpartners.com con lo que tengas en mente y gustosamente te responderemos."
       }
-    ]
+    ],
+    "ctaText": "QUIERO LA DISCOVERY",
+    "ctaUrl": "https://funnels.synthetiqpartners.com/agenda-discovery-agencias-latam"
   },
   "calendar": {
     "title": "Selecciona una fecha y hora en el calendario y agenda tu sesión Discovery.",

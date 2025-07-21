@@ -136,7 +136,11 @@ const Discovery = () => {
                         <img 
                           src={testimonial.image} 
                           alt={testimonial.imageAlt} 
+<<<<<<< HEAD
                           className="w-24 h-24 object-contain"
+=======
+                          className="w-24 h-24 object-cover rounded-full"
+>>>>>>> ebf88446f60fc4ee09a1a679b74b461bf0e83e0e
                         />
                       </div>
                       <h4 className="font-bold text-xl text-center text-[#1A1A2E] mb-2">"{testimonial.title}"</h4>
@@ -156,18 +160,39 @@ const Discovery = () => {
                 </div>
                 
                 {/* Mobile view: 1 card with navigation */}
+<<<<<<< HEAD
                 <div className="md:hidden">
+=======
+                <div className="md:hidden flex items-center justify-center">
+                  {/* Navigation controls (Left) */}
+                  <button 
+                    onClick={prevTestimonial}
+                    className="bg-[#1A1A2E] text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#2A2A3E] transition-colors mr-4"
+                    aria-label="Testimonio anterior"
+                  >
+                    <span className="text-xl">&larr;</span>
+                  </button>
+
+>>>>>>> ebf88446f60fc4ee09a1a679b74b461bf0e83e0e
                   {/* Current testimonial */}
                   {(() => {
                     const testimonials = t('testimonials.items', { returnObjects: true }) as Array<{name: string, role: string, image: string, imageAlt: string, title: string, quote: string, stars: number}>;
                     const testimonial = testimonials[activeTestimonialIndex];
                     return (
+<<<<<<< HEAD
                       <div className="bg-white p-6 rounded-xl shadow-md mb-4">
+=======
+                      <div className="bg-white p-6 rounded-xl shadow-md flex-grow">
+>>>>>>> ebf88446f60fc4ee09a1a679b74b461bf0e83e0e
                         <div className="flex justify-center mb-4">
                           <img 
                             src={testimonial.image} 
                             alt={testimonial.imageAlt} 
+<<<<<<< HEAD
                             className="w-24 h-24 object-contain"
+=======
+                            className="w-24 h-24 object-cover rounded-full"
+>>>>>>> ebf88446f60fc4ee09a1a679b74b461bf0e83e0e
                           />
                         </div>
                         <h4 className="font-bold text-xl text-center text-[#1A1A2E] mb-2">"{testimonial.title}"</h4>
@@ -184,6 +209,7 @@ const Discovery = () => {
                     );
                   })()} 
 
+<<<<<<< HEAD
                   {/* Navigation controls */}
                   <div className="flex justify-center items-center gap-4 mt-4">
                     <button 
@@ -211,6 +237,28 @@ const Discovery = () => {
                       <span className="text-xl">&rarr;</span>
                     </button>
                   </div>
+=======
+                  {/* Navigation controls (Right) */}
+                  <button 
+                    onClick={nextTestimonial}
+                    className="bg-[#1A1A2E] text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#2A2A3E] transition-colors ml-4"
+                    aria-label="Siguiente testimonio"
+                  >
+                    <span className="text-xl">&rarr;</span>
+                  </button>
+                </div>
+
+                {/* Dots Navigation */}
+                <div className="flex justify-center items-center gap-2 mt-4">
+                  {(t('testimonials.items', { returnObjects: true }) as Array<any>).map((_, index) => (
+                    <button
+                      key={index}
+                      onClick={() => setActiveTestimonialIndex(index)}
+                      className={`w-3 h-3 rounded-full ${index === activeTestimonialIndex ? 'bg-[#1A1A2E]' : 'bg-gray-300'}`}
+                      aria-label={`Ir al testimonio ${index + 1}`}
+                    />
+                  ))}
+>>>>>>> ebf88446f60fc4ee09a1a679b74b461bf0e83e0e
                 </div>
               </div>
             </div>
