@@ -150,72 +150,77 @@ export default function Testimonials() {
 
         {/* Mobile Carousel */}
         <div className="md:hidden relative max-w-sm mx-auto">
-          <div className="relative">
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={currentIndex}
-                initial={{ opacity: 0, x: 100 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: -100 }}
-                transition={{ duration: 0.3 }}
-                className="bg-white rounded-2xl p-8 shadow-lg relative border border-metallic-light/10 min-h-[420px] flex flex-col"
-              >
-                <Quote className="absolute top-4 right-4 w-8 h-8 text-primary/20" />
-                <div className="mb-8 flex-grow">
-                  <div className="flex items-center mb-6">
-                    <img
-                      src={testimonials[currentIndex].image}
-                      alt={t(`testimonials.${testimonials[currentIndex].key}.author`)}
-                      className="w-16 h-16 rounded-full mr-4 object-cover"
-                    />
-                    <div>
-                      <h4 className="font-semibold text-dark text-lg">
-                        {t(`testimonials.${testimonials[currentIndex].key}.author`)}
-                      </h4>
-                      <p className="text-sm text-metallic">
-                        {t(`testimonials.${testimonials[currentIndex].key}.role`)}
-                      </p>
-                      <p className="text-sm text-primary">
-                        {t(`testimonials.${testimonials[currentIndex].key}.company`)}
-                      </p>
-                    </div>
-                  </div>
-                  <p className="text-metallic italic">
-                    "{t(`testimonials.${testimonials[currentIndex].key}.text`)}"
-                  </p>
-                </div>
-                <div className="border-t border-metallic-light/10 pt-4 mt-auto">
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <p className="text-sm font-semibold text-dark">
-                        {t(`testimonials.${testimonials[currentIndex].key}.results.metric`)}
-                      </p>
-                      <p className="text-sm text-metallic">
-                        {t(`testimonials.${testimonials[currentIndex].key}.results.description`)}
-                      </p>
-                    </div>
-                    <span className="text-2xl font-bold text-primary">
-                      {t(`testimonials.${testimonials[currentIndex].key}.results.value`)}
-                    </span>
-                  </div>
-                </div>
-              </motion.div>
-            </AnimatePresence>
-
-            {/* Floating Navigation Buttons */}
+          {/* Flex container for buttons and card */}
+          <div className="flex items-center justify-center">
+            {/* Floating Navigation Buttons (Left) */}
             <button
               onClick={prevSlide}
-              className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 p-3 rounded-full bg-white shadow-lg hover:bg-gray-50 transition-colors border border-metallic-light/10 z-10"
+              className="p-3 rounded-full bg-dark shadow-lg hover:bg-gray-700 transition-colors z-10 mr-4"
               aria-label="Previous testimonial"
             >
-              <ChevronLeft className="w-6 h-6 text-primary" />
+              <ChevronLeft className="w-6 h-6 text-white" />
             </button>
+
+            <div className="relative flex-grow">
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={currentIndex}
+                  initial={{ opacity: 0, x: 100 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  exit={{ opacity: 0, x: -100 }}
+                  transition={{ duration: 0.3 }}
+                  className="bg-white rounded-2xl p-8 shadow-lg relative border border-metallic-light/10 min-h-[420px] flex flex-col"
+                >
+                  <Quote className="absolute top-4 right-4 w-8 h-8 text-primary/20" />
+                  <div className="mb-8 flex-grow">
+                    <div className="flex items-center mb-6">
+                      <img
+                        src={testimonials[currentIndex].image}
+                        alt={t(`testimonials.${testimonials[currentIndex].key}.author`)}
+                        className="w-16 h-16 rounded-full mr-4 object-cover"
+                      />
+                      <div>
+                        <h4 className="font-semibold text-dark text-lg">
+                          {t(`testimonials.${testimonials[currentIndex].key}.author`)}
+                        </h4>
+                        <p className="text-sm text-metallic">
+                          {t(`testimonials.${testimonials[currentIndex].key}.role`)}
+                        </p>
+                        <p className="text-sm text-primary">
+                          {t(`testimonials.${testimonials[currentIndex].key}.company`)}
+                        </p>
+                      </div>
+                    </div>
+                    <p className="text-metallic italic">
+                      "{t(`testimonials.${testimonials[currentIndex].key}.text`)}"
+                    </p>
+                  </div>
+                  <div className="border-t border-metallic-light/10 pt-4 mt-auto">
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <p className="text-sm font-semibold text-dark">
+                          {t(`testimonials.${testimonials[currentIndex].key}.results.metric`)}
+                        </p>
+                        <p className="text-sm text-metallic">
+                          {t(`testimonials.${testimonials[currentIndex].key}.results.description`)}
+                        </p>
+                      </div>
+                      <span className="text-2xl font-bold text-primary">
+                        {t(`testimonials.${currentIndex].key}.results.value`)}
+                      </span>
+                    </div>
+                  </div>
+                </motion.div>
+              </AnimatePresence>
+            </div>
+
+            {/* Floating Navigation Buttons (Right) */}
             <button
               onClick={nextSlide}
-              className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 p-3 rounded-full bg-white shadow-lg hover:bg-gray-50 transition-colors border border-metallic-light/10 z-10"
+              className="p-3 rounded-full bg-dark shadow-lg hover:bg-gray-700 transition-colors z-10 ml-4"
               aria-label="Next testimonial"
             >
-              <ChevronRight className="w-6 h-6 text-primary" />
+              <ChevronRight className="w-6 h-6 text-white" />
             </button>
           </div>
 
