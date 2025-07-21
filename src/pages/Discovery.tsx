@@ -53,6 +53,30 @@ const Discovery = () => {
             </div>
           </motion.section>
           
+          {/* CTA Card Section */}
+          <motion.section
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            className="mb-12 sm:mb-16"
+          >
+            <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-lg text-center">
+              <h2 className="text-2xl sm:text-3xl font-bold mb-3" style={{ color: '#1A1A2E' }}>
+                {t('ctaCard.title')}
+              </h2>
+              <p className="text-[#1A1A2E] mb-6">
+                {t('ctaCard.subtitle')}
+              </p>
+              <a 
+                href="#calendar" 
+                className="inline-block bg-[#00B3FF] text-white font-bold py-3 px-6 rounded-lg hover:bg-[#0099DD] transition-colors shadow-md hover:shadow-lg"
+              >
+                <i className="fas fa-arrow-right mr-2"></i>
+                {t('ctaCard.buttonText')}
+              </a>
+            </div>
+          </motion.section>
+          
           {/* What's Included Section */}
           <motion.section
             initial={{ opacity: 0, y: 20 }}
