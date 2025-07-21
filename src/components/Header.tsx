@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Menu, X } from 'lucide-react';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import Logo from './Logo';
 
 export default function Header() {
@@ -49,13 +49,7 @@ export default function Header() {
     <header className="fixed w-full bg-white/90 backdrop-blur-sm z-50 border-b border-metallic-light/10">
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <a 
-            href="/"
-            onClick={(e) => handleLinkClick(e, '/')}
-            className="font-bold text-2xl text-primary relative inline-flex items-center"
-          >
-            SynthetIQ Partners
-          </a>
+          <Logo className="h-10" />
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
@@ -81,13 +75,6 @@ export default function Header() {
               {t('navigation.services')}
             </a>
             <a 
-              href="/pricing"
-              onClick={(e) => handleLinkClick(e, '/pricing')}
-              className="text-dark hover:text-primary transition-colors"
-            >
-              {t('navigation.pricing')}
-            </a>
-            <a 
               href="/about"
               onClick={(e) => handleLinkClick(e, '/about')}
               className="text-dark hover:text-primary transition-colors"
@@ -102,20 +89,18 @@ export default function Header() {
               {t('navigation.contact')}
             </a>
             <a 
-              href="/resources"
-              onClick={(e) => handleLinkClick(e, '/resources')}
+              href="/faqs"
+              onClick={(e) => handleLinkClick(e, '/faqs')}
               className={`text-dark hover:text-primary transition-colors ${
-                location.pathname === '/resources' ? 'text-primary' : ''
+                location.pathname === '/faqs' ? 'text-primary' : ''
               }`}
             >
               {t('navigation.resources')}
             </a>
             <a
-              href="https://app.hexonasystems.com/"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/discovery"
+              onClick={(e) => handleLinkClick(e, '/discovery')}
               className="btn-primary"
-              onClick={() => setIsMenuOpen(false)}
             >
               {t('navigation.clientPortal')}
             </a>
@@ -157,13 +142,6 @@ export default function Header() {
                 {t('navigation.services')}
               </a>
               <a 
-                href="/pricing"
-                onClick={(e) => handleLinkClick(e, '/pricing')}
-                className="text-dark hover:text-primary transition-colors"
-              >
-                {t('navigation.pricing')}
-              </a>
-              <a 
                 href="/about"
                 onClick={(e) => handleLinkClick(e, '/about')}
                 className="text-dark hover:text-primary transition-colors"
@@ -178,20 +156,18 @@ export default function Header() {
                 {t('navigation.contact')}
               </a>
               <a 
-                href="/resources"
-                onClick={(e) => handleLinkClick(e, '/resources')}
+                href="/faqs"
+                onClick={(e) => handleLinkClick(e, '/faqs')}
                 className={`text-dark hover:text-primary transition-colors ${
-                  location.pathname === '/resources' ? 'text-primary' : ''
+                  location.pathname === '/faqs' ? 'text-primary' : ''
                 }`}
               >
                 {t('navigation.resources')}
               </a>
               <a
-                href="https://app.hexonasystems.com/"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/discovery"
+                onClick={(e) => handleLinkClick(e, '/discovery')}
                 className="btn-primary text-center"
-                onClick={() => setIsMenuOpen(false)}
               >
                 {t('navigation.clientPortal')}
               </a>

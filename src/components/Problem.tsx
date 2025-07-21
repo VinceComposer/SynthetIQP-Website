@@ -226,7 +226,7 @@ export default function Problem() {
             {t('hero.cta.contact')}
           </a>
           <a
-            href="/resources"
+            href="/faqs"
             onClick={handleKnowMoreClick}
             className="btn-outline"
           >

@@ -15,14 +15,7 @@ const faqs = [
   { key: "dataPrivacy" },
   { key: "techStack" },
   { key: "underperforming" },
-  { key: "moneyBack" },
-  { key: "aioQuality" },
-  { key: "aioSubscription" },
-  { key: "aioCancellation" },
-  { key: "whyVirtualStaff" },
-  { key: "virtualStaffHours" },
-  { key: "automationCost" },
-  { key: "selfManagement" }
+  { key: "moneyBack" }
 ];
 
 export default function FAQ() {

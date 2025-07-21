@@ -12,15 +12,15 @@ import enContact from './pages/en/contact.json';
 import enNavigation from './common/en/navigation.json';
 import enFooter from './common/en/footer.json';
 import enFaq from './pages/en/faq.json';
-import enResources from './pages/en/resources.json';
-import enServices from './pages/en/services.json';
 import enAbout from './pages/en/about.json';
 import enAuth from './pages/en/auth.json';
 import enDashboard from './pages/en/dashboard.json';
 import enPrivacy from './pages/en/privacy.json';
 import enTerms from './pages/en/terms.json';
 import enRefund from './pages/en/refund.json';
-import enPricing from './pages/en/pricing.json';
+import enServices from './pages/en/services.json';
+import enDiscovery from './pages/en/discovery.json';
+// pricing page removed
 
 // Spanish translations
 import esHero from './pages/es/sections/hero.json';
@@ -30,18 +30,18 @@ import esProblem from './pages/es/sections/problem.json';
 import esCaseStudies from './pages/es/sections/caseStudies.json';
 import esTestimonials from './pages/es/sections/testimonials.json';
 import esContact from './pages/es/contact.json';
+import esServices from './pages/es/services.json';
 import esNavigation from './common/es/navigation.json';
 import esFooter from './common/es/footer.json';
 import esFaq from './pages/es/faq.json';
-import esResources from './pages/es/resources.json';
-import esServices from './pages/es/services.json';
 import esAbout from './pages/es/about.json';
 import esAuth from './pages/es/auth.json';
 import esDashboard from './pages/es/dashboard.json';
 import esPrivacy from './pages/es/privacy.json';
 import esTerms from './pages/es/terms.json';
 import esRefund from './pages/es/refund.json';
-import esPricing from './pages/es/pricing.json';
+import esDiscovery from './pages/es/discovery.json';
+// pricing page removed
 
 const resources = {
   en: {
@@ -56,15 +56,15 @@ const resources = {
       ...enTestimonials,
       ...enContact,
       ...enFaq,
-      ...enResources,
-      ...enServices,
       ...enAbout,
       ...enAuth,
       ...enDashboard,
       ...enPrivacy,
       ...enTerms,
+      ...enServices,
       ...enRefund,
-      ...enPricing
+      ...enDiscovery
+      // pricing page removed
     }
   },
   es: {
@@ -79,15 +79,15 @@ const resources = {
       ...esTestimonials,
       ...esContact,
       ...esFaq,
-      ...esResources,
-      ...esServices,
       ...esAbout,
       ...esAuth,
       ...esDashboard,
       ...esPrivacy,
       ...esTerms,
+      ...esServices,
       ...esRefund,
-      ...esPricing
+      ...esDiscovery
+      // pricing page removed
     }
   }
 };

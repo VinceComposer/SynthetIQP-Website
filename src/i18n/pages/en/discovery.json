@@ -1,0 +1,115 @@
+{
+  "hero": {
+    "title": "Make your agency more profitable, efficient, and sustainable thanks to AI",
+    "subtitle": "We help you find and take advantage of the best AI opportunities for your Agency, without technicalities, in an orderly manner and keeping the focus on business.",
+    "videoUrl": "https://storage.googleapis.com/msgsndr/mCxuKf9ewPKsIRWcl5XQ/media/6867a1734f6d5cdf304065c8.mp4"
+  },
+  "whatIncludes": {
+    "title": "What does this free Discovery include?",
+    "subtitle": "Video call with the founders of Synthetiq Partners + Document with Micro-Roadmap",
+    "description": "Schedule a well-focused 30-minute Discovery Session (maximum 40min if there is mutual interest), which will give you the starting point to visualize the potential of AI in your agency.",
+    "note": "*If you already have some progress with AI implementation, Discovery will help you validate your priorities for the next 30 days in terms of key actions to execute.",
+    "objectives": {
+      "title": "What are the objectives to achieve during Discovery?",
+      "items": [
+        {
+          "title": "Identify Pain Points:",
+          "description": " that could be resolved with AI - Automations - Agents."
+        },
+        {
+          "title": "Detect 1-2 Automations:",
+          "description": " with high impact potential and return for your business."
+        },
+        {
+          "title": "Explore best practices:",
+          "description": " to be inspired by what other Agencies are doing well."
+        },
+        {
+          "title": "Define Next step:",
+          "description": " or key action to execute on your AI Implementation journey."
+        }
+      ]
+    },
+    "deliverable": {
+      "title": "After the Discovery you will receive:",
+      "description": " A personalized Micro-Roadmap for the next 30 days. That is, a deliverable that combines the previous points: key pain, suggested automation and priority action."
+    }
+  },
+  "testimonials": {
+    "title": "SUCCESS STORIES",
+    "subtitle": "Results from our partners",
+    "items": [
+      {
+        "name": "Luisa M.",
+        "role": "Operations Manager",
+        "image": "https://storage.googleapis.com/msgsndr/mCxuKf9ewPKsIRWcl5XQ/media/685d37eec2d06f36cc1bc488.png",
+        "imageAlt": "Photo of Luisa M.",
+        "title": "The Discovery is worth gold",
+        "quote": "The Synthetiq Partners team has been able to integrate truly valuable information in the session. The Micro-Roadmap is comprehensive but gets to the point. I came away with several insights and applications for my business.",
+        "stars": 5
+      },
+      {
+        "name": "Eugenio L.",
+        "role": "Founder & CEO",
+        "image": "https://storage.googleapis.com/msgsndr/mCxuKf9ewPKsIRWcl5XQ/media/685d36d1f670206c6bff68c0.png",
+        "imageAlt": "Photo of Eugenio L.",
+        "title": "The best AI Discovery I've had",
+        "quote": "The Discovery session alone is excellent; with it, you'll be able to confidently define your next steps for AI implementation. José and Vincenzo have helped me clarify my approach, and we'll be working together going forward.",
+        "stars": 5
+      },
+      {
+        "name": "Rosa D.",
+        "role": "Strategy Director",
+        "image": "https://storage.googleapis.com/msgsndr/mCxuKf9ewPKsIRWcl5XQ/media/685d36e1cbef0751d9f82ca8.png",
+        "imageAlt": "Photo of Rosa D.",
+        "title": "I recommend the Discovery 100%",
+        "quote": "At first, I doubted that a free session could provide much value, but I was wrong. The Discovery session helped me clarify where to start, and the Micro-Roadmap is a deliverable of extremely high value.",
+        "stars": 5
+      }
+    ]
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What exactly is a Discovery session?",
+        "answer": "It's a 30-minute video call with one of the founders of Synthetiq Partners where we analyze your agency, identify AI opportunities, and provide you with a personalized micro-roadmap."
+      },
+      {
+        "question": "How much does the Discovery session cost?",
+        "answer": "The Discovery session is completely free and without commitment. Our goal is to help you gain clarity on how AI can benefit your agency."
+      },
+      {
+        "question": "What do I get after the session?",
+        "answer": "You will receive a personalized Micro-Roadmap for the next 30 days, which includes: key pain point identified, suggested automation, and priority action to implement."
+      },
+      {
+        "question": "Do I need prior technical knowledge?",
+        "answer": "No, it's not necessary. Our approach is practical and business-oriented, without technicalities. We explain everything clearly and accessibly for any profile."
+      }
+    ]
+  },
+  "calendar": {
+    "title": "Select a date and time on the calendar and schedule your Discovery session.",
+    "subtitle": "No commitment. Just clarity. We don't sell anything without first understanding if we can help you.",
+    "calendarUrl": "https://api.leadconnectorhq.com/widget/booking/Ye34YL3Fe6Nfo9R0et87"
+  },
+  "team": {
+    "title": "We'll Be There",
+    "subtitle": "Meet the team that will guide you in your AI implementation journey.",
+    "members": [
+      {
+        "name": "Vince",
+        "role": "AI & Business Strategist",
+        "image": "https://storage.googleapis.com/msgsndr/mCxuKf9ewPKsIRWcl5XQ/media/6867a1734f6d5cdf304065c8.jpg",
+        "description": "With 15+ years of experience in digital marketing and business strategy, Vince helps agencies identify the most impactful AI opportunities for their specific business model."
+      },
+      {
+        "name": "Mauro",
+        "role": "AI Implementation Expert",
+        "image": "https://storage.googleapis.com/msgsndr/mCxuKf9ewPKsIRWcl5XQ/media/6867a1734f6d5cdf304065c8.jpg",
+        "description": "Technical expert in AI implementation, Mauro translates business needs into practical AI solutions, ensuring they integrate seamlessly with your existing processes."
+      }
+    ]
+  }
+}

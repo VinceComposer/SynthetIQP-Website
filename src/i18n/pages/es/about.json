@@ -35,9 +35,14 @@
           "description": "Experto en Marketing y Gestión de Proyectos, con experiencia en implementación de soluciones de IA que escalan"
         },
         "cto": {
-          "name": "Carlos Mendoza",
+          "name": "Nicolás A. Tambussi",
           "role": "Director de Tecnología",
           "description": "Innovador tecnológico con amplia experiencia en IA y Machine Learning"
+        },
+        "cm": {
+          "name": "Fátima Díaz",
+          "role": "Gerente de Comunicación",
+          "description": "Experta en comunicación estratégica enfocada en construir conexiones significativas entre nuestras soluciones de IA y las historias de éxito de nuestros clientes"
         }
       }
     }

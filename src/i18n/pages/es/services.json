@@ -1,168 +1,317 @@
 {
-  "services": {
-    "title": "Soluciones de IA que se ajustan a tus necesidades",
-    "subtitle": "Transforma tu negocio con nuestra suite integral de soluciones",
-    "learnMore": "Saber Más",
-    "professionalAgents": {
-      "title": "Agentes IA Profesionales",
-      "description": "Agente de IA personalizado que puede encargarse de procesos complejos de negocio y mejorar la eficiencia operativa",
-      "features": {
-        "automation": "Automatización de procesos y optimización de flujos de trabajo",
-        "efficiency": "Mayor eficiencia operativa",
-        "integration": "Alto nivel de personalización",
-        "customization": "Integración perfecta con tus sistemas"
-      }
+  "title": "Así es como te Ayudamos a Implementar la IA",
+  "subtitle": "Te guiamos en un viaje claro y estructurado. Empezamos con la estrategia, pasamos a la implementación técnica y culminamos con la transformación de tu Agencia.",
+  
+  "steps": {
+    "step1": {
+      "title": "Paso 1: Claridad y Estrategia",
+      "description": "Para dominar la IA, primero necesitas un plan. Esta fase se dedica a darte una claridad total: desde entender el potencial y definir por dónde empezar, hasta tener la hoja de ruta estratégica completa para implementar la IA en tu agencia con visión de largo plazo."
     },
-    "userAgents": {
-      "title": "Agentes IA Tipo-Usuario",
-      "description": "Agentes de IA (Personas Sintéticas) que 'imitan' la voz de tus clientes de forma que puedas conocer de antemano la reacción que tendrán",
-      "features": {
-        "engagement": "Incrementa el enganche del usuario",
-        "support": "Acceso 24/7 a este 'usuario sintético'",
-        "personalization": "Alto nivel de personalización",
-        "analytics": "Insights valiosos sobre el comportamiento del usuario"
-      }
+    "step2": {
+      "title": "Paso 2: Implementación Técnica",
+      "description": "De la estrategia a la realidad. Aquí es donde nos \"arremangamos\" para construir e implementar herramientas, automatizaciones y agentes de IA de forma eficiente, estable y escalables en el tiempo, para que tu equipo pueda empezar a cosechar los beneficios de la eficiencia."
     },
-    "consulting": {
-      "title": "Consultoría IA",
-      "description": "Guía profesional para el desarrollo e implementación de tu estrategia de IA e iniciativas de transformación digital",
-      "features": {
-        "strategy": "Desarrollo de Estrategia de implantación de IA",
-        "implementation": "Hoja de ruta para la implementación",
-        "training": "Capacitación y habilitación de equipos",
-        "optimization": "Soporte continuo"
-      }
-    },
-    "aioplatform": {
-      "title": "Plataforma All-In-One",
-      "description": "Plataforma integral con todas las herramientas, soporte y recursos necesarios para gestionar tu negocio efectivamente",
-      "features": {
-        "tools": "Herramientas integradas de gestión de negocio",
-        "automation": "Flujos de trabajo y procesos automatizados",
-        "analytics": "Métricas y reportes avanzados",
-        "support": "Soporte técnico 24/7"
-      }
-    },
-    "virtualstaff": {
-      "title": "Empleado Virtual",
-      "description": "Equipo dedicado de profesionales para la configuración, gestión y optimización de tu plataforma AIO para máximo beneficio para tu negocio",
-      "features": {
-        "setup": "Configuración de plataforma",
-        "management": "Gestión continua de plataforma",
-        "optimization": "Optimización del rendimiento de las herramientas",
-        "support": "Soporte a tus operaciones de negocio"
-      }
-    },
-    "education": {
-      "title": "Educación y Recursos IA",
-      "description": "Programas de aprendizaje y materiales diseñados para mantenerte a ti y a tu equipo a la vanguardia de IA",
-      "features": {
-        "courses": "Cursos de formación en IA",
-        "resources": "Materiales de aprendizaje",
-        "workshops": "Talleres y seminarios virtuales interactivos",
-        "certification": "Videos, Newsletters y Blogposts"
+    "step3": {
+      "title": "Paso 3: Transformación Organizacional",
+      "description": "Al implementar automatizaciones y agentes de IA, tu agencia ya no es la misma. Es más rápida, más inteligente y más capaz. Esta nueva reality hace natural y necesario transformar tu modelo operativo, organizativo, comercial, de negocio, etc. para capitalizar todo ese potencial. En esta fase, te ayudamos a construir el futuro de tu agencia, tanto a nivel organizacional como comercial."
+    }
+  },
+  
+  "strategy": {
+    "tabs": {
+      "tab1": {
+        "name": "Reporte de Oportunidades",
+        "title": "Reporte de Oportunidades IA",
+        "price": "Gratis",
+        "description": "Solicita tu reporte personalizado y agenda una Sesión Discovery que te darán un punto de partida para visualizar el potencial de la IA en tu agencia.",
+        "idealFor": "quieres ganar claridad y entender más de cómo las Agencias están adoptando la IA. Obtendrás insight de tu industria y del tamaño de la oportunidad para tu negocio.",
+        "includes": {
+          "title": "¿Qué incluye el Reporte de Oportunidades?",
+          "items": [
+            {
+              "icon": "flag-checkered",
+              "text": "<strong>Nivel de Madurez IA:</strong> Tu resultado. (Basado en el Framework de Adopción de IA de Google)"
+            },
+            {
+              "icon": "list-check",
+              "text": "<strong>Recomendaciones:</strong> Próximos pasos según el nivel de madurez de tu negocio."
+            },
+            {
+              "icon": "bullseye",
+              "text": "<strong>Top 3 Áreas de Oportunidad:</strong> Pain Points de tu agencia que podrían resolverse con IA."
+            },
+            {
+              "icon": "paperclip",
+              "text": "<strong>Anexo:</strong> Análisis de la oportunidad de la IA para Agencias en Latam."
+            }
+          ]
+        }
+      },
+      "tab2": {
+        "name": "Auditoría de Eficiencia",
+        "title": "Auditoría de Eficiencia",
+        "price": "(Pago único)",
+        "priceColor": "#7C3AED",
+        "description": "Encontramos y priorizamos los quick-wins con el ROI más alto para aprovechar HOY las oportunidades más atractivas para tu negocio.",
+        "idealFor": "el reporte gratuito te abrió los ojos y ahora necesitas saber <strong>exactamente por dónde empezar</strong> con acciones concretas y un ROI claro.",
+        "includes": {
+          "title": "¿Qué incluye la auditoría?",
+          "items": [
+            {
+              "icon": "users",
+              "iconColor": "#7C3AED",
+              "text": "<strong>Sesiones de Mapeo:</strong> Entrevistas con tu equipo en las áreas clave de tu negocio."
+            },
+            {
+              "icon": "file-signature",
+              "iconColor": "#7C3AED",
+              "text": "<strong>Plan de Acción Táctico:</strong> Entregable con herramientas, automatizaciones o agentes de IA a implementar de forma priorizada."
+            },
+            {
+              "icon": "dollar-sign",
+              "iconColor": "#7C3AED",
+              "text": "<strong>Análisis de ROI:</strong> Estimación de ahorro o Retorno de Inversión."
+            }
+          ]
+        }
+      },
+      "tab3": {
+        "name": "Plan Estratégico",
+        "title": "Plan Estratégico",
+        "price": "(Pago único)",
+        "description": "Diseñamos el plan de implementación de IA, Agentes y Automatizaciones, para que puedas evolucionar de forma sostenible gracias a la IA.",
+        "idealFor": "estás listo para ir más allá de los quick-wins y necesitas el <strong>mapa estratégico completo</strong> para construir tu unidad de IA de forma estructurada.",
+        "includes": {
+          "title": "¿Qué incluye el plan?",
+          "items": [
+            {
+              "icon": "compass-drafting",
+              "iconColor": "#1B84F3",
+              "text": "<strong>Workshop Estratégico:</strong> Sesión intensiva."
+            },
+            {
+              "icon": "map-signs",
+              "iconColor": "#1B84F3",
+              "text": "<strong>Hoja de Ruta de Adopción:</strong> Cronograma de implementación interna."
+            },
+            {
+              "icon": "cogs",
+              "iconColor": "#1B84F3",
+              "text": "<strong>Arquitectura de IA:</strong> Diseño del sistema de gestión de la IA de tu agencia."
+            }
+          ]
+        }
       }
     }
   },
-  "pricing": {
-    "title": "Precios Simples y Transparentes",
-    "subtitle": "Nuestro objetivo es ofrecerte una solución flexible que pueda crecer con tus necesidades. Nuestro compromiso es entregar la solución ofrecida o seguiremos trabajando gratis hasta que funcione.",
-    "period": {
-      "h": "/h",
-      "mo": "/mes"
+  
+  "implementation": {
+    "onboarding": {
+      "title": "Oferta de Onboarding Estratégico",
+      "description": "¿Listo para un plan de suscripción? Contrata el Plan Impulso o Escala y obtén nuestra <strong>Auditoría + Plan Estratégico</strong> por un pago único <strong class=\"text-[#7C3AED]\">DESCONTADO</strong>.",
+      "note": "Ahorra casi 60% y empieza con una base estratégica sólida desde el primer día."
     },
-    "features": {
-      "roadmap": "Desarrollo de hoja de ruta personalizada",
-      "development": "Desarrollo de Agentes IA personalizados",
-      "manager": "Gerente de Proyecto Dedicado",
-      "communication": "Canal de Comunicación Privado",
-      "delivery": "1-2 semanas/agente tiempo promedio de entrega",
-      "support": "Optimización y Soporte Continuo",
-      "multiple": "Múltiples proyectos de agentes IA simultáneamente"
-    },
-    "plans": [
-      {
-        "key": "consulting",
-        "icon": "MessageSquare",
-        "price": "120",
-        "period": "/h",
-        "description": "¿Aún no estás seguro de cómo implementar la IA? Hablemos.\nSi tienes preguntas sobre cómo se puede implementar la IA, cómo trabajamos o si los Agentes de IA se pueden adaptar a tu negocio... Programa una Consulta Gratuita con uno de nuestros miembros del equipo.",
-        "cta": "Reservar una Llamada",
-        "highlight": false,
-        "group": 1
+    "tabs": {
+      "tab1": {
+        "name": "Soluciones a Medida",
+        "title": "Soluciones a Medida",
+        "price": "A cotizar",
+        "description": "Para necesidades específicas. Desarrollamos herramientas, automatizaciones o agentes de IA a medida, con total flexibilidad para tu agencia.",
+        "idealFor": "tienes una necesidad muy específica que no encaja en un plan estándar y buscas máxima flexibilidad en el desarrollo y la propiedad de la solución.",
+        "includes": {
+          "title": "Máxima Flexibilidad",
+          "items": [
+            "<strong>Desarrollo a medida:</strong> Creamos la solución exacta que necesitas.",
+            "<strong>Gestión y Mantenimiento:</strong> Puede correr por nuestra cuenta o la tuya.",
+            "<strong>Hosting:</strong> En nuestros ambientes o en el tuyo.",
+            "<strong>Propiedad Intelectual:</strong> El código fuente, documentación, credenciales y copyright pueden ser tuyos o nuestros."
+          ]
+        }
       },
-      {
-        "key": "business",
-        "icon": "Briefcase",
-        "price": "5000",
-        "period": "/mes",
-        "features": [
-          { "name": "Desarrollo de hoja de ruta personalizada", "included": true },
-          { "name": "Desarrollo de agentes IA personalizados", "included": true },
-          { "name": "Gerente de Proyecto Dedicado", "included": true },
-          { "name": "Canal de Comunicación Privado", "included": true },
-          { "name": "1-2 semanas/agente tiempo promedio de entrega", "included": true },
-          { "name": "Optimización y Soporte Continuo", "included": true },
-          { "name": "Múltiples proyectos de Agentes IA simultáneamente", "included": false }
-        ],
-        "cta": "Comenzar",
-        "highlight": true,
-        "group": 1
+      "tab2": {
+        "name": "Plan Impulso",
+        "title": "Plan IMPULSO",
+        "price": "Pago <span class=\"text-lg font-medium text-gray-500\">/ mes</span>",
+        "description": "La forma más rápida de empezar. Lo hacemos por ti en nuestra infraestructura. Ideal para obtener resultados sin gestión técnica. No se entrega el código fuente.",
+        "idealFor": "buscas la forma más rápida de obtener resultados y delegar por completo la gestión técnica, sin preocuparte por la infraestructura.",
+        "includes": {
+          "title": "¿Qué recibes con esta suscripción?",
+          "sections": [
+            {
+              "title": "Ritmo de entrega:",
+              "items": [
+                "Una nueva automatización cada 2-3 semanas.",
+                "4 Setups adicionales incluídos al mes (renovados por mes)."
+              ]
+            },
+            {
+              "title": "Condiciones:",
+              "items": [
+                "Se entrega el resultado de la automatización (Ej: contenido para posts) no el código fuente.",
+                "Hosting, credenciales, código fuente y el mantenimiento asociado, va por nuestra cuenta.",
+                "Se cobra entre $$ por Setup adicional (no incluído en el plan) de la automatización."
+              ]
+            }
+          ]
+        }
       },
-      {
-        "key": "enterprise",
-        "icon": "Building2",
-        "price": "Precio",
-        "period": " ?",
-        "features": [
-          { "name": "Desarrollo de hoja de ruta personalizada", "included": true },
-          { "name": "Desarrollo de Agentes IA personalizados", "included": true },
-          { "name": "Gerente de Proyecto Dedicado", "included": true },
-          { "name": "Canal de Comunicación Privado", "included": true },
-          { "name": "1-2 semanas/agente tiempo promedio de entrega", "included": true },
-          { "name": "Optimización y Soporte Continuo", "included": true },
-          { "name": "Múltiples proyectos de Agentes IA simultáneamente", "included": true }
-        ],
-        "cta": "Obtener Cotización",
-        "highlight": false,
-        "group": 1
-      },
-      {
-        "key": "AIO Platform",
-        "icon": "Monitor",
-        "price": "120",
-        "period": "/mes",
-        "features": [
-          { "name": "Acceso completo a la plataforma", "included": true },
-          { "name": "Panel de métricas avanzado", "included": true },
-          { "name": "Creación de zonas de membresía", "included": true },
-          { "name": "Integraciones personalizadas", "included": true },
-          { "name": "Creación ilimitada de automatizaciones", "included": true },
-          { "name": "Soporte técnico 24/7", "included": true },
-          { "name": "Gestión de leads, sitios web, embudos, calendarios y muchos otros servicios", "included": true }
-        ],
-        "cta": "Comenzar",
-        "highlight": false,
-        "group": 2
-      },
-      {
-        "key": "Virtual Staff",
-        "icon": "Headset",
-        "price": "60",
-        "period": "/hr",
-        "features": [
-          { "name": "Personal virtual dedicado", "included": true },
-          { "name": "Configuración y gestión de la plataforma AIO", "included": true },
-          { "name": "Optimización del proceso de conversión de clientes", "included": true },
-          { "name": "Optimización de herramientas de marketing", "included": true },
-          { "name": "Informes regulares de rendimiento", "included": true },
-          { "name": "Configuración de automatizaciones +$60/Hr", "included": true },
-          { "name": "Fácil cambio desde otras herramientas e importación de datos de tu negocio", "included": true }
-        ],
-        "cta": "Reservar una Llamada",
-        "highlight": false,
-        "group": 2
+      "tab3": {
+        "name": "Plan Escala",
+        "title": "Plan ESCALA",
+        "price": "<span class=\"text-[#7C3AED]\">Pago</span> <span class=\"text-lg font-medium text-gray-500\">(Setup)</span> <span class=\"text-xl font-light text-gray-400 mx-1\">+</span> <span class=\"text-[#7C3AED]\">Pago</span> <span class=\"text-lg font-medium text-gray-500\">/ mes</span>",
+        "description": "Lo hacemos por ti: creamos el ambiente de automatizaciones, lo gestionamos y mantenemos pero en tu propia infraestructura. El hosting, el código fuente, las credenciales, herramientas y copyright es 100% tuyo.",
+        "idealFor": "quieres ser dueño del código y los activos de IA, teniendo el máximo control para escalar y construir una ventaja competitiva a largo plazo.",
+        "includes": {
+          "title": "¿Qué recibes con esta suscripción?",
+          "sections": [
+            {
+              "title": "Ritmo de entrega:",
+              "items": [
+                "Una nueva automatización cada 2-3 semanas.",
+                "4 Setups adicionales incluídos al mes (renovados por mes)."
+              ]
+            },
+            {
+              "title": "Condiciones:",
+              "items": [
+                "Hosting, credenciales, código fuente y herramientas, le pertenece a la agencia.",
+                "Se entrega documentación de la solución, se hace una sesión de handover.",
+                "Se mantiene y gestiona el ambiente de automatizaciones, así como, los Agentes y Automatizaciones de IA.",
+                "Se cobra entre $$ por Setup adicional (no incluído en el plan) de la automatización."
+              ]
+            }
+          ]
+        }
       }
-    ]
+    }
+  },
+  
+  "transformation": {
+    "tabs": {
+      "tab1": {
+        "name": "Diagnóstico Exponencial",
+        "title": "Diagnóstico Exponencial",
+        "price": "<span class=\"text-lg font-medium text-gray-500\">(Pago único)</span>",
+        "description": "El primer paso para cualquier transformación real. Este diagnóstico analiza tu agencia en profundidad desde la óptica de una Organización Exponencial, permitiéndote ver con claridad qué está funcionando, qué está bloqueando tu crecimiento y qué áreas puedes activar para escalar.",
+        "idealFor": "sientes que no estás aprovechando el potencial de tu agencia y necesitas una visión externa y experta para identificar los bloqueos organizativos que impiden tu evolución.",
+        "includes": {
+          "title": "¿Qué se incluye?",
+          "items": [
+            {
+              "icon": "sitemap",
+              "iconColor": "#7C3AED",
+              "text": "Evaluación ExO de Madurez Organizacional"
+            },
+            {
+              "icon": "chart-pie",
+              "iconColor": "#7C3AED",
+              "text": "Análisis de iniciativas IA existentes y su impacto organizativo"
+            },
+            {
+              "icon": "lock",
+              "iconColor": "#7C3AED",
+              "text": "Identificación de bloqueos estructurales y culturales"
+            },
+            {
+              "icon": "file-alt",
+              "iconColor": "#7C3AED",
+              "text": "Informe estratégico con recomendaciones clave"
+            }
+          ]
+        }
+      },
+      "tab2": {
+        "name": "Rediseño Organizativo",
+        "title": "Propósito y Rediseño Organizativo",
+        "price": "<span class=\"text-lg font-medium text-gray-500\">(Pago único)</span>",
+        "description": "Tu agencia ya no es la misma después de la IA. En este servicio redefinimos contigo tu propósito transformador y diseñamos una nueva estructura organizativa basada en principios ExO. Una agencia preparada para escalar de forma sostenible necesita un modelo claro, distribuido y alineado con su nueva realidad.",
+        "idealFor": "ya sabes que necesitas cambiar, pero te falta la estructura y el propósito para alinear a tu equipo y rediseñar tu organización para el futuro.",
+        "includes": {
+          "title": "¿Qué se incluye?",
+          "items": [
+            {
+              "icon": "lightbulb",
+              "iconColor": "#7C3AED",
+              "text": "Workshop de definición de PTM (Propósito Transformador Masivo)"
+            },
+            {
+              "icon": "bullhorn",
+              "iconColor": "#7C3AED",
+              "text": "Declaración estratégica de propósito y visión"
+            },
+            {
+              "icon": "drafting-compass",
+              "iconColor": "#7C3AED",
+              "text": "Diseño de nuevo modelo organizativo adaptado al marco ExO"
+            },
+            {
+              "icon": "star",
+              "iconColor": "#7C3AED",
+              "text": "Atributos ExO prioritarios para escalar tu agencia"
+            }
+          ]
+        }
+      },
+      "tab3": {
+        "name": "Hoja de Ruta",
+        "title": "Hoja de Ruta",
+        "price": "<span class=\"text-lg font-medium text-gray-500\">(Pago único)</span>",
+        "description": "Diseñamos el plan de transformación organizacional completo, con un cronograma detallado de implementación, para que puedas evolucionar de forma sostenible gracias a la IA.",
+        "idealFor": "estás listo para ir más allá de los quick-wins y necesitas el mapa estratégico completo para transformar tu agencia de forma estructurada.",
+        "includes": {
+          "title": "¿Qué se incluye?",
+          "items": [
+            {
+              "icon": "compass-drafting",
+              "iconColor": "#1B84F3",
+              "text": "Workshop Estratégico: Sesión intensiva"
+            },
+            {
+              "icon": "map-signs",
+              "iconColor": "#1B84F3",
+              "text": "Hoja de Ruta de Transformación: Cronograma de implementación"
+            },
+            {
+              "icon": "cogs",
+              "iconColor": "#1B84F3",
+              "text": "Arquitectura Organizacional: Diseño del sistema de gestión"
+            }
+          ]
+        }
+      },
+      "tab4": {
+        "name": "Acompañamiento",
+        "title": "Acompañamiento",
+        "price": "<span class=\"text-lg font-medium text-gray-500\">(Pago mensual)</span>",
+        "description": "Te acompañamos en la implementación de la transformación organizacional, con sesiones de seguimiento y ajuste, para asegurar que la evolución se realiza de forma correcta y sostenible.",
+        "idealFor": "necesitas apoyo continuo para implementar los cambios organizacionales y asegurar que la transformación se realiza correctamente.",
+        "includes": {
+          "title": "¿Qué se incluye?",
+          "items": [
+            {
+              "icon": "users",
+              "iconColor": "#1B84F3",
+              "text": "Sesiones de seguimiento periódicas"
+            },
+            {
+              "icon": "clipboard-check",
+              "iconColor": "#1B84F3",
+              "text": "Ajustes y correcciones en la implementación"
+            },
+            {
+              "icon": "graduation-cap",
+              "iconColor": "#1B84F3",
+              "text": "Formación y capacitación del equipo"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "callToAction": {
+    "heading": "ESTÁS A POCOS PASOS DE GANAR EN CLARIDAD",
+    "title": "¿Empezamos por lo más fácil?",
+    "description": "No vendemos nada sin antes entender si podemos ayudarte. La Sesión Discovery es totalmente gratuita y sin compromiso. Solo si hay fit, seguimos.",
+    "button": "QUIERO LA DISCOVERY"
   }
 }

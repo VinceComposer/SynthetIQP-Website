@@ -1,4 +1,8 @@
 {
+  "faqs": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Obtén respuestas a preguntas comunes sobre nuestras soluciones de IA y proceso de implementación"
+  },
   "faq": {
     "title": "Preguntas Frecuentes",
     "subtitle": "Obtén respuestas a preguntas comunes sobre nuestras soluciones de IA y proceso de implementación",
@@ -50,34 +54,6 @@
       "moneyBack": {
         "question": "¿Tienen garantía de devolución de dinero?",
         "answer": "Sí, si no está satisfecho con nuestro servicio después de 1 semana, puede obtener un reembolso del 75%."
-      },
-      "aioQuality": {
-        "question": "¿Qué tan buena es su plataforma All-In-One?",
-        "answer": "Nuestra plataforma AIO funciona gracias a Go High Level, reconocido como uno de los mejores sistemas integrales de marketing y gestión de negocios en el mercado. Destaca en la gestión CRM, la automatización de marketing, la creación de embudos de venta, la captación de leads y mucho más. Esta potente plataforma integra perfectamente todos tus procesos empresariales, ahorrándote tiempo y ayudándote a ofrecer una mejor experiencia al cliente."
-      },
-      "aioSubscription": {
-        "question": "¿Qué incluye la suscripción mensual de la plataforma AIO?",
-        "answer": "Al suscribirte a nuestra plataforma AIO, obtienes acceso a una amplia gama de herramientas y servicios de negocio, que incluyen (pero no se limitan a):\n\nCRM avanzado para gestionar leads y clientes de forma más efectiva.\nAutomatización de marketing por email y SMS para campañas más ágiles.\nCreadores de páginas web y embudos para una conversión eficaz de leads.\nProgramación de citas que se sincroniza con calendarios.\nAnálisis e informes para monitorear el rendimiento.\nIntegraciones fluidas con tus flujos de trabajo y Bases de Datos existentes.\nEstas funciones, potenciadas por Go High Level, están diseñadas para optimizar tu marketing, ventas y operaciones, para que puedas centrarte en hacer crecer tu negocio."
-      },
-      "aioCancellation": {
-        "question": "¿Puedo cancelar mi suscripción a la plataforma AIO?",
-        "answer": "Sí. Nuestra suscripción a la plataforma AIO es flexible y se factura mensualmente, asi que puedes cancelarla en cualquier momento sin penalización. Queremos que te sientas seguro del valor que ofrece la plataforma—prueba la plataforma, explora sus características y continua solo si cumple con tus expectativas."
-      },
-      "whyVirtualStaff": {
-        "question": "¿Por qué debería contratar a su Empleado Virtual para que maneje mi plataforma AIO?",
-        "answer": "Nuestro personal virtual se compone de expertos completamente capacitados en la plataforma AIO, lo que garantiza que puedan configurarla y administrarla para aprovechar todo su potencial. Al confiar en nuestro equipo, ahorras dinero en la formación de personal interno y evitas los costos administrativos habituales (como beneficios y cargas laborales). Ademas, nuestros especialistas aportan una gran experiencia que se traduce en resultados más rapidos y flujos de trabajo más eficientes para tu empresa."
-      },
-      "virtualStaffHours": {
-        "question": "¿Cuántas horas debería contratar para el Empleado Virtual y cómo funciona?",
-        "answer": "Ofrecemos un modelo flexible de \"bolsa de horas\". Para la configuración inicial, recomendamos generalmente 25-30 horas, durante las cuales nuestro personal virtual integra sistemas, personaliza los flujos de trabajo y optimiza por completo tu plataforma AIO. Después de eso, el número de horas que necesites dependerá de tus tareas específicas y los objetivos de tu negocio. Puedes aumentar o disminuir las horas según sea necesario."
-      },
-      "automationCost": {
-        "question": "¿Por qué el servicio de automatizaciones para la plataforma AIO cuesta $60 más por hora?",
-        "answer": "Trabajar en automatizaciones requiere un nivel de experiencia más alto con la plataforma, los procesos de negocio y las tecnologías relacionadas. Debido a estas habilidades especializadas, asignamos personal experimentado para manejar automatizaciones, asegurando que se implementen de forma rápida y correcta, lo que justifica la tarifa adicional por hora."
-      },
-      "selfManagement": {
-        "question": "¿Puedo administrar la plataforma AIO por mi cuenta o necesito contratar a su Empleado Virtual?",
-        "answer": "¡Por supuesto! Puedes configurar y administrar la plataforma AIO por tu cuenta o con tu propio equipo interno. Existen muchos tutoriales en video y guías disponibles para cada función principal. Si en algún momento necesitas ayuda o prefieres que nuestros expertos se encarguen de todo, contamos con servicios especializados de Personal Virtual para apoyarte."
       }
     }
   }

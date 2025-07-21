@@ -1,4 +1,8 @@
 {
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get answers to common questions about our AI solutions and implementation process"
+  },
   "faq": {
     "title": "Frequently Asked Questions",
     "subtitle": "Get answers to common questions about our AI solutions and implementation process",
@@ -50,34 +54,6 @@
       "moneyBack": {
         "question": "Do you have a Money Back Guarantee?",
         "answer": "Yes, if you are not satisfied with our service after 1 week. You can get a 75% refund."
-      },
-      "aioQuality": {
-        "question": "How good is your All-In-One platform?",
-        "answer": "Our AIO platform is powered by Go High Level, which is widely regarded as one of the best all-in-one marketing and business management solutions available. It excels in CRM management, marketing automation, funnel building, lead nurturing, and more. This robust platform seamlessly integrates all your business processes, saving you time and helping you deliver a better customer experience."
-      },
-      "aioSubscription": {
-        "question": "What's included when paying for the monthly AIO Platform subscription?",
-        "answer": "When you subscribe to our AIO platform, you gain access to a broad suite of business tools and services, including but not limited to:\n\nAdvanced CRM for better lead and client management.\nAutomated email and SMS marketing for streamlined campaigns.\nLanding page and funnel builders to convert leads effectively.\nAppointment scheduling that syncs with calendars.\nAnalytics and reporting to track performance.\nSeamless data importing and integrations with your existing workflows.\nThese features—powered by Go High Level—are designed to optimize your marketing, sales, and operations so you can focus on growing your business."
-      },
-      "aioCancellation": {
-        "question": "Can I cancel my AIO Platform subscription?",
-        "answer": "Yes. Our AIO platform subscription is flexible and billed monthly, so you can cancel at any time without penalty. We want you to feel confident in the platform's value—try it, explore the features, and continue only if it meets your needs."
-      },
-      "whyVirtualStaff": {
-        "question": "Why should I hire your Virtual Staff to run my AIO Platform?",
-        "answer": "Our virtual staff are fully trained experts on the AIO platform, ensuring they can set up and manage it to its fullest potential. By relying on our team, you save money on training in-house staff and avoid typical overhead costs (e.g., benefits, payroll taxes). Plus, our specialists bring a wealth of experience that translates to faster results and more efficient workflows for your business."
-      },
-      "virtualStaffHours": {
-        "question": "How many hours should I hire for the Virtual Staff, and how does it work?",
-        "answer": "We offer a flexible \"pot of hours\" model. For initial setup, we generally recommend 25-30 hours, during which our virtual staff can integrate systems, customize workflows, and fully optimize your AIO platform. After that, the number of hours you need will depend on your specific tasks and business goals. You can scale the hours up or down as needed."
-      },
-      "automationCost": {
-        "question": "Why does the automations service for the AIO Platform cost $60 more per hour?",
-        "answer": "Working on automations requires a higher level of expertise with the platform, business processes, and related technologies. Because of this specialized skill set, we assign experienced staff to handle automations, ensuring they are implemented quickly and correctly, which justifies the additional hourly rate."
-      },
-      "selfManagement": {
-        "question": "Can I run the AIO Platform by myself or do I need to hire your Virtual Staff?",
-        "answer": "Absolutely! You can set up and run the AIO Platform on your own or with your in-house team. There are plenty of video tutorials and guides available for every core feature. If you ever need help or prefer having our experts handle the heavy lifting, we're always here with specialized Virtual Staff services."
       }
     }
   }

@@ -1,0 +1,115 @@
+{
+  "hero": {
+    "title": "Haz tu agencia más rentable, eficiente y sostenible gracias a la IA",
+    "subtitle": "Te ayudamos a encontrar y aprovechar las mejores oportunidades de la IA para tu Agencia, sin tecnicismos, de forma ordenada y manteniendo el foco en el negocio.",
+    "videoUrl": "https://storage.googleapis.com/msgsndr/mCxuKf9ewPKsIRWcl5XQ/media/6867a1734f6d5cdf304065c8.mp4"
+  },
+  "whatIncludes": {
+    "title": "¿Qué incluye esta Discovery gratuita?",
+    "subtitle": "Videollamada con los fundadores de Syntehtiq Partners + Documento con Micro-Hoja de Ruta",
+    "description": "Agenda una Sesión de Discovery de 30min bien enfocados (máximo 40min si hay interés mutuo), que te dará el punto de partida para visualizar el potencial de la IA en tu agencia.",
+    "note": "*Si ya tienes algún progreso con la implantación de IA, la Discovery te ayudará a validar tus prioridades para los próximos 30 días en término de las acciones clave a ejecutar.",
+    "objectives": {
+      "title": "¿Cuáles son los objetivos a lograr durante la Discovery?",
+      "items": [
+        {
+          "title": "Identificar Pain Points:",
+          "description": " que podrían resolverse con IA - Automatizaciones - Agentes."
+        },
+        {
+          "title": "Detectar 1-2 Automatizaciones:",
+          "description": " con potencial alto impacto y retorno para tu negocio."
+        },
+        {
+          "title": "Explorar buenas prácticas:",
+          "description": " para inspirarse con lo que otras Agencias están haciendo bien."
+        },
+        {
+          "title": "Definir Próximo paso:",
+          "description": " o acción clave a ejecutar en tu camino de Implamentación de IA."
+        }
+      ]
+    },
+    "deliverable": {
+      "title": "Luego de la Discovery recibirás:",
+      "description": " Una Micro-Hoja de Ruta personalizada para los próximos 30 días. Es decir, un entregable que combina los puntos anteriores: dolor clave, automatización sugerida y acción prioritaria."
+    }
+  },
+  "testimonials": {
+    "title": "CASOS DE ÉXITO",
+    "subtitle": "Resultados de nuestros partners",
+    "items": [
+      {
+        "name": "Luisa M.",
+        "role": "Gerente de Operaciones",
+        "image": "https://storage.googleapis.com/msgsndr/mCxuKf9ewPKsIRWcl5XQ/media/685d37eec2d06f36cc1bc488.png",
+        "imageAlt": "Foto de Luisa M.",
+        "title": "La Discovery vale oro",
+        "quote": "El equipo de Synthetiq Partners ha sabido integrar información realmente valiosa en la sesión. La Micro-Hoja de Ruta es completa, pero va al grano. Me quedé con varios insights y aplicaciones para mi negocio.",
+        "stars": 5
+      },
+      {
+        "name": "Eugenio L.",
+        "role": "Fundador & CEO",
+        "image": "https://storage.googleapis.com/msgsndr/mCxuKf9ewPKsIRWcl5XQ/media/685d36d1f670206c6bff68c0.png",
+        "imageAlt": "Foto de Eugenio L.",
+        "title": "La mejor Discovery de IA que he tenido",
+        "quote": "La sesión de Discovery por sí sola está buenísima, con ella podrás delimitar con confianza tus próximos pasos para la implementación de la IA. José y Vincenzo me han ayudado a aclarar mi enfoque y estaremos trabajando juntos de cara al futuro.",
+        "stars": 5
+      },
+      {
+        "name": "Rosa D.",
+        "role": "Director de Estrategia",
+        "image": "https://storage.googleapis.com/msgsndr/mCxuKf9ewPKsIRWcl5XQ/media/685d36e1cbef0751d9f82ca8.png",
+        "imageAlt": "Foto de Rosa D.",
+        "title": "Recomiendo 100% la Discovery",
+        "quote": "Al principio, dudé que una sesión gratuita pudiera aportarme mucho, estaba equivocada. La sesión Discovery me ayudó a clarificar por dónde empezar y la Micro-Hoja de Ruta es un entregable de altísimo valor.",
+        "stars": 5
+      }
+    ]
+  },
+  "faqs": {
+    "title": "Preguntas Frecuentes",
+    "items": [
+      {
+        "question": "¿Qué es exactamente una sesión Discovery?",
+        "answer": "Es una videollamada de 30 minutos con uno de los fundadores de Synthetiq Partners donde analizamos tu agencia, identificamos oportunidades de IA y te damos una micro-hoja de ruta personalizada."
+      },
+      {
+        "question": "¿Cuánto cuesta la sesión Discovery?",
+        "answer": "La sesión Discovery es completamente gratuita y sin compromiso. Nuestro objetivo es ayudarte a ganar claridad sobre cómo la IA puede beneficiar a tu agencia."
+      },
+      {
+        "question": "¿Qué obtengo después de la sesión?",
+        "answer": "Recibirás una Micro-Hoja de Ruta personalizada para los próximos 30 días, que incluye: dolor clave identificado, automatización sugerida y acción prioritaria a implementar."
+      },
+      {
+        "question": "¿Necesito conocimientos técnicos previos?",
+        "answer": "No, no es necesario. Nuestro enfoque es práctico y orientado al negocio, sin tecnicismos. Explicamos todo de forma clara y accesible para cualquier perfil."
+      }
+    ]
+  },
+  "calendar": {
+    "title": "Selecciona una fecha y hora en el calendario y agenda tu sesión Discovery.",
+    "subtitle": "Sin compromiso. Solo claridad. No vendemos nada sin antes entender si podemos ayudarte.",
+    "calendarUrl": "https://api.leadconnectorhq.com/widget/booking/Ye34YL3Fe6Nfo9R0et87"
+  },
+  "team": {
+    "title": "Ahí estaremos",
+    "subtitle": "Conoce al equipo que te guiará en tu camino de implementación de IA.",
+    "members": [
+      {
+        "name": "Vince",
+        "role": "Estratega de IA y Negocios",
+        "image": "https://storage.googleapis.com/msgsndr/mCxuKf9ewPKsIRWcl5XQ/media/6867a1734f6d5cdf304065c8.jpg",
+        "description": "Con más de 15 años de experiencia en marketing digital y estrategia de negocios, Vince ayuda a las agencias a identificar las oportunidades de IA de mayor impacto para su modelo de negocio específico."
+      },
+      {
+        "name": "Mauro",
+        "role": "Experto en Implementación de IA",
+        "image": "https://storage.googleapis.com/msgsndr/mCxuKf9ewPKsIRWcl5XQ/media/6867a1734f6d5cdf304065c8.jpg",
+        "description": "Experto técnico en implementación de IA, Mauro traduce las necesidades del negocio en soluciones prácticas de IA, asegurando que se integren perfectamente con tus procesos existentes."
+      }
+    ]
+  }
+}
