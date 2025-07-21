@@ -151,17 +151,17 @@ export default function Testimonials() {
         {/* Mobile Carousel */}
         <div className="md:hidden relative max-w-sm mx-auto">
           {/* Flex container for buttons and card */}
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center space-x-4">
             {/* Floating Navigation Buttons (Left) */}
             <button
               onClick={prevSlide}
-              className="p-3 rounded-full bg-dark shadow-lg hover:bg-gray-700 transition-colors z-10 mr-4"
+              className="p-3 rounded-full bg-dark shadow-lg hover:bg-gray-700 transition-colors z-10"
               aria-label="Previous testimonial"
             >
               <ChevronLeft className="w-6 h-6 text-white" />
             </button>
 
-            <div className="relative flex-grow">
+            <div className="flex-grow">
               <AnimatePresence mode="wait">
                 <motion.div
                   key={currentIndex}
@@ -169,7 +169,7 @@ export default function Testimonials() {
                   animate={{ opacity: 1, x: 0 }}
                   exit={{ opacity: 0, x: -100 }}
                   transition={{ duration: 0.3 }}
-                  className="bg-white rounded-2xl p-8 shadow-lg relative border border-metallic-light/10 min-h-[420px] flex flex-col"
+                  className="bg-white rounded-2xl p-8 shadow-lg border border-metallic-light/10 min-h-[420px] flex flex-col"
                 >
                   <Quote className="absolute top-4 right-4 w-8 h-8 text-primary/20" />
                   <div className="mb-8 flex-grow">
@@ -206,7 +206,7 @@ export default function Testimonials() {
                         </p>
                       </div>
                       <span className="text-2xl font-bold text-primary">
-                        {t(`testimonials.${currentIndex].key}.results.value`)}
+                        {t(`testimonials.${currentIndex}.key}.results.value`)}
                       </span>
                     </div>
                   </div>
@@ -217,7 +217,7 @@ export default function Testimonials() {
             {/* Floating Navigation Buttons (Right) */}
             <button
               onClick={nextSlide}
-              className="p-3 rounded-full bg-dark shadow-lg hover:bg-gray-700 transition-colors z-10 ml-4"
+              className="p-3 rounded-full bg-dark shadow-lg hover:bg-gray-700 transition-colors z-10"
               aria-label="Next testimonial"
             >
               <ChevronRight className="w-6 h-6 text-white" />
