@@ -35,12 +35,13 @@ export default function Problem() {
     setCurrentIndex((prev) => (prev === 0 ? 1 : 0));
   };
 
-  const handleScheduleClick = (e: React.MouseEvent) => {
+  const handleStartClick = (e: React.MouseEvent) => {
     e.preventDefault();
-    setIsPopupOpen(true);
+    navigate('/discovery');
+    window.scrollTo({ top: 0 });
   };
 
-  const handleKnowMoreClick = (e: React.MouseEvent) => {
+  const handleServicesClick = (e: React.MouseEvent) => {
     e.preventDefault();
     navigate('/services');
     window.scrollTo({ top: 0 });
@@ -219,18 +220,18 @@ export default function Problem() {
           className="flex flex-wrap justify-center gap-4 mt-16"
         >
           <a
-            href="#"
-            onClick={handleScheduleClick}
+            href="/discovery"
+            onClick={handleStartClick}
             className="btn-primary"
           >
-            {t('hero.cta.contact')}
+            {t('sections:cta.start', 'Start Here')}
           </a>
           <a
-            href="/faqs"
-            onClick={handleKnowMoreClick}
+            href="/services"
+            onClick={handleServicesClick}
             className="btn-outline"
           >
-            {t('hero.cta.services')}
+            {t('sections:cta.services', 'Know More')}
           </a>
         </motion.div>
       </div>

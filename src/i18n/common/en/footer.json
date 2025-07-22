@@ -2,12 +2,9 @@
   "footer": {
     "services": {
       "title": "Our Services",
-      "professionalAgents": "Professional AI Agents",
-      "userAgents": "User-Like AI Agents",
-      "consulting": "AI Consulting",
-      "aioplatform": "All-In-One Platform",
-      "virtualstaff": "Virtual Staff",
-      "education": "AI Education"
+      "clarityStrategy": "Clarity and Strategy",
+      "technicalImplementation": "Technical Implementation",
+      "organisationalTransformation": "Organisational Transformation"
     },
     "legal": {
       "title": "Legal",

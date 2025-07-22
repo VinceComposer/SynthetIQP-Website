@@ -24,5 +24,9 @@
   "section": {
     "title": "We understand you",
     "subtitle": "You daily business challenges will keep you from looking ahead. Changes in AI are happening way too fast, it’s hard to wrap your head around them. It is vital to have a partner that can help you understand and adapt"
+  },
+  "cta": {
+    "start": "Start Here",
+    "services": "Know More"
   }
 }

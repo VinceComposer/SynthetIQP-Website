@@ -24,5 +24,9 @@
   "section": {
     "title": "Te entendemos",
     "subtitle": "El día a día de tu negocio te impide ver más allá. Además, los cambios en la IA estan ocurrriendo tan rápido que es imposible mantenerse al día. Por ello, es fundamental contar con un socio que te ayude a entender y adaptarte cuanto antes."
+  },
+  "cta": {
+    "start": "Empezar",
+    "services": "Saber Más"
   }
 }

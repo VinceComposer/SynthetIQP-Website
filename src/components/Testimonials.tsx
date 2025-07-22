@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Quote, ChevronLeft, ChevronRight } from 'lucide-react';
@@ -31,7 +31,7 @@ const testimonials = [
 ];
 
 export default function Testimonials() {
-  const { t } = useTranslation();
+  const { t } = useTranslation(['sections']);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {
@@ -206,7 +206,7 @@ export default function Testimonials() {
                         </p>
                       </div>
                       <span className="text-2xl font-bold text-primary">
-                        {t(`testimonials.${currentIndex}.key}.results.value`)}
+                        {t(`testimonials.${testimonials[currentIndex].key}.results.value`)}
                       </span>
                     </div>
                   </div>

@@ -33,19 +33,43 @@ export default function Footer() {
     }
   };
 
-  const handleServiceClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+  const handleServiceClick = (e: React.MouseEvent<HTMLAnchorElement>, service: string) => {
     e.preventDefault();
-    navigate('/faqs');
-    window.scrollTo({ top: 0 });
+    
+    // Navegar a la página de servicios
+    navigate('/services');
+    
+    // Esperar a que la página se cargue y luego desplazarse a la sección correspondiente
+    setTimeout(() => {
+      let targetElement;
+      
+      switch(service) {
+        case 'clarityStrategy':
+          targetElement = document.querySelector('[data-step="1"]');
+          break;
+        case 'technicalImplementation':
+          targetElement = document.querySelector('[data-step="2"]');
+          break;
+        case 'organisationalTransformation':
+          targetElement = document.querySelector('[data-step="3"]');
+          break;
+        default:
+          window.scrollTo({ top: 0 });
+          return;
+      }
+      
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      } else {
+        window.scrollTo({ top: 0 });
+      }
+    }, 500);
   };
 
   const services = [
-    'professionalAgents',
-    'userAgents',
-    'consulting',
-    'aioplatform',
-    'virtualstaff',
-    'education'
+    'clarityStrategy',
+    'technicalImplementation',
+    'organisationalTransformation'
   ];
 
   return (
@@ -84,8 +108,8 @@ export default function Footer() {
               {services.map((service) => (
                 <li key={service}>
                   <a 
-                    href="#"
-                    onClick={handleServiceClick}
+                    href="/services"
+                    onClick={(e) => handleServiceClick(e, service)}
                     className="text-metallic hover:text-white transition-colors"
                   >
                     {t(`footer.services.${service}`)}

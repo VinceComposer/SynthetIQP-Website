@@ -15,9 +15,10 @@ export default function Hero() {
     ? ['IA', 'Automatizaciones de IA', 'Agentes de IA', 'Herramientas de IA']
     : ['AI Solutions', 'AI Automations', 'AI Agents', 'AI Tools'];
 
-  const handleScheduleClick = (e: React.MouseEvent) => {
+  const handleStartClick = (e: React.MouseEvent) => {
     e.preventDefault();
-    setIsPopupOpen(true);
+    navigate('/discovery');
+    window.scrollTo({ top: 0 });
   };
 
   const handleServicesClick = (e: React.MouseEvent) => {
@@ -112,18 +113,18 @@ export default function Hero() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a
-                href="#"
-                onClick={handleScheduleClick}
+                href="/discovery"
+                onClick={handleStartClick}
                 className="btn-primary"
               >
-                {t('hero.cta.contact')}
+                {t('hero.cta.contact', 'Start Here')}
               </a>
               <a
                 href="/services"
                 onClick={handleServicesClick}
                 className="btn-outline"
               >
-                {t('hero.cta.services')}
+                {t('hero.cta.services', 'Know More')}
               </a>
             </div>
           </motion.div>

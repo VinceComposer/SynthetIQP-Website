@@ -14,7 +14,7 @@ import enFooter from './common/en/footer.json';
 import enFaq from './pages/en/faq.json';
 import enAbout from './pages/en/about.json';
 import enAuth from './pages/en/auth.json';
-import enDashboard from './pages/en/dashboard.json';
+// Dashboard imports removed
 import enPrivacy from './pages/en/privacy.json';
 import enTerms from './pages/en/terms.json';
 import enRefund from './pages/en/refund.json';
@@ -36,7 +36,7 @@ import esFooter from './common/es/footer.json';
 import esFaq from './pages/es/faq.json';
 import esAbout from './pages/es/about.json';
 import esAuth from './pages/es/auth.json';
-import esDashboard from './pages/es/dashboard.json';
+// Dashboard imports removed
 import esPrivacy from './pages/es/privacy.json';
 import esTerms from './pages/es/terms.json';
 import esRefund from './pages/es/refund.json';
@@ -58,7 +58,7 @@ const resources = {
       ...enFaq,
       ...enAbout,
       ...enAuth,
-      ...enDashboard,
+      // Dashboard translations removed
       ...enPrivacy,
       ...enTerms,
       ...enServices,
@@ -81,7 +81,7 @@ const resources = {
       ...esFaq,
       ...esAbout,
       ...esAuth,
-      ...esDashboard,
+      // Dashboard translations removed
       ...esPrivacy,
       ...esTerms,
       ...esServices,
