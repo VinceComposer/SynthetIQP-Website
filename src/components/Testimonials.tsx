@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight, Star } from 'lucide-react';
@@ -7,8 +7,14 @@ import { ChevronLeft, ChevronRight, Star } from 'lucide-react';
 const testimonialKeys = ["cto", "director", "manager", "vp", "founder", "lead"];
 
 export default function Testimonials() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  // Add this useEffect to log translation data
+  useEffect(() => {
+    console.log('i18n language:', i18n.language);
+    console.log('i18n resources:', i18n.getDataByLanguage(i18n.language));
+  }, [i18n.language, i18n]);
 
   const nextSlide = () => {
     setCurrentIndex((prev) => (prev + 1) % testimonialKeys.length);
