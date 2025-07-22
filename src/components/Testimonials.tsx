@@ -11,11 +11,11 @@ export default function Testimonials() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {
-    setCurrentIndex((prev) => (prev === testimonialKeys.length - 1 ? 0 : prev + 1));
+    setCurrentIndex((prev) => (prev + 1) % testimonialKeys.length);
   };
 
   const prevSlide = () => {
-    setCurrentIndex((prev) => (prev === 0 ? testimonialKeys.length - 1 : prev - 1));
+    setCurrentIndex((prev) => (prev - 1 + testimonialKeys.length) % testimonialKeys.length);
   };
 
   // Function to render stars
@@ -23,6 +23,20 @@ export default function Testimonials() {
     return Array.from({ length: count }, (_, i) => (
       <Star key={i} className="w-4 h-4 text-yellow-400 fill-yellow-400" />
     ));
+  };
+
+  // Get testimonials to display for desktop (3 at a time)
+  const getDesktopTestimonials = () => {
+    const startIndex = currentIndex;
+    const endIndex = (currentIndex + 3);
+    if (endIndex <= testimonialKeys.length) {
+      return testimonialKeys.slice(startIndex, endIndex);
+    } else {
+      // Wrap around to the beginning
+      const firstPart = testimonialKeys.slice(startIndex, testimonialKeys.length);
+      const secondPart = testimonialKeys.slice(0, endIndex % testimonialKeys.length);
+      return [...firstPart, ...secondPart];
+    }
   };
 
   return (
@@ -35,18 +49,27 @@ export default function Testimonials() {
           className="max-w-3xl mx-auto text-center mb-12"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-dark">
-            {t('testimonials.testimonials.title')}
+            {t('testimonials.title')}
           </h2>
           <p className="text-xl text-gray-600">
-            {t('testimonials.testimonials.subtitle')}
+            {t('testimonials.subtitle')}
           </p>
         </motion.div>
 
         {/* Desktop View */}
         <div className="hidden md:block relative max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-8">
-            {testimonialKeys.map((key, index) => {
-              return (
+          <div className="flex items-center justify-center">
+            {/* Left Navigation Button */}
+            <button
+              onClick={prevSlide}
+              className="absolute left-0 z-10 p-2 rounded-full bg-white shadow-md hover:bg-gray-50 transition-colors"
+              aria-label="Previous testimonial"
+            >
+              <ChevronLeft className="w-5 h-5 text-[#3498db]" />
+            </button>
+
+            <div className="grid grid-cols-3 gap-8">
+              {getDesktopTestimonials().map((key, index) => (
                 <motion.div
                   key={key}
                   initial={{ opacity: 0, y: 20 }}
@@ -57,32 +80,58 @@ export default function Testimonials() {
                 >
                   <div className="flex justify-center mb-6">
                     <img
-                      src={t(`testimonials.testimonials.${key}.image`) || `https://images.unsplash.com/photo-${index % 3 === 0 ? '1560250097-0b93528c311a' : index % 3 === 1 ? '1573497019940-1c28c88b4f3e' : '1519085360753-af0119f7cbe7'}?auto=format&fit=crop&q=80&w=200`}
-                      alt={t(`testimonials.testimonials.${key}.author`)}
+                      src={t(`testimonials.${key}.image`) || `https://images.unsplash.com/photo-${index % 3 === 0 ? '1560250097-0b93528c311a' : index % 3 === 1 ? '1573497019940-1c28c88b4f3e' : '1519085360753-af0119f7cbe7'}?auto=format&fit=crop&q=80&w=200`}
+                      alt={t(`testimonials.${key}.author`)}
                       className="w-20 h-20 rounded-full object-cover"
                     />
                   </div>
                   
                   <div className="text-center mb-4">
                     <div className="flex justify-center space-x-1 mb-4">
-                      {renderStars(Number(t(`testimonials.testimonials.${key}.Stars`)) || 5)}
+                      {renderStars(Number(t(`testimonials.${key}.Stars`)) || 5)}
                     </div>
                     <p className="text-gray-700 italic mb-6">
-                      "{t(`testimonials.testimonials.${key}.text`)}"
+                      "{t(`testimonials.${key}.text`)}"
                     </p>
                     <div className="mt-auto">
                       <p className="font-semibold text-dark">
-                        {t(`testimonials.testimonials.${key}.author`)}
+                        {t(`testimonials.${key}.author`)}
                       </p>
                       <p className="text-sm text-gray-600">
-                        {t(`testimonials.testimonials.${key}.role`)} - {t(`testimonials.testimonials.${key}.company`)}
+                        {t(`testimonials.${key}.role`)} - {t(`testimonials.${key}.company`)}
                       </p>
                     </div>
                   </div>
                 </motion.div>
-              );
-            })}
+              ))}
+            </div>
+
+            {/* Right Navigation Button */}
+            <button
+              onClick={nextSlide}
+              className="absolute right-0 z-10 p-2 rounded-full bg-white shadow-md hover:bg-gray-50 transition-colors"
+              aria-label="Next testimonial"
+            >
+              <ChevronRight className="w-5 h-5 text-[#3498db]" />
+            </button>
           </div>
+
+           {/* Dots Navigation */}
+           <div className="flex justify-center space-x-2 mt-6">
+            {testimonialKeys.map((_, index) => (
+              <div
+                key={index}
+                onClick={() => setCurrentIndex(index)}
+                className={`w-2 h-2 rounded-full transition-colors ${
+                  // Highlight dot if its corresponding testimonial is among the currently displayed three
+                  (index >= currentIndex && index < currentIndex + 3) ||
+                  (currentIndex + 3 > testimonialKeys.length && (index < (currentIndex + 3) % testimonialKeys.length || index >= currentIndex))
+                  ? 'bg-[#3498db]' : 'bg-gray-300'
+                }`}
+              />
+            ))}
+          </div>
+
         </div>
 
         {/* Mobile Carousel */}
