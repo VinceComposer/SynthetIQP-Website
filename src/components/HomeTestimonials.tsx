@@ -10,20 +10,6 @@ export default function HomeTestimonials() {
   const { t, i18n } = useTranslation();
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Add this useEffect to log translation data
-  useEffect(() => {
-    console.log('i18n language:', i18n.language);
-    console.log('i18n resources:', i18n.getDataByLanguage(i18n.language));
-
-    // Log the specific testimonial object for the current index
-    const currentTestimonialKey = testimonialKeys[currentIndex];
-    console.log(`Testimonial data for ${currentTestimonialKey}:`, i18n.getDataByLanguage(i18n.language)?.translation?.homeTestimonials?.[currentTestimonialKey]);
-
-    // Log the testimonials object itself
-    console.log('Home Testimonials object:', i18n.getDataByLanguage(i18n.language)?.translation?.homeTestimonials);
-
-  }, [i18n.language, i18n, currentIndex]);
-
   const nextSlide = () => {
     setCurrentIndex((prev) => (prev + 1) % testimonialKeys.length);
   };
@@ -41,12 +27,12 @@ export default function HomeTestimonials() {
 
   // Get testimonials to display for desktop (3 at a time)
   const getDesktopTestimonials = () => {
-    const startIndex = currentIndex;
-    const endIndex = (currentIndex + 3);
+    const startIndex = currentIndex % testimonialKeys.length;
+    const endIndex = (startIndex + 3);
+    
     if (endIndex <= testimonialKeys.length) {
       return testimonialKeys.slice(startIndex, endIndex);
     } else {
-      // Wrap around to the beginning
       const firstPart = testimonialKeys.slice(startIndex, testimonialKeys.length);
       const secondPart = testimonialKeys.slice(0, endIndex % testimonialKeys.length);
       return [...firstPart, ...secondPart];
@@ -83,41 +69,43 @@ export default function HomeTestimonials() {
             </button>
 
             <div className="grid grid-cols-3 gap-8">
-              {getDesktopTestimonials().map((key, index) => (
-                <motion.div
-                  key={key}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: index * 0.1 }}
-                  className="bg-white rounded-xl p-8 shadow-md flex flex-col h-full relative"
-                >
-                  <div className="flex justify-center mb-6">
-                    <img
-                      src={t(`homeTestimonials.${key}.image`) || `https://images.unsplash.com/photo-${index % 3 === 0 ? '1560250097-0b93528c311a' : index % 3 === 1 ? '1573497019940-1c28c88b4f3e' : '1519085360753-af0119f7cbe7'}?auto=format&fit=crop&q=80&w=200`}
-                      alt={t(`homeTestimonials.${key}.author`)}
-                      className="w-20 h-20 rounded-full object-cover"
-                    />
-                  </div>
-                  
-                  <div className="text-center mb-4">
-                    <div className="flex justify-center space-x-1 mb-4">
-                      {renderStars(Number(t(`homeTestimonials.${key}.Stars`)) || 5)}
+              <AnimatePresence mode="wait">
+                {getDesktopTestimonials().map((key, index) => (
+                  <motion.div
+                    key={key}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -20 }}
+                    transition={{ delay: index * 0.1, duration: 0.3 }}
+                    className="bg-white rounded-xl p-8 shadow-md flex flex-col h-full relative"
+                  >
+                    <div className="flex justify-center mb-6">
+                      <img
+                        src={t(`homeTestimonials.${key}.image`) || `https://images.unsplash.com/photo-${index % 3 === 0 ? '1560250097-0b93528c311a' : index % 3 === 1 ? '1573497019940-1c28c88b4f3e' : '1519085360753-af0119f7cbe7'}?auto=format&fit=crop&q=80&w=200`}
+                        alt={t(`homeTestimonials.${key}.author`)}
+                        className="w-20 h-20 rounded-full object-cover"
+                      />
                     </div>
-                    <p className="text-gray-700 italic mb-6">
-                      "{t(`homeTestimonials.${key}.text`)}"
-                    </p>
-                    <div className="mt-auto">
-                      <p className="font-semibold text-dark">
-                        {t(`homeTestimonials.${key}.author`)}
+                    
+                    <div className="text-center mb-4">
+                      <div className="flex justify-center space-x-1 mb-4">
+                        {renderStars(Number(t(`homeTestimonials.${key}.Stars`)) || 5)}
+                      </div>
+                      <p className="text-gray-700 italic mb-6">
+                        "{t(`homeTestimonials.${key}.text`)}"
                       </p>
-                      <p className="text-sm text-gray-600">
-                        {t(`homeTestimonials.${key}.role`)} - {t(`homeTestimonials.${key}.company`)}
-                      </p>
+                      <div className="mt-auto">
+                        <p className="font-semibold text-dark">
+                          {t(`homeTestimonials.${key}.author`)}
+                        </p>
+                        <p className="text-sm text-gray-600">
+                          {t(`homeTestimonials.${key}.role`)} - {t(`homeTestimonials.${key}.company`)}
+                        </p>
+                      </div>
                     </div>
-                  </div>
-                </motion.div>
-              ))}
+                  </motion.div>
+                ))}
+              </AnimatePresence>
             </div>
 
             {/* Right Navigation Button */}
@@ -138,8 +126,8 @@ export default function HomeTestimonials() {
                 onClick={() => setCurrentIndex(index)}
                 className={`w-2 h-2 rounded-full transition-colors ${
                   // Highlight dot if its corresponding testimonial is among the currently displayed three
-                  (index >= currentIndex && index < currentIndex + 3) ||
-                  (currentIndex + 3 > testimonialKeys.length && (index < (currentIndex + 3) % testimonialKeys.length || index >= currentIndex))
+                  (index >= currentIndex % testimonialKeys.length && index < (currentIndex % testimonialKeys.length) + 3) ||
+                  ((currentIndex % testimonialKeys.length) + 3 > testimonialKeys.length && (index < ((currentIndex % testimonialKeys.length) + 3) % testimonialKeys.length || index >= (currentIndex % testimonialKeys.length)))
                   ? 'bg-[#3498db]' : 'bg-gray-300'
                 }`}
               />

@@ -7,7 +7,7 @@ import enHowWeHelp from './pages/en/sections/howWeHelp.json';
 import enHowItWorks from './pages/en/sections/howItWorks.json';
 import enProblem from './pages/en/sections/problem.json';
 import enCaseStudies from './pages/en/sections/caseStudies.json';
-import enTestimonials from './pages/en/sections/testimonials.json';
+import enHomeTestimonials from './pages/en/sections/hometestimonials.json'; // Corrected import
 import enContact from './pages/en/contact.json';
 import enNavigation from './common/en/navigation.json';
 import enFooter from './common/en/footer.json';
@@ -19,8 +19,7 @@ import enPrivacy from './pages/en/privacy.json';
 import enTerms from './pages/en/terms.json';
 import enRefund from './pages/en/refund.json';
 import enServices from './pages/en/services.json';
-import enDiscovery from './pages/en/discovery.json';
-// pricing page removed
+import enDiscovery from './pages/en/discovery.json'; // Added semicolon
 
 // Spanish translations
 import esHero from './pages/es/sections/hero.json';
@@ -28,7 +27,7 @@ import esHowWeHelp from './pages/es/sections/howWeHelp.json';
 import esHowItWorks from './pages/es/sections/howItWorks.json';
 import esProblem from './pages/es/sections/problem.json';
 import esCaseStudies from './pages/es/sections/caseStudies.json';
-import esTestimonials from './pages/es/sections/testimonials.json';
+import esHomeTestimonials from './pages/es/sections/hometestimonials.json'; // Corrected import
 import esContact from './pages/es/contact.json';
 import esServices from './pages/es/services.json';
 import esNavigation from './common/es/navigation.json';
@@ -53,7 +52,7 @@ const resources = {
       ...enHowItWorks,
       ...enProblem,
       ...enCaseStudies,
-      homeTestimonials: enTestimonials.testimonials, // Merge home page testimonials under a different key
+      homeTestimonials: enHomeTestimonials.testimonials, // Use corrected import variable
       ...enContact,
       ...enFaq,
       ...enAbout,
@@ -76,7 +75,7 @@ const resources = {
       ...esHowItWorks,
       ...esProblem,
       ...esCaseStudies,
-      homeTestimonials: esTestimonials.testimonials, // Merge home page testimonials under a different key
+      homeTestimonials: esHomeTestimonials.testimonials, // Use corrected import variable
       ...esContact,
       ...esFaq,
       ...esAbout,

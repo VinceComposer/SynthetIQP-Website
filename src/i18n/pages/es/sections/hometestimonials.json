@@ -7,42 +7,48 @@
       "role": "Director de Tecnología",
       "company": "Servicios Logísticos Globales",
       "text": "Vincenzo y José generaron una solución de IA que ha transformado la forma en que gestionamos nuestro inventario. La experiencia de su equipo y su metodología de implementación hizo todo posible",
-      "Stars": 5
+      "Stars": 5,
+      "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=200"
     },
     "director": {
       "author": "Sarah Chen",
       "role": "Directora de Innovación",
       "company": "Retail Solutions Inc.",
       "text": "Los Agentes de IA personalizados desarrollados por SynthetIQ Partners han revolucionado nuestro proceso de servicio al cliente. Los resultados superaron nuestras expectativas. Nuestros empleados y clientes están muy satisfechos con la solución",
-      "Stars": 5
+      "Stars": 5,
+      "image": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=200"
     },
     "manager": {
       "author": "Michael Rodriguez",
       "role": "Gerente de Operaciones",
       "company": "Healthcare Systems",
       "text": "Trabajar con SynthetIQ Partners ha sido transformador. Sus consejos y recomendaciones han sido de muy alto nivel. Su compromiso con la excelencia y los detalles han mejorado significativamente nuestra eficiencia operativa para la coordinación de citas de pacientes",
-      "Stars": 5
+      "Stars": 5,
+      "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=200"
     },
     "vp": {
       "author": "Emily Thompson",
       "role": "VP de Tecnología",
       "company": "Enterprise Solutions",
       "text": "Asociarnos con José y Vincenzo ha sido un acierto. El proceso de implementación fue fluido y los resultados fueron inmediatos. La productividad de nuestro equipo ha aumentado significativamente desde la adopción de nuestros Agentes de IA",
-      "Stars": 5
+      "Stars": 5,
+      "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=200"
     },
     "founder": {
       "author": "David Park",
       "role": "Fundador y CEO",
       "company": "Tech Innovators",
       "text": "Los Agentes IA de SynthetIQ se han convertido en parte integral de nuestra estrategia de marketing. Las capacidades de automatización han transformado la forma en que generamos y compartimos contenido con clientes y stakeholders",
-      "Stars": 5
+      "Stars": 5,
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200"
     },
     "lead": {
       "author": "Rachel Martinez",
       "role": "Director de Producto",
       "company": "Digital Education",
       "text": "El nivel de personalización y las capacidades tipo-humanas de los Agentes de SynthetIQ han revolucionado la forma en que generamos y entregamos contenido educativo para nuestros estudiantes",
-      "Stars": 5
+      "Stars": 5,
+      "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200"
     }
   }
 }

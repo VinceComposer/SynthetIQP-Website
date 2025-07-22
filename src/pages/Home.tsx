@@ -4,7 +4,7 @@ import HowWeHelp from '../components/HowWeHelp';
 import HowItWorks from '../components/HowItWorks';
 import Problem from '../components/Problem';
 import CaseStudies from '../components/CaseStudies';
-import Testimonials from '../components/Testimonials';
+import HomeTestimonials from '../components/HomeTestimonials'; // Updated import
 import ContactOptions from '../components/ContactOptions';
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
         <HowItWorks />
         <Problem />
         <CaseStudies />
-        <Testimonials />
+        <HomeTestimonials /> {/* Updated component usage */}
         <ContactOptions />
       </main>
     </div>
