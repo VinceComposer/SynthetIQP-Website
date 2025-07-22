@@ -206,7 +206,7 @@ export default function Testimonials() {
                         </p>
                       </div>
                       <span className="text-2xl font-bold text-primary">
-                        {t(`testimonials.${currentIndex}.key}.results.value`)}
+                        {t(`testimonials.${testimonials[currentIndex].key}.results.value`)}
                       </span>
                     </div>
                   </div>
