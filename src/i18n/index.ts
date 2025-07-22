@@ -53,7 +53,7 @@ const resources = {
       ...enHowItWorks,
       ...enProblem,
       ...enCaseStudies,
-      ...enTestimonials,
+      homeTestimonials: enTestimonials.testimonials, // Merge home page testimonials under a different key
       ...enContact,
       ...enFaq,
       ...enAbout,
@@ -76,12 +76,12 @@ const resources = {
       ...esHowItWorks,
       ...esProblem,
       ...esCaseStudies,
-      ...esTestimonials,
+      homeTestimonials: esTestimonials.testimonials, // Merge home page testimonials under a different key
       ...esContact,
       ...esFaq,
       ...esAbout,
       ...esAuth,
-      // Dashboard translations removed
+      // Dashboard imports removed
       ...esPrivacy,
       ...esTerms,
       ...esServices,

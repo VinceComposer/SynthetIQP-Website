@@ -6,7 +6,7 @@ import { ChevronLeft, ChevronRight, Star } from 'lucide-react';
 // Define testimonial keys in the order we want to display them
 const testimonialKeys = ["cto", "director", "manager", "vp", "founder", "lead"];
 
-export default function Testimonials() {
+export default function HomeTestimonials() {
   const { t, i18n } = useTranslation();
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -14,7 +14,15 @@ export default function Testimonials() {
   useEffect(() => {
     console.log('i18n language:', i18n.language);
     console.log('i18n resources:', i18n.getDataByLanguage(i18n.language));
-  }, [i18n.language, i18n]);
+
+    // Log the specific testimonial object for the current index
+    const currentTestimonialKey = testimonialKeys[currentIndex];
+    console.log(`Testimonial data for ${currentTestimonialKey}:`, i18n.getDataByLanguage(i18n.language)?.translation?.homeTestimonials?.[currentTestimonialKey]);
+
+    // Log the testimonials object itself
+    console.log('Home Testimonials object:', i18n.getDataByLanguage(i18n.language)?.translation?.homeTestimonials);
+
+  }, [i18n.language, i18n, currentIndex]);
 
   const nextSlide = () => {
     setCurrentIndex((prev) => (prev + 1) % testimonialKeys.length);
@@ -55,10 +63,10 @@ export default function Testimonials() {
           className="max-w-3xl mx-auto text-center mb-12"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-dark">
-            {t('testimonials.title')}
+            {t('homeTestimonials.title')}
           </h2>
           <p className="text-xl text-gray-600">
-            {t('testimonials.subtitle')}
+            {t('homeTestimonials.subtitle')}
           </p>
         </motion.div>
 
@@ -86,25 +94,25 @@ export default function Testimonials() {
                 >
                   <div className="flex justify-center mb-6">
                     <img
-                      src={t(`testimonials.${key}.image`) || `https://images.unsplash.com/photo-${index % 3 === 0 ? '1560250097-0b93528c311a' : index % 3 === 1 ? '1573497019940-1c28c88b4f3e' : '1519085360753-af0119f7cbe7'}?auto=format&fit=crop&q=80&w=200`}
-                      alt={t(`testimonials.${key}.author`)}
+                      src={t(`homeTestimonials.${key}.image`) || `https://images.unsplash.com/photo-${index % 3 === 0 ? '1560250097-0b93528c311a' : index % 3 === 1 ? '1573497019940-1c28c88b4f3e' : '1519085360753-af0119f7cbe7'}?auto=format&fit=crop&q=80&w=200`}
+                      alt={t(`homeTestimonials.${key}.author`)}
                       className="w-20 h-20 rounded-full object-cover"
                     />
                   </div>
                   
                   <div className="text-center mb-4">
                     <div className="flex justify-center space-x-1 mb-4">
-                      {renderStars(Number(t(`testimonials.${key}.Stars`)) || 5)}
+                      {renderStars(Number(t(`homeTestimonials.${key}.Stars`)) || 5)}
                     </div>
                     <p className="text-gray-700 italic mb-6">
-                      "{t(`testimonials.${key}.text`)}"
+                      "{t(`homeTestimonials.${key}.text`)}"
                     </p>
                     <div className="mt-auto">
                       <p className="font-semibold text-dark">
-                        {t(`testimonials.${key}.author`)}
+                        {t(`homeTestimonials.${key}.author`)}
                       </p>
                       <p className="text-sm text-gray-600">
-                        {t(`testimonials.${key}.role`)} - {t(`testimonials.${key}.company`)}
+                        {t(`homeTestimonials.${key}.role`)} - {t(`homeTestimonials.${key}.company`)}
                       </p>
                     </div>
                   </div>
@@ -163,24 +171,24 @@ export default function Testimonials() {
               >
                 <div className="flex justify-center mb-4">
                   <img
-                    src={t(`testimonials.${testimonialKeys[currentIndex]}.image`) || `https://images.unsplash.com/photo-${currentIndex % 3 === 0 ? '1560250097-0b93528c311a' : currentIndex % 3 === 1 ? '1573497019940-1c28c88b4f3e' : '1519085360753-af0119f7cbe7'}?auto=format&fit=crop&q=80&w=200`}
-                    alt={t(`testimonials.${testimonialKeys[currentIndex]}.author`)}
+                    src={t(`homeTestimonials.${testimonialKeys[currentIndex]}.image`) || `https://images.unsplash.com/photo-${currentIndex % 3 === 0 ? '1560250097-0b93528c311a' : currentIndex % 3 === 1 ? '1573497019940-1c28c88b4f3e' : '1519085360753-af0119f7cbe7'}?auto=format&fit=crop&q=80&w=200`}
+                    alt={t(`homeTestimonials.${testimonialKeys[currentIndex]}.author`)}
                     className="w-20 h-20 rounded-full object-cover"
                   />
                 </div>
                 
                 <div className="text-center mb-4">
                   <div className="flex justify-center space-x-1 mb-4">
-                    {renderStars(Number(t(`testimonials.${testimonialKeys[currentIndex]}.Stars`)) || 5)}
+                    {renderStars(Number(t(`homeTestimonials.${testimonialKeys[currentIndex]}.Stars`)) || 5)}
                   </div>
                   <p className="text-gray-700 italic mb-4">
-                    "{t(`testimonials.${testimonialKeys[currentIndex]}.text`)}"
+                    "{t(`homeTestimonials.${testimonialKeys[currentIndex]}.text`)}"
                   </p>
                   <p className="font-semibold text-dark">
-                    {t(`testimonials.${testimonialKeys[currentIndex]}.author`)}
+                    {t(`homeTestimonials.${testimonialKeys[currentIndex]}.author`)}
                   </p>
                   <p className="text-sm text-gray-600">
-                    {t(`testimonials.${testimonialKeys[currentIndex]}.role`)} - {t(`testimonials.${testimonialKeys[currentIndex]}.company`)}
+                    {t(`homeTestimonials.${testimonialKeys[currentIndex]}.role`)} - {t(`homeTestimonials.${testimonialKeys[currentIndex]}.company`)}
                   </p>
                 </div>
               </motion.div>
