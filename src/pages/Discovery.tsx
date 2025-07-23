@@ -38,14 +38,14 @@ const Discovery = () => {
           >
             <div className="bg-white p-6 sm:p-10 rounded-2xl shadow-lg mb-12">
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-center mb-4" style={{ color: '#1A1A2E' }}>
-                {t('hero.title')}
+                {t('discoveryHero.title')}
               </h1>
               <p className="mt-2 mb-8 text-base sm:text-lg lg:text-xl max-w-3xl mx-auto text-center" style={{ color: '#1A1A2E' }}>
-                {t('hero.subtitle')}
+                {t('discoveryHero.subtitle')}
               </p>
               <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden bg-black mx-auto max-w-4xl shadow-md">
                 <video 
-                  src={t('hero.videoUrl')} 
+                  src={t('discoveryHero.videoUrl')} 
                   controls 
                   className="w-full h-full object-cover"
                 />

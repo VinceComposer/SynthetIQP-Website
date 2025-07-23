@@ -1,5 +1,5 @@
 {
-  "hero": {
+  "discoveryHero": {
     "title": "Haz tu agencia más rentable, eficiente y sostenible gracias a la IA",
     "subtitle": "Te ayudamos a encontrar y aprovechar las mejores oportunidades de la IA para tu Agencia, sin tecnicismos, de forma ordenada y manteniendo el foco en el negocio.",
     "videoUrl": "https://storage.googleapis.com/msgsndr/mCxuKf9ewPKsIRWcl5XQ/media/6867a1734f6d5cdf304065c8.mp4"
@@ -101,7 +101,7 @@
       },
       {
         "question": "¿Qué pasa después de la discovery?",
-        "answer": "Después de la sesión, te entregamos una \"Micro-Hoja de Ruta\" con lo conversado en la Discovery y un claro próximo paso para tu Agencia. Si lo solicitas y vemos que hay una buena oportunidad de trabajar juntos, te haremos algunas propuestas, sin presión."
+        "answer": "Después de la sesión, te entregamos una "Micro-Hoja de Ruta" con lo conversado en la Discovery y un claro próximo paso para tu Agencia. Si lo solicitas y vemos que hay una buena oportunidad de trabajar juntos, te haremos algunas propuestas, sin presión."
       },
       {
         "question": "¿Qué ocurre si ya tengo claro lo que necesito y quiero contratar uno de sus servicios?",
