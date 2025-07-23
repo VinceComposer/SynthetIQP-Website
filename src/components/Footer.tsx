@@ -89,7 +89,7 @@ export default function Footer() {
               <div className="flex items-start">
                 <MapPin className="w-5 h-5 mr-3 mt-1 text-primary" />
                 <p className="text-metallic">
-                  Edinburgh, Madrid, Lima
+                  Edinburgh, Madrid, Buenos Aires.
                 </p>
               </div>
               <div className="flex items-center">
