@@ -79,6 +79,7 @@ export default function HomeTestimonials() {
                     transition={{ delay: index * 0.1, duration: 0.3 }}
                     className="bg-white rounded-xl p-8 shadow-md flex flex-col h-full relative"
                   >
+                    {/* Foto */}
                     <div className="flex justify-center mb-6">
                       <img
                         src={t(`homeTestimonials.${key}.image`) || `https://images.unsplash.com/photo-${index % 3 === 0 ? '1560250097-0b93528c311a' : index % 3 === 1 ? '1573497019940-1c28c88b4f3e' : '1519085360753-af0119f7cbe7'}?auto=format&fit=crop&q=80&w=200`}
@@ -87,20 +88,22 @@ export default function HomeTestimonials() {
                       />
                     </div>
                     
-                    <div className="text-center mb-4">
-                      <div className="flex justify-center space-x-1 mb-4">
-                        {renderStars(Number(t(`homeTestimonials.${key}.Stars`)) || 5)}
-                      </div>
-                      <p className="text-gray-700 italic mb-6">
+                    <div className="text-center mb-4 flex-grow">
+                      {/* Texto de testimonio */}
+                      <p className="text-gray-700 italic mb-4">
                         "{t(`homeTestimonials.${key}.text`)}"
                       </p>
-                      <div className="mt-auto">
-                        <p className="font-semibold text-dark">
-                          {t(`homeTestimonials.${key}.author`)}
-                        </p>
-                        <p className="text-sm text-gray-600">
-                          {t(`homeTestimonials.${key}.role`)} - {t(`homeTestimonials.${key}.company`)}
-                        </p>
+                      {/* Nombre */}
+                      <p className="font-semibold text-dark mb-1">
+                        {t(`homeTestimonials.${key}.author`)}
+                      </p>
+                      {/* Cargo */}
+                      <p className="text-sm text-gray-600 mb-4">
+                        {t(`homeTestimonials.${key}.role`)} - {t(`homeTestimonials.${key}.company`)}
+                      </p>
+                       {/* Estrellas */}
+                      <div className="flex justify-center space-x-1">
+                        {renderStars(Number(t(`homeTestimonials.${key}.Stars`)) || 5)}
                       </div>
                     </div>
                   </motion.div>
@@ -157,6 +160,7 @@ export default function HomeTestimonials() {
                 transition={{ duration: 0.3 }}
                 className="bg-white rounded-xl p-6 shadow-md w-full"
               >
+                {/* Foto */}
                 <div className="flex justify-center mb-4">
                   <img
                     src={t(`homeTestimonials.${testimonialKeys[currentIndex]}.image`) || `https://images.unsplash.com/photo-${currentIndex % 3 === 0 ? '1560250097-0b93528c311a' : currentIndex % 3 === 1 ? '1573497019940-1c28c88b4f3e' : '1519085360753-af0119f7cbe7'}?auto=format&fit=crop&q=80&w=200`}
@@ -166,18 +170,22 @@ export default function HomeTestimonials() {
                 </div>
                 
                 <div className="text-center mb-4">
-                  <div className="flex justify-center space-x-1 mb-4">
-                    {renderStars(Number(t(`homeTestimonials.${testimonialKeys[currentIndex]}.Stars`)) || 5)}
-                  </div>
+                   {/* Texto de testimonio */}
                   <p className="text-gray-700 italic mb-4">
                     "{t(`homeTestimonials.${testimonialKeys[currentIndex]}.text`)}"
                   </p>
-                  <p className="font-semibold text-dark">
+                  {/* Nombre */}
+                  <p className="font-semibold text-dark mb-1">
                     {t(`homeTestimonials.${testimonialKeys[currentIndex]}.author`)}
                   </p>
-                  <p className="text-sm text-gray-600">
+                   {/* Cargo */}
+                  <p className="text-sm text-gray-600 mb-4">
                     {t(`homeTestimonials.${testimonialKeys[currentIndex]}.role`)} - {t(`homeTestimonials.${testimonialKeys[currentIndex]}.company`)}
                   </p>
+                   {/* Estrellas */}
+                  <div className="flex justify-center space-x-1">
+                    {renderStars(Number(t(`homeTestimonials.${testimonialKeys[currentIndex]}.Stars`)) || 5)}
+                  </div>
                 </div>
               </motion.div>
             </AnimatePresence>

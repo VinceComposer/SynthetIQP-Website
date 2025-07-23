@@ -1,22 +1,22 @@
 {
   "howItWorks": {
     "title": "Our Implementation Process",
-    "subtitle": "A Proven Framework for Transforming Your Business with Custom Automations and AI Agent Solutions",
+    "subtitle": "A proven methodology that transforms your business with custom AI Automations and Agents",
     "discovery": {
-      "title": "Discovery & Planning",
-      "description": "We start by understanding your business and possibilities. Through an initial consultation we analyse your needs and design a tailored solution strategy."
+      "title": "Discovery and Planning",
+      "description": "Our priority is to understand your business, systems, processes, and possibilities. Thanks to an initial consultation, we agree on your requirements and design a personalized technical implementation strategy."
     },
     "development": {
       "title": "Custom Development",
-      "description": "The team get together and the development process starts! You'll have your AI Solution prototype in one week and the final version in week two."
+      "description": "The team gets to work, and the technical development process begins. You will have (on average) the prototype of your automation/AI agent in the first week and the final version by the end of the second week."
     },
     "deployment": {
-      "title": "Seamless Deployment",
-      "description": "During week three and four We'll carefully embed your new Automations and AI agents into your business, ensuring they deliver real value from day one."
+      "title": "Seamless Implementation",
+      "description": "During the second week, we will integrate the AI Automations/Agents into your business, processes, and systems. Likewise, we will deliver the documentation, conduct the handover session, and close out the implementation."
     },
     "optimization": {
-      "title": "Ongoing Support",
-      "description": "We'll keep optimizing, adding more automations and agents, refining and expanding their capabilities to keep your company ahead of the game."
+      "title": "Continuous Support",
+      "description": "We will continue monitoring the implementation's performance and make adjustments for one or two more weeks, optimizing, refining or expanding (if required) to ensure the promised result is achieved."
     }
   }
 }

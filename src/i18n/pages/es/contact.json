@@ -17,9 +17,9 @@
       "button": "Iniciar Chat"
     },
     "schedule": {
-      "title": "Agenda una Llamada Gratis",
-      "description": "Reserva una consulta de 30 minutos con nuestros expertos",
-      "action": "Agendar Llamada"
+      "title": "Agenda una Discovery",
+      "description": "Reserva una Sesión Discovery gratuita de 30 minutos con nuestros fundadores",
+      "action": "Agendar Discovery"
     },
     "form": {
       "title": "Enviar Mensaje",
