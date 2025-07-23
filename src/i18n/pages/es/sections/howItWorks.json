@@ -4,19 +4,19 @@
     "subtitle": "Una metodología probada que permite transformar tu negocio con Automatizaciones y Agentes de IA personalizados",
     "discovery": {
       "title": "Descubrimiento y Planeación",
-      "description": "Nuestra prioridad es entender tu negocio y posibilidades. Gracias a una consulta inicial, analizamos tus necesidades y diseñamos una estrategia de automatización personalizada."
+      "description": "Nuestra prioridad es entender tu negocio, sistemas, procesos y posibilidades. Gracias a una consulta inicial, acordamos tus requerimientos y diseñamos una estrategia de implementación técnica personalizada."
     },
     "development": {
       "title": "Desarrollo Personalizado",
-      "description": "El equipo se pone 'manos a la obra' y se incia el proceso de desarrollo. Tendrás el prototipo de tu solución en la primera semana y la versión final en la segunda semana"
+      "description": "El equipo se pone 'manos a la obra' y se inicia el proceso de desarrollo técnico. Tendrás (en promedio) el prototipo de tu automatización/agente de IA en la primera semana y la versión final al final de la segunda semana."
     },
     "deployment": {
       "title": "Implementación Sin Problemas",
-      "description": "Durante la seamana tres y cuatro integraremos a tu negocio tus nuevas Automatizaciones y Agentes de IA. Así aseguramos que generan valor desde el día uno."
+      "description": "Durante la semana dos integraremos las Automatizaciones/Agentes de IA a tu negocio, tus procesos y sistemas. Así mismo, entregaremos la documentación, haremos la sesión de handover y daremos cierre a la implementación."
     },
     "optimization": {
       "title": "Apoyo Continuo",
-      "description": "Continuaremos trabajando en nuevos Agentes de IA y Automatizaciones, optimizando, refinando y ampliando sus capacidades para mantener tu negocio a la vanguardia."
+      "description": "Seguiremos monitoreando el funcionamiento de la implementación y haremos ajustes por una o dos semanas más, optimizando, refinando o ampliando (en caso de ser requerido) para asegurar que el resultado prometido se ha alcanzado."
     }
   }
 }
