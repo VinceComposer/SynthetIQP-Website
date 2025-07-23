@@ -92,7 +92,7 @@
         "answer": "En ese caso, la Sesión de Discovery es el punto de partida perfecto. Está diseñada para darte claridad y una dirección concreta, sin importar tu nivel de conocimiento técnico. Saldrás de la llamada sabiendo exactamente por dónde empezar."
       },
       {
-        "question": "¿Qué pasa si ya he empezado a usar IA en mi agencia?",
+        "question": "¿Qué pasa si ya he empezado a usar la IA en mi agencia?",
         "answer": "Genial. La sesión te ayudará a validar tu plan actual, encontrar áreas de mejora y definir o revisar las acciones para los próximos 30 días con una perspectiva experta. El grueso de nuestros clientes ya habían iniciado antes de trabajar con nosotros."
       },
       {
@@ -101,7 +101,7 @@
       },
       {
         "question": "¿Qué pasa después de la discovery?",
-        "answer": "Después de la sesión, te entregamos una "Micro-Hoja de Ruta" con lo conversado en la Discovery y un claro próximo paso para tu Agencia. Si lo solicitas y vemos que hay una buena oportunidad de trabajar juntos, te haremos algunas propuestas, sin presión."
+        "answer": "Después de la sesión, te entregamos una Micro-Hoja de Ruta con lo conversado en la Discovery y un claro próximo paso para tu Agencia. Si lo solicitas y vemos que hay una buena oportunidad de trabajar juntos, te haremos algunas propuestas, sin presión."
       },
       {
         "question": "¿Qué ocurre si ya tengo claro lo que necesito y quiero contratar uno de sus servicios?",
@@ -111,9 +111,7 @@
         "question": "¿Qué ocurre si solo quiero contactarlos?",
         "answer": "En ese caso, siempre puedes escribirnos un email a hello@synthetiqpartners.com con lo que tengas en mente y gustosamente te responderemos."
       }
-    ],
-    "ctaText": "QUIERO LA DISCOVERY",
-    "ctaUrl": "https://funnels.synthetiqpartners.com/agenda-discovery-agencias-latam"
+    ]
   },
   "calendar": {
     "title": "Selecciona una fecha y hora en el calendario y agenda tu sesión Discovery.",

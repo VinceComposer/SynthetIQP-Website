@@ -39,6 +39,7 @@ import esAuth from './pages/es/auth.json';
 import esPrivacy from './pages/es/privacy.json';
 import esTerms from './pages/es/terms.json';
 import esRefund from './pages/es/refund.json';
+import esServices from './pages/es/services.json';
 import esDiscovery from './pages/es/discovery.json';
 // pricing page removed
 
@@ -62,7 +63,7 @@ const resources = {
       ...enTerms,
       ...enServices,
       ...enRefund,
-      ...enDiscovery
+      discoveryPage: enDiscovery
       // pricing page removed
     }
   },
@@ -85,7 +86,7 @@ const resources = {
       ...esTerms,
       ...esServices,
       ...esRefund,
-      ...esDiscovery
+      discoveryPage: esDiscovery
       // pricing page removed
     }
   }
