@@ -6,7 +6,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import Popup from './Popup';
 
 export default function Problem() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('problem'); // Use 'problem' namespace
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const navigate = useNavigate();
@@ -57,10 +57,10 @@ export default function Problem() {
           className="max-w-3xl mx-auto text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-dark">
-            {t('section.title', 'We understand you')}
+            {t('section.title')}
           </h2>
           <p className="text-xl text-metallic">
-            {t('section.subtitle', 'Changes in AI are happening way too fast and it is vital to have a partner that can help you understand and adapt')}
+            {t('section.subtitle')}
           </p>
         </motion.div>
 
@@ -224,14 +224,14 @@ export default function Problem() {
             onClick={handleStartClick}
             className="btn-primary"
           >
-            {t('sections:cta.start', 'Start Here')}
+            {t('problemCta.start')}
           </a>
           <a
             href="/services"
             onClick={handleServicesClick}
             className="btn-outline"
           >
-            {t('sections:cta.services', 'Know More')}
+            {t('problemCta.services')}
           </a>
         </motion.div>
       </div>
