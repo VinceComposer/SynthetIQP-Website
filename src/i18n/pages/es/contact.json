@@ -50,6 +50,11 @@
     "confirmation": {
       "title": "Tu mensaje ha sido enviado",
       "message": "Gracias por ponerte en contacto. ¡Revisaremos tu mensaje y te responderemos cuanto antes!"
+    },
+    "contactForm": {
+      "src": "https://api.leadconnectorhq.com/widget/form/lRfZfGLX7vF9Zol9PaKd",
+      "id": "lRfZfGLX7vF9Zol9PaKd",
+      "title": "Formulario de Contacto Web Principal - ES"
     }
   }
 }

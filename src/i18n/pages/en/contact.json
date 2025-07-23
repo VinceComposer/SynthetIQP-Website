@@ -50,6 +50,11 @@
     "confirmation": {
       "title": "Your message has been sent",
       "message": "Thank you for getting in touch. We will review it and get back to you as soon as possible!"
+    },
+    "contactForm": {
+      "src": "https://api.leadconnectorhq.com/widget/form/PY5g6boxkNLgF2Xjz4FI",
+      "id": "PY5g6boxkNLgF2Xjz4FI",
+      "title": "Main Website Contact Form - English"
     }
   }
 }

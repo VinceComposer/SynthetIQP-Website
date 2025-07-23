@@ -6,5 +6,11 @@
       "contact": "Empezar",
       "services": "Saber Más"
     }
+  },
+  "homeCta": {
+    "title": "ESTÁS A POCOS PASOS DE GANAR EN CLARIDAD",
+    "subtitle": "¿Empezamos por lo más fácil?",
+    "description": "No vendemos nada sin antes entender si podemos ayudarte. La Sesión Discovery es totalmente gratuita y sin compromiso. Solo si hay fit, seguimos.",
+    "button": "QUIERO LA DISCOVERY"
   }
 }
