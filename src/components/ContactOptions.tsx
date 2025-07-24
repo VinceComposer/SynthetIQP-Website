@@ -54,10 +54,10 @@ export default function ContactOptions() {
         </motion.div>
 
         {/* Content in a single column */}
-        <div className="max-w-3xl mx-auto space-y-12">
+        <div className="max-w-6xl mx-auto space-y-12"> {/* Changed max-w-3xl to max-w-6xl */}
 
           {/* Embedded Form Section - Adjusted width for larger screens */}
-          <div className="bg-white rounded-xl shadow-md p-6 border border-metallic-light/10 max-w-full md:max-w-3xl mx-auto">
+          <div className="bg-white rounded-xl shadow-md p-6 border border-metallic-light/10 max-w-full mx-auto"> {/* Removed md:max-w-3xl */}
             <iframe
                 src={formSrc}
                 style={{width: '100%', height: '663px', border: 'none', borderRadius: '4px'}}

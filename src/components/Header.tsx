@@ -46,8 +46,8 @@ export default function Header() {
   };
 
   const headerStyle = {
-    backgroundColor: '#f5f0e6',
-    backgroundImage: 'linear-gradient to right, #f5f0e6, rgba(245, 240, 230, 0))',
+    backgroundColor: '#EDF1FC',
+    backgroundImage: 'none', // Remove any background image/gradient
   };
 
   return (
@@ -123,7 +123,7 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden absolute top-full left-0 right-0 border-b border-metallic-light/10 py-4" style={{ backgroundColor: '#f5f0e6' }}>
+          <div className="md:hidden absolute top-full left-0 right-0 border-b border-metallic-light/10 py-4" style={{ backgroundColor: '#EDF1FC' }}>
             <div className="flex flex-col space-y-4 px-4">
               <button
                 onClick={toggleLanguage}
