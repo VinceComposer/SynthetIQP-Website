@@ -45,8 +45,13 @@ export default function Header() {
     }
   };
 
+  const headerStyle = {
+    backgroundColor: '#f5f0e6',
+    backgroundImage: 'linear-gradient to right, #f5f0e6, rgba(245, 240, 230, 0))',
+  };
+
   return (
-    <header className="fixed w-full bg-white/90 backdrop-blur-sm z-50 border-b border-metallic-light/10">
+    <header className="fixed w-full z-50 border-b border-metallic-light/10" style={headerStyle}>
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Logo className="h-10" />
@@ -118,7 +123,7 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden absolute top-full left-0 right-0 bg-white border-b border-metallic-light/10 py-4">
+          <div className="md:hidden absolute top-full left-0 right-0 border-b border-metallic-light/10 py-4" style={{ backgroundColor: '#f5f0e6' }}>
             <div className="flex flex-col space-y-4 px-4">
               <button
                 onClick={toggleLanguage}
