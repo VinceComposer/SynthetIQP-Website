@@ -271,7 +271,7 @@ export default function Services() {
                       </div>
                       <div className="bg-gray-50 rounded-lg p-6 shadow-sm">
                         <h3 className="font-semibold text-base md:text-lg text-dark mb-3">
-                          {t(`${tab.key}.includes.title')}
+                          {t(`${tab.key}.includes.title`)}
                         </h3>
                         <div className="space-y-4 text-sm md:text-base text-dark">
                           {tab.id === 'tab1' ? (
@@ -322,11 +322,11 @@ export default function Services() {
                             onClick={() => setActiveTransformationTab(index)}
                             className={`text-sm md:text-base font-medium py-2 px-4 rounded-lg transition-all duration-300 ${
                               activeTransformationTab === index
-                                ? 'bg-secondary text-white shadow-md'
+                                ? 'bg-primary text-white shadow-md'
                                 : 'bg-white text-dark border border-metallic-light/20 hover:bg-gray-50'
                             }`}
                           >
-                            {t(`transformation.tabs.${tab.id}.name`)}
+                            {t(`${tab.key}.name`)}
                           </button>
                         ))}
                       </div>
@@ -349,7 +349,7 @@ export default function Services() {
                       <button
                         className="text-sm font-medium py-2 px-4 rounded-lg bg-secondary text-white shadow-md inline-block mx-auto"
                       >
-                        {t(`transformation.tabs.${transformationTabs[activeTransformationTab].id}.name`)}
+                        {t(`${transformationTabs[activeTransformationTab].key}.name`)}
                       </button>
                     </div>
                     
