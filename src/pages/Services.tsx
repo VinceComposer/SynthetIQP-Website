@@ -2,7 +2,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import { useNavigate, useLocation } from 'react-router-dom'; // Import useLocation
 import { Check } from 'lucide-react';
 
 // Define types for translation items
@@ -23,6 +23,7 @@ export default function Services() {
   const [activeImplementationTab, setActiveImplementationTab] = useState(0);
   const [activeTransformationTab, setActiveTransformationTab] = useState(0);
   const navigate = useNavigate(); // Initialize useNavigate
+  const location = useLocation(); // Initialize useLocation
 
   // Refs for tab containers to scroll the active tab into view
   const strategyTabsRef = useRef<HTMLDivElement>(null);
@@ -80,6 +81,41 @@ export default function Services() {
       inline: 'center',
     });
   }, [activeTransformationTab]);
+
+  // Effect to scroll to a specific service section on load if state is present
+  useEffect(() => {
+    if (location.state && location.state.scrollToService) {
+      const targetId = location.state.scrollToService;
+      let targetElement;
+      
+      switch(targetId) {
+        case 'clarityStrategy':
+          targetElement = document.getElementById('strategy');
+          break;
+        case 'technicalImplementation':
+          targetElement = document.getElementById('implementation');
+          break;
+        case 'organisationalTransformation':
+          targetElement = document.getElementById('transformation');
+          break;
+        default:
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+          return;
+      }
+
+      if (targetElement) {
+        // Scroll to the element and then clear the state to prevent scrolling on subsequent visits
+        targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        // Clear the state after scrolling
+        navigate(location.pathname, { replace: true, state: {} });
+      } else {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    } else {
+       // Default behavior: scroll to the top when the page loads normally
+       window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }, [location.state, location.pathname, navigate]); // Depend on location.state and navigate
 
   const handleCtaClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault(); // Prevent default anchor link behavior

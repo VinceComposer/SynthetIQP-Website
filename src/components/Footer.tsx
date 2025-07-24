@@ -36,34 +36,8 @@ export default function Footer() {
   const handleServiceClick = (e: React.MouseEvent<HTMLAnchorElement>, service: string) => {
     e.preventDefault();
     
-    // Navegar a la página de servicios
-    navigate('/services');
-    
-    // Esperar a que la página se cargue y luego desplazarse a la sección correspondiente
-    setTimeout(() => {
-      let targetElement;
-      
-      switch(service) {
-        case 'clarityStrategy':
-          targetElement = document.querySelector('[data-step="1"]');
-          break;
-        case 'technicalImplementation':
-          targetElement = document.querySelector('[data-step="2"]');
-          break;
-        case 'organisationalTransformation':
-          targetElement = document.querySelector('[data-step="3"]');
-          break;
-        default:
-          window.scrollTo({ top: 0 });
-          return;
-      }
-      
-      if (targetElement) {
-        targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      } else {
-        window.scrollTo({ top: 0 });
-      }
-    }, 500);
+    // Navegar a la página de servicios y pasar el estado con la sección a desplazar
+    navigate('/services', { state: { scrollToService: service } });
   };
 
   const services = [
