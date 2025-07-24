@@ -36,7 +36,7 @@
         "answer": "While there's no cap on the number of agents you can request, we focus on delivering them sequentially 1 at a time to ensure each solution meets our quality standards and aligns with your business objectives."
       },
       "singleAgent": {
-        "question": "Can I have one single AI Agent request?",
+        "question": "Can I have one single AI Automation/Agent request?",
         "answer": "Our flexible service model allows you to get a quotation for exactly what' needed. Whether you start with a single agent or plan to scale, we accommodate your evolving AI strategy and requirements."
       },
       "dataPrivacy": {
@@ -56,5 +56,11 @@
         "answer": "Yes, if you are not satisfied with our service after 1 week. You can get a 75% refund."
       }
     }
+  },
+  "ctaFaqs": {
+    "heading": "YOU'RE JUST A FEW STEPS AWAY FROM GAINING CLARITY",
+    "title": "Shall we start with the easiest part?",
+    "description": "We don't sell anything without first understanding if we can help you. The Discovery Session is completely free and without commitment. Only if there's a fit, we continue.",
+    "button": "I WANT THE DISCOVERY"
   }
 }

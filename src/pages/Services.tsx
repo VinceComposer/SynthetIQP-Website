@@ -2,6 +2,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import { Check } from 'lucide-react';
 
 // Define types for translation items
@@ -21,6 +22,7 @@ export default function Services() {
   const [activeStrategyTab, setActiveStrategyTab] = useState(0);
   const [activeImplementationTab, setActiveImplementationTab] = useState(0);
   const [activeTransformationTab, setActiveTransformationTab] = useState(0);
+  const navigate = useNavigate(); // Initialize useNavigate
 
   // Refs for tab containers to scroll the active tab into view
   const strategyTabsRef = useRef<HTMLDivElement>(null);
@@ -79,6 +81,11 @@ export default function Services() {
     });
   }, [activeTransformationTab]);
 
+  const handleCtaClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault(); // Prevent default anchor link behavior
+    navigate('/discovery'); // Navigate using react-router-dom
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to the top
+  };
 
   return (
     <div className="pt-32 pb-20">
@@ -422,9 +429,10 @@ export default function Services() {
                 <p className="mb-6 text-sm md:text-base text-dark max-w-3xl mx-auto">
                   {t('callToAction.description')}
                 </p>
-                <a 
-                  href="/discovery" 
+                <a
+                  href="/discovery" // Keep href for accessibility
                   className="inline-block bg-primary text-white font-bold py-3 px-6 rounded-lg hover:bg-primary-dark transition-colors text-sm md:text-base shadow-md hover:shadow-lg"
+                  onClick={handleCtaClick} // Add onClick handler
                 >
                   <span className="inline-flex items-center">
                     <svg className="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -36,7 +36,7 @@
         "answer": "Aunque no hay un límite en el número de agentes que puede solicitar, nos enfocamos en entregarlos secuencialmente uno a la vez para asegurar que cada solución cumpla con nuestros estándares de calidad y se alinee con los objetivos de su negocio."
       },
       "singleAgent": {
-        "question": "¿Puedo solicitar un solo Agente IA?",
+        "question": "¿Puedo solicitar un solo Agente o una sola Automatización de IA?",
         "answer": "Nuestro modelo de servicio flexible le permite cotizar exactamente lo que necesite. Ya sea que comience con un solo agente o planee escalar, nos adaptamos a su estrategia y requisitos de IA en evolución."
       },
       "dataPrivacy": {
@@ -56,5 +56,11 @@
         "answer": "Sí, si no está satisfecho con nuestro servicio después de 1 semana, puede obtener un reembolso del 75%."
       }
     }
+  },
+  "ctaFaqs": {
+    "heading": "ESTÁS A POCOS PASOS DE GANAR CLARIDAD",
+    "title": "¿Empezamos con la parte más fácil?",
+    "description": "No vendemos nada sin antes entender si podemos ayudarte. La Sesión de Discovery es completamente gratuita y sin compromiso. Solo si hay un encaje, continuamos.",
+    "button": "QUIERO MI DISCOVERY"
   }
 }
