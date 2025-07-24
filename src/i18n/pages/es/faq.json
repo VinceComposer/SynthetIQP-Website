@@ -9,19 +9,19 @@
     "questions": {
       "aiAgents": {
         "question": "¿Qué es un Agente IA y cómo puede ayudar a mi negocio?",
-        "answer": "Un Agente IA es un programa de software impulsado por inteligencia artificial que puede manejar tareas de forma autónoma, tomar decisiones y aprender de datos o interacciones con usuarios. Al automatizar procesos repetitivos y proporcionar información en tiempo real, los Agentes IA ayudan a cualquier tipo de negocio a ahorrar tiempo, reducir costos, disminuir errores y aumentar la eficiencia general. Para obtener más información sobre los Agentes IA, visite: https://www.techtarget.com/searchenterpriseai/feature/Next-year-will-be-the-year-of-AI-agents"
+        "answer": "Un Agente IA es un programa de software impulsado por inteligencia artificial que puede manejar tareas de forma autónoma, tomar decisiones y aprender de datos o interacciones con usuarios con un performance similar al humano. Al automatizar procesos repetitivos y proporcionar información en tiempo real, los Agentes IA ayudan a cualquier tipo de negocio a ahorrar tiempo, reducir costos, disminuir errores y aumentar la eficiencia general."
       },
       "implementation": {
-        "question": "¿Cuál es la diferencia entre un Agente IA Profesional y uno Tipo-Usuario?",
-        "answer": "Agentes IA Profesionales: Estos están desarrollados a medida para manejar procesos complejos, optimización de flujos de trabajo, integraciones de sistemas y operaciones comerciales rutinarias como lo haría un empleado humano.\nAgentes IA Tipo-Usuario: Estos Agentes IA imitan el tono y comportamiento de usuarios o clientes reales. Al replicar cómo las personas podrían responder o interactuar, proporcionan información similar a la de un usuario o persona real las 24 horas del día, descubren información valiosa sobre los clientes y permiten probar nuevas ideas antes de lanzarlas a una audiencia real."
+        "question": "¿Cuál es la diferencia entre un Agente IA y una Automatización?",
+        "answer": "La automatización de IA se refiere a la utilización de inteligencia artificial para automatizar tareas y procesos específicos, como la clasificación de datos o la generación de informes. Por otro lado, un agente de IA es un sistema que puede interactuar con su entorno, tomar decisiones y realizar acciones de manera autónoma, como un asistente virtual o un robot."
       },
       "security": {
-        "question": "¿Cuál es el ROI típico para una implementación de Agentes IA?",
-        "answer": "Aunque los resultados varían según la industria y el alcance del proyecto, muchas empresas reportan un retorno de inversión sustancial -a veces superando el 200% en el primer año- después de automatizar procesos clave o mejorar las interacciones con los clientes mediante Agentes IA. Por ejemplo, un estudio de Deloitte indica que las organizaciones que adoptan automatizaciones impulsadas por IA a menudo ven ganancias significativas en productividad y ahorro de costos. Puede leer más sobre las cifras potenciales de ROI aquí: ROI for artificial intelligence | Deloitte Insights"
+        "question": "¿Cuál es el ROI típico para una implementación de Agentes/Automatizaciones de IA?",
+        "answer": "Aunque los resultados varían según la industria y el alcance del proyecto, muchas empresas reportan un retorno de inversión sustancial -a veces superando el 200% en el primer año- después de automatizar procesos clave o mejorar las interacciones con los clientes mediante Agentes IA."
       },
       "customization": {
         "question": "¿Cuánto tiempo toma implementar mis Automatizaciones o Agentes IA?",
-        "answer": "Los plazos de entrega varían según la complejidad del sistema de agentes requerido, nuestros tiempos comunes son 1-2 semanas/agente para desarrollo y 1-2 semanas/agente para implementación. Al recibir los detalles de su proyecto, le proporcionaremos un cronograma estimado y le mantendremos informado sobre nuestro progreso."
+        "answer": "Los plazos de entrega varían según la complejidad del agentes o la automatización requeridos, nuestros tiempos comunes son 1-2 semanas/agente para desarrollo y 1-2 semanas/agente para implementación. Al recibir los detalles de su proyecto, le proporcionaremos un cronograma estimado y le mantendremos informado sobre nuestro progreso."
       },
       "integration": {
         "question": "¿Qué está incluído al contratar la subscripción mensual?",
@@ -37,7 +37,7 @@
       },
       "singleAgent": {
         "question": "¿Puedo solicitar un solo Agente IA?",
-        "answer": "Nuestro modelo de servicio flexible le permite pausar y reanudar su suscripción mensual según sea necesario. Ya sea que comience con un solo agente o planee escalar, nos adaptamos a su estrategia y requisitos de IA en evolución."
+        "answer": "Nuestro modelo de servicio flexible le permite cotizar exactamente lo que necesite. Ya sea que comience con un solo agente o planee escalar, nos adaptamos a su estrategia y requisitos de IA en evolución."
       },
       "dataPrivacy": {
         "question": "¿Cómo garantizan la seguridad de los datos?",
@@ -45,11 +45,11 @@
       },
       "techStack": {
         "question": "¿Qué stack tecnológico utilizan?",
-        "answer": "Nuestros agentes se desarrollan principalmente utilizando los frameworks Make.com y N8N.io, y principalmente la API de Asistentes de OpenAI. Implementamos nuestros agentes utilizando las plataformas Make.com o N8N.io, sin embargo, también podemos implementarlos en cualquier infraestructura proporcionada de su elección si es necesario."
+        "answer": "Nuestros agentes se desarrollan principalmente utilizando los frameworks N8N.io y la API de Asistentes de OpenAI. Implementamos nuestros agentes utilizando o bien, nuestros propios servicios de hosting y ambientes de desarrollo, o bien podemos implementarlos en cualquier infraestructura proporcionada de su elección."
       },
       "underperforming": {
         "question": "¿Qué sucede si mis Agentes IA no rinden como se esperaba?",
-        "answer": "Si algún agente no cumple con las expectativas después del plazo de implementación, nos comprometemos a mejorar su rendimiento **sin costo adicional**. Iteraremos la solución hasta que gestione perfectamente los procesos designados de principio a fin."
+        "answer": "Si algún agente no cumple con las expectativas después del plazo de implementación, nos comprometemos a mejorar su rendimiento **sin costo adicional**. Iteraremos la solución hasta que alcance el performance prometido y acordado en los requerimientos del proyecto."
       },
       "moneyBack": {
         "question": "¿Tienen garantía de devolución de dinero?",

@@ -10,6 +10,7 @@ import Refund from './pages/Refund';
 import FAQs from './pages/FAQs';
 import Discovery from './pages/Discovery';
 import Services from './pages/Services';
+import Confirmation from './pages/Confirmation'; // Import the new Confirmation page
 import './i18n';
 
 function Layout({ children }: { children: React.ReactNode }) {
@@ -52,6 +53,7 @@ function App() {
           <Route path="/es/refund" element={<Refund />} />
           <Route path="/faqs" element={<FAQs />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/confirmation" element={<Confirmation />} /> {/* Add the new route for Confirmation */}
         </Routes>
       </Layout>
     </Router>

@@ -9,19 +9,19 @@
     "questions": {
       "aiAgents": {
         "question": "What's a AI Agent and how can it help my business?",
-        "answer": "An AI Agent is a software program powered by artificial intelligence that can autonomously handle tasks, make decisions, and learn from data or user interactions. By automating repetitive processes and providing real-time insights, AI Agents help any kind of business save time, cut costs, reduce error, and boost overall efficiency. To learn more about AI Agents, visit: https://www.techtarget.com/searchenterpriseai/feature/Next-year-will-be-the-year-of-AI-agents"
+        "answer": "An AI Agent is a software program powered by artificial intelligence that can autonomously handle tasks, make decisions, and learn from data or user interactions with a human-like performance. By automating repetitive processes and providing real-time insights, AI Agents help any kind of business save time, cut costs, reduce error, and boost overall efficiency."
       },
       "implementation": {
-        "question": "What's the difference between a Professional and a Human-Like AI Agent?",
-        "answer": "Professional AI Agents: These are custom-developed to handle complex processes workflow optimization, system integrations, and routine business operations like a human employee would.\nHuman-Like AI Agents: These AI Agents mimic the tone and behaviour of real users or customers. By replicating how people might respond or interact, they provide 24/7 user-like engagement, uncover customer insights, and let you test new ideas before releasing them to your actual audience."
+        "question": "What's the difference between an Automation and an AI Agent?",
+        "answer": "AI automation refers to the use of artificial intelligence to automate specific tasks and processes, such as data classification or report generation. On the other hand, an AI agent is a system that can interact with its environment, make decisions, and take actions autonomously, such as a virtual assistant or a robot."
       },
       "security": {
-        "question": "What's the typical ROI for an AI Agent implementation?",
+        "question": "What's the typical ROI for an AI Automation/Agent implementation?",
         "answer": "While results vary by industry and project scope, many businesses report a substantial return on investment -sometimes exceeding 200% in the first year- after automating key processes or enhancing customer interactions with AI Agents. For instance, a study by Deloitte indicates that organizations adopting AI-driven automations often see significant gains in productivity and cost savings. You can read more about potential ROI figures here: ROI for artificial intelligence | Deloitte Insights"
       },
       "customization": {
         "question": "How long does it takes to deliver my Automations or AI Agents?",
-        "answer": "Delivery timelines vary based on the complexity of the agent system required, our common times are 1-2 week/agent for development and 1-2 week/agent for deployment. Upon receiving your project details, we'll provide an estimated timeline and keep you updated on our progress."
+        "answer": "Delivery timelines vary based on the complexity of the agent/automation required, our common times are 1-2 week/agent for development and 1-2 week/agent for deployment. Upon receiving your project details, we'll provide an estimated timeline and keep you updated on our progress."
       },
       "integration": {
         "question": "What's included when paying for your monthly subscription?",
@@ -37,7 +37,7 @@
       },
       "singleAgent": {
         "question": "Can I have one single AI Agent request?",
-        "answer": "Our flexible service model allows you to pause and resume your monthly subscription as needed. Whether you start with a single agent or plan to scale, we accommodate your evolving AI strategy and requirements."
+        "answer": "Our flexible service model allows you to get a quotation for exactly what' needed. Whether you start with a single agent or plan to scale, we accommodate your evolving AI strategy and requirements."
       },
       "dataPrivacy": {
         "question": "How do you ensure data security?",
@@ -45,11 +45,11 @@
       },
       "techStack": {
         "question": "What Technology Stack do you use?",
-        "answer": "Our agents are developed using mainly Make.com N8N.io frameworks, and mainly OpenAI Assistants API. We deploy our agents using Make.com or N8N.io platforms, however, we can also deploy them on any infrastructure provided of your choice if needed."
+        "answer": "Our agents are developed using mainly N8N.io frameworks and OpenAI Assistants API. We deploy our agents using either our own hosting and environments, or we can also deploy them on any of your own infrastructure."
       },
       "underperforming": {
         "question": "What if my AI Agents are underperforming?",
-        "answer": "Should any agent fall short of expectations after the implementation deadline, we're committed to refining its performance **at no cost**. We'll iterate on the solution until it seamlessly manages the designated processes from start to finish."
+        "answer": "Should any agent fall short of expectations after the implementation deadline, we're committed to refining its performance **at no cost**. We'll iterate on the solution until it perfomrs at the level promised/agreed on the requirements for the proyect."
       },
       "moneyBack": {
         "question": "Do you have a Money Back Guarantee?",

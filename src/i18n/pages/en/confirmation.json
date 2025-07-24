@@ -1,0 +1,13 @@
+{
+  "confirmation": {
+    "title": "Discovery Successfully Scheduled!",
+    "subtitle": "Get ready for a strategic conversation that will give you clarity about the present and future of your business with AI.",
+    "important_video": "Important: please watch the video below"
+  },
+  "thanks_instructions": {
+    "title": "Thank you for booking your Session",
+    "message": "We have reserved a spot for you in our schedule and you will receive a confirmation email with all the details and 5 key questions that you should answer before the session.",
+    "important_prep": "Important: to make the most of our conversation, please spend 5-10 minutes before the Discovery reflecting on and completing the questions we sent you via email.",
+    "closing": "See you soon!"
+  }
+}

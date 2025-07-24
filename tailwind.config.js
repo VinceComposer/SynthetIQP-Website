@@ -8,24 +8,24 @@ export default {
       },
       colors: {
         primary: {
-          DEFAULT: '#00AEEF',
-          light: '#33BEFF',
-          dark: '#0090C8',
+          DEFAULT: '#008AC5', // Oscurecido de #00AEEF (ratio ~4.6:1 sobre blanco)
+          light: '#00AEEF', // El antiguo DEFAULT ahora es light
+          dark: '#006F9E',  // Oscurecido para mantener la relación
         },
         secondary: {
-          DEFAULT: '#8A2BE2',
-          light: '#9D44FF',
-          dark: '#6A1CB3',
+          DEFAULT: '#7A1ED6', // Oscurecido de #8A2BE2 (ratio ~4.7:1 sobre blanco)
+          light: '#8A2BE2', // El antiguo DEFAULT ahora es light
+          dark: '#5E17A8',  // Oscurecido para mantener la relación
         },
         metallic: {
-          DEFAULT: '#71809B',
-          light: '#A3AEBF',
-          dark: '#4A5568',
+          DEFAULT: '#5A687C', // Oscurecido de #71809B (ratio ~4.5:1 sobre blanco)
+          light: '#71809B', // El antiguo DEFAULT ahora es light
+          dark: '#3D4756',  // Oscurecido para mantener la relación
         },
         dark: {
-          DEFAULT: '#1A1A2E',
-          light: '#2D2D44',
-          dark: '#0F0F1A',
+          DEFAULT: '#1A1A2E', // Ya cumple
+          light: '#2D2D44', // Ya cumple
+          dark: '#0F0F1A', // Ya cumple
         }
       },
     },

@@ -19,6 +19,7 @@ import enTerms from './pages/en/terms.json';
 import enRefund from './pages/en/refund.json';
 import enServices from './pages/en/services.json';
 import enDiscovery from './pages/en/discovery.json';
+import enConfirmation from './pages/en/confirmation.json'; // Import confirmation English translations
 import enHomeCta from './pages/en/sections/homeCta.json'; // Import homeCta English translations
 
 // Spanish translations
@@ -40,6 +41,7 @@ import esTerms from './pages/es/terms.json';
 import esRefund from './pages/es/refund.json';
 import esServices from './pages/es/services.json';
 import esDiscovery from './pages/es/discovery.json';
+import esConfirmation from './pages/es/confirmation.json'; // Import confirmation Spanish translations
 import esHomeCta from './pages/es/sections/homeCta.json'; // Import homeCta Spanish translations
 
 const resources = {
@@ -60,7 +62,8 @@ const resources = {
       ...enTerms,
       ...enServices,
       ...enRefund,
-      discoveryPage: enDiscovery
+      discoveryPage: enDiscovery, // discoveryPage remains nested in translation
+      confirmationPage: enConfirmation // Nest confirmationPage under translation
     },
     problem: enProblem, // Assign enProblem to the problem namespace
     'sections/homeCta': enHomeCta // homeCta namespace
@@ -82,7 +85,8 @@ const resources = {
       ...esTerms,
       ...esServices,
       ...esRefund,
-      discoveryPage: esDiscovery
+      discoveryPage: esDiscovery, // discoveryPage remains nested in translation
+      confirmationPage: esConfirmation // Nest confirmationPage under translation
     },
     problem: esProblem, // Assign esProblem to the problem namespace
     'sections/homeCta': esHomeCta // homeCta namespace
@@ -104,7 +108,7 @@ i18n
     ns: [
       'translation',
       'sections/homeCta',
-      'problem' // Keep problem namespace here
+      'problem' // Keep problem namespace here and remove confirmationPage
     ],
     defaultNS: 'translation'
   });

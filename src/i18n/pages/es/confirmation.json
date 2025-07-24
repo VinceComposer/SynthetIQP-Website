@@ -1,0 +1,13 @@
+{
+  "confirmation": {
+    "title": "¡Discovery agendada con éxito!",
+    "subtitle": "Prepárate para una conversación estratégica que te dará claridad sobre el presente y el futuro de tu negocio con la IA.",
+    "important_video": "Importante: por favor, mira el video a continuación"
+  },
+  "thanks_instructions": {
+    "title": "Gracias por reservar tu Sesión",
+    "message": "Hemos guardado un espacio para ti en nuestra agenda y recibirás un email de confirmación con todos los detalles y con 5 preguntas claves que deberás responder antes de la sesión.",
+    "important_prep": "Importante: para sacar el mayor provecho a nuestra conversación, por favor, invierte 5-10 minutos antes de la Discovery reflexionando y completando las preguntas que te hemos enviado por email.",
+    "closing": "¡Nos vemos pronto!"
+  }
+}

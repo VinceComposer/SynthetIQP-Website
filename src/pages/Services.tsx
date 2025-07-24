@@ -1,5 +1,5 @@
 // React is automatically imported by JSX transform
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Check } from 'lucide-react';
@@ -22,6 +22,11 @@ export default function Services() {
   const [activeImplementationTab, setActiveImplementationTab] = useState(0);
   const [activeTransformationTab, setActiveTransformationTab] = useState(0);
 
+  // Refs for tab containers to scroll the active tab into view
+  const strategyTabsRef = useRef<HTMLDivElement>(null);
+  const implementationTabsRef = useRef<HTMLDivElement>(null);
+  const transformationTabsRef = useRef<HTMLDivElement>(null);
+
   const strategyTabs = [
     { id: 'tab1', key: 'strategy.tabs.tab1' },
     { id: 'tab2', key: 'strategy.tabs.tab2' },
@@ -40,6 +45,40 @@ export default function Services() {
     { id: 'tab3', key: 'transformation.tabs.tab3' },
     { id: 'tab4', key: 'transformation.tabs.tab4' },
   ];
+
+  // Effect to scroll the active strategy tab into view
+  useEffect(() => {
+    const activeTabElement = strategyTabsRef.current?.querySelector(
+      `button:nth-child(${activeStrategyTab + 1})`
+    ) as HTMLElement;
+    activeTabElement?.scrollIntoView({
+      behavior: 'smooth',
+      inline: 'center',
+    });
+  }, [activeStrategyTab]);
+
+  // Effect to scroll the active implementation tab into view
+  useEffect(() => {
+    const activeTabElement = implementationTabsRef.current?.querySelector(
+      `button:nth-child(${activeImplementationTab + 1})`
+    ) as HTMLElement;
+    activeTabElement?.scrollIntoView({
+      behavior: 'smooth',
+      inline: 'center',
+    });
+  }, [activeImplementationTab]);
+
+  // Effect to scroll the active transformation tab into view
+  useEffect(() => {
+    const activeTabElement = transformationTabsRef.current?.querySelector(
+      `button:nth-child(${activeTransformationTab + 1})`
+    ) as HTMLElement;
+    activeTabElement?.scrollIntoView({
+      behavior: 'smooth',
+      inline: 'center',
+    });
+  }, [activeTransformationTab]);
+
 
   return (
     <div className="pt-32 pb-20">
@@ -93,35 +132,23 @@ export default function Services() {
                     </div>
                   </div>
                   
-                  {/* Mobile tab navigation - visible only on xs */}
-                  <div className="flex sm:hidden items-center justify-center gap-2 mb-6">
-                    <button 
-                      onClick={() => setActiveStrategyTab((prev) => (prev > 0 ? prev - 1 : strategyTabs.length - 1))}
-                      className="flex-none bg-white text-dark border border-metallic-light/20 rounded-lg p-2"
-                      aria-label="Previous tab"
-                    >
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M15 18l-6-6 6-6" />
-                      </svg>
-                    </button>
-                    
-                    <div className="flex-grow text-center">
-                      <button
-                        className="text-sm font-medium py-2 px-4 rounded-lg bg-secondary text-white shadow-md inline-block mx-auto"
-                      >
-                        {t(`${strategyTabs[activeStrategyTab].key}.name`)}
-                      </button>
+                  {/* Mobile tab navigation - Scrollable Carousel */}
+                  <div className="flex sm:hidden overflow-x-auto whitespace-nowrap mb-6 scrollbar-hide" ref={strategyTabsRef}> {/* Added scrollbar-hide and ref */}
+                    <div className="inline-flex gap-4 pb-2 px-2">
+                      {strategyTabs.map((tab, index) => (
+                        <button
+                          key={tab.id}
+                          onClick={() => setActiveStrategyTab(index)}
+                          className={`flex-shrink-0 text-sm font-medium py-2 px-4 rounded-lg transition-all duration-300 ${
+                            activeStrategyTab === index
+                              ? 'bg-secondary text-white shadow-md'
+                              : 'bg-white text-dark border border-metallic-light/20 hover:bg-gray-50'
+                          }`}
+                        >
+                          {t(`${tab.key}.name`)}
+                        </button>
+                      ))}
                     </div>
-                    
-                    <button 
-                      onClick={() => setActiveStrategyTab((prev) => (prev < strategyTabs.length - 1 ? prev + 1 : 0))}
-                      className="flex-none bg-white text-dark border border-metallic-light/20 rounded-lg p-2"
-                      aria-label="Next tab"
-                    >
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M9 18l6-6-6-6" />
-                      </svg>
-                    </button>
                   </div>
                 </div>
 
@@ -214,35 +241,23 @@ export default function Services() {
                     </div>
                   </div>
                   
-                  {/* Mobile tab navigation - visible only on xs */}
-                  <div className="flex sm:hidden items-center justify-center gap-2 mb-6">
-                    <button 
-                      onClick={() => setActiveImplementationTab((prev) => (prev > 0 ? prev - 1 : implementationTabs.length - 1))}
-                      className="flex-none bg-white text-dark border border-metallic-light/20 rounded-lg p-2"
-                      aria-label="Previous tab"
-                    >
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M15 18l-6-6 6-6" />
-                      </svg>
-                    </button>
-                    
-                    <div className="flex-grow text-center">
-                      <button
-                        className="text-sm font-medium py-2 px-4 rounded-lg bg-secondary text-white shadow-md inline-block mx-auto"
-                      >
-                        {t(`${implementationTabs[activeImplementationTab].key}.name`)}
-                      </button>
+                  {/* Mobile tab navigation - Scrollable Carousel */}
+                  <div className="flex sm:hidden overflow-x-auto whitespace-nowrap mb-6 scrollbar-hide" ref={implementationTabsRef}> {/* Added scrollbar-hide and ref */}
+                    <div className="inline-flex gap-4 pb-2 px-2">
+                      {implementationTabs.map((tab, index) => (
+                        <button
+                          key={tab.id}
+                          onClick={() => setActiveImplementationTab(index)}
+                          className={`flex-shrink-0 text-sm font-medium py-2 px-4 rounded-lg transition-all duration-300 ${
+                            activeImplementationTab === index
+                              ? 'bg-secondary text-white shadow-md'
+                              : 'bg-white text-dark border border-metallic-light/20 hover:bg-gray-50'
+                          }`}
+                        >
+                          {t(`${tab.key}.name`)}
+                        </button>
+                      ))}
                     </div>
-                    
-                    <button 
-                      onClick={() => setActiveImplementationTab((prev) => (prev < implementationTabs.length - 1 ? prev + 1 : 0))}
-                      className="flex-none bg-white text-dark border border-metallic-light/20 rounded-lg p-2"
-                      aria-label="Next tab"
-                    >
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M9 18l6-6-6-6" />
-                      </svg>
-                    </button>
                   </div>
                 </div>
 
@@ -320,7 +335,7 @@ export default function Services() {
                           <button
                             key={tab.id}
                             onClick={() => setActiveTransformationTab(index)}
-                            className={`text-sm md:text-base font-medium py-2 px-4 rounded-lg transition-all duration-300 ${
+                            className={`flex-shrink-0 text-sm md:text-base font-medium py-2 px-4 rounded-lg transition-all duration-300 ${
                               activeTransformationTab === index
                                 ? 'bg-primary text-white shadow-md'
                                 : 'bg-white text-dark border border-metallic-light/20 hover:bg-gray-50'
@@ -333,35 +348,23 @@ export default function Services() {
                     </div>
                   </div>
                   
-                  {/* Mobile tab navigation - visible only on xs */}
-                  <div className="flex sm:hidden items-center justify-center gap-2 mb-6">
-                    <button 
-                      onClick={() => setActiveTransformationTab((prev) => (prev > 0 ? prev - 1 : transformationTabs.length - 1))}
-                      className="flex-none bg-white text-dark border border-metallic-light/20 rounded-lg p-2"
-                      aria-label="Previous tab"
-                    >
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M15 18l-6-6 6-6" />
-                      </svg>
-                    </button>
-                    
-                    <div className="flex-grow text-center">
-                      <button
-                        className="text-sm font-medium py-2 px-4 rounded-lg bg-secondary text-white shadow-md inline-block mx-auto"
-                      >
-                        {t(`${transformationTabs[activeTransformationTab].key}.name`)}
-                      </button>
+                  {/* Mobile tab navigation - Scrollable Carousel */}
+                  <div className="flex sm:hidden overflow-x-auto whitespace-nowrap mb-6 scrollbar-hide" ref={transformationTabsRef}> {/* Added scrollbar-hide and ref */}
+                    <div className="inline-flex gap-4 pb-2 px-2">
+                      {transformationTabs.map((tab, index) => (
+                        <button
+                          key={tab.id}
+                          onClick={() => setActiveTransformationTab(index)}
+                          className={`flex-shrink-0 text-sm font-medium py-2 px-4 rounded-lg transition-all duration-300 ${
+                            activeTransformationTab === index
+                              ? 'bg-primary text-white shadow-md'
+                              : 'bg-white text-dark border border-metallic-light/20 hover:bg-gray-50'
+                          }`}
+                        >
+                          {t(`${tab.key}.name`)}
+                        </button>
+                      ))}
                     </div>
-                    
-                    <button 
-                      onClick={() => setActiveTransformationTab((prev) => (prev < transformationTabs.length - 1 ? prev + 1 : 0))}
-                      className="flex-none bg-white text-dark border border-metallic-light/20 rounded-lg p-2"
-                      aria-label="Next tab"
-                    >
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M9 18l6-6-6-6" />
-                      </svg>
-                    </button>
                   </div>
                 </div>
 
