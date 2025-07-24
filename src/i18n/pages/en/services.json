@@ -1,11 +1,11 @@
 {
   "title": "This is How We Help You Implement AI",
-  "subtitle": "We guide you on a clear and structured journey. We start with strategy, move on to technical implementation, and culminate with the transformation of your Agency.",
+  "subtitle": "We guide you on a clear and structured journey. We start with strategy, move on to technical implementation, and culminate with the transformation of your Business.",
   
   "steps": {
     "step1": {
       "title": "Step 1: Clarity and Strategy",
-      "description": "To master AI, you first need a plan. This phase is dedicated to giving you total clarity: from understanding the potential and defining where to start, to having the complete strategic roadmap to implement AI in your agency with a long-term vision."
+      "description": "To master AI, you first need a plan. This phase is dedicated to giving you total clarity: from understanding the potential and defining where to start, to having the complete strategic roadmap to implement AI in your company with a long-term vision."
     },
     "step2": {
       "title": "Step 2: Technical Implementation",
@@ -13,7 +13,7 @@
     },
     "step3": {
       "title": "Step 3: Organizational Transformation",
-      "description": "When implementing AI automations and agents, your agency is no longer the same. It's faster, smarter, and more capable. This new reality makes it natural and necessary to transform your operational, organizational, commercial, and business model to capitalize on all that potential. In this phase, we help you build the future of your agency, both at the organizational and commercial level."
+      "description": "When implementing AI automations and agents, your business is no longer the same. It's faster, smarter, and more capable. This new reality makes it natural and necessary to transform your operational, organizational, commercial, and business model to capitalize on all that potential. In this phase, we help you build the future of your company, both at the organizational and commercial level."
     }
   },
   
@@ -23,8 +23,8 @@
         "name": "Opportunities Report",
         "title": "AI Opportunities Report",
         "price": "Free",
-        "description": "Request your personalized report and schedule a Discovery Session that will give you a starting point to visualize the potential of AI in your agency.",
-        "idealFor": "you want to gain clarity and understand more about how Agencies are adopting AI. You'll get insight into your industry and the size of the opportunity for your business.",
+        "description": "Request your personalized report and schedule a Discovery Session that will give you a starting point to visualize the potential of AI in your company.",
+        "idealFor": "you want to gain clarity and understand more about how Companies are adopting AI. You'll get insight into your industry and the size of the opportunity for your business.",
         "includes": {
           "title": "What does the Opportunities Report include?",
           "items": [
@@ -38,11 +38,11 @@
             },
             {
               "icon": "bullseye",
-              "text": "<strong>Top 3 Opportunity Areas:</strong> Pain Points in your agency that could be resolved with AI."
+              "text": "<strong>Top 3 Opportunity Areas:</strong> Pain Points in your business that could be resolved with AI."
             },
             {
               "icon": "paperclip",
-              "text": "<strong>Appendix:</strong> Analysis of the AI opportunity for Agencies in Latin America."
+              "text": "<strong>Appendix:</strong> Analysis of the AI opportunity for Business."
             }
           ]
         }
@@ -97,7 +97,7 @@
             {
               "icon": "cogs",
               "iconColor": "#1B84F3",
-              "text": "<strong>AI Architecture:</strong> Design of your agency's AI management system."
+              "text": "<strong>AI Architecture:</strong> Design of your company's AI management system."
             }
           ]
         }
@@ -116,7 +116,7 @@
         "name": "Custom Solutions",
         "title": "Custom Solutions",
         "price": "Quote on request",
-        "description": "For specific needs. We develop custom tools, automations, or AI agents, with total flexibility for your agency.",
+        "description": "For specific needs. We develop custom tools, automations, or AI agents, with total flexibility for your business.",
         "idealFor": "you have a very specific need that doesn't fit into a standard plan and you're looking for maximum flexibility in the development and ownership of the solution.",
         "includes": {
           "title": "Maximum Flexibility",
@@ -140,8 +140,7 @@
             {
               "title": "Delivery pace:",
               "items": [
-                "A new automation every 2-3 weeks.",
-                "4 Additional setups included per month (renewed monthly)."
+                "A new automation every 2-3 weeks."
               ]
             },
             {
@@ -149,7 +148,7 @@
               "items": [
                 "The result of the automation is delivered (E.g., content for posts) not the source code.",
                 "Hosting, credentials, source code, and associated maintenance are handled by us.",
-                "Additional setup (not included in the plan) of automation is charged between $$."
+                "Additional setup (not included in the plan) of automation is charged $$."
               ]
             }
           ]
@@ -167,8 +166,7 @@
             {
               "title": "Delivery pace:",
               "items": [
-                "A new automation every 2-3 weeks.",
-                "4 Additional setups included per month (renewed monthly)."
+                "A new automation every 2-3 weeks."
               ]
             },
             {
@@ -177,7 +175,7 @@
                 "Hosting, credentials, source code, and tools belong to the agency.",
                 "Solution documentation is delivered, and a handover session is conducted.",
                 "The automation environment is maintained and managed, as well as AI Agents and Automations.",
-                "Additional setup (not included in the plan) of automation is charged between $$."
+                "Additional setup (not included in the plan) of automation will be charged $$."
               ]
             }
           ]
@@ -192,8 +190,8 @@
         "name": "Exponential Diagnosis",
         "title": "Exponential Diagnosis",
         "price": "<span class=\"text-lg font-medium text-gray-500\">(One-time payment)</span>",
-        "description": "The first step for any real transformation. This diagnosis analyzes your agency in depth from the perspective of an Exponential Organization, allowing you to clearly see what is working, what is blocking your growth, and what areas you can activate to scale.",
-        "idealFor": "you feel you're not leveraging the potential of your agency and need an external and expert vision to identify the organizational blocks that prevent your evolution.",
+        "description": "The first step for any real transformation. This diagnosis analyzes your company in depth from the perspective of an Exponential Organization, allowing you to clearly see what is working, what is blocking your growth, and what areas you can activate to scale.",
+        "idealFor": "you feel you're not leveraging the potential of your business and need an external and expert vision to identify the organizational blocks that prevent your evolution.",
         "includes": {
           "title": "What is included?",
           "items": [
@@ -224,7 +222,7 @@
         "name": "Organizational Redesign",
         "title": "Purpose and Organizational Redesign",
         "price": "<span class=\"text-lg font-medium text-gray-500\">(One-time payment)</span>",
-        "description": "Your agency is no longer the same after AI. In this service, we redefine your transformative purpose with you and design a new organizational structure based on ExO principles. An agency prepared to scale sustainably needs a clear, distributed model aligned with its new reality.",
+        "description": "Your company is no longer the same after AI. In this service, we redefine your transformative purpose with you and design a new organizational structure based on ExO principles. A business prepared to scale sustainably needs a clear, distributed model aligned with its new reality.",
         "idealFor": "you already know you need to change, but you lack the structure and purpose to align your team and redesign your organization for the future.",
         "includes": {
           "title": "What is included?",
@@ -257,7 +255,7 @@
         "title": "Roadmap",
         "price": "<span class=\"text-lg font-medium text-gray-500\">(One-time payment)</span>",
         "description": "We design the complete organizational transformation plan, with a detailed implementation timeline, so you can evolve sustainably thanks to AI.",
-        "idealFor": "you're ready to go beyond quick-wins and need the complete strategic map to transform your agency in a structured way.",
+        "idealFor": "you're ready to go beyond quick-wins and need the complete strategic map to transform your company in a structured way.",
         "includes": {
           "title": "What is included?",
           "items": [
@@ -284,7 +282,7 @@
         "title": "Accompaniment",
         "price": "<span class=\"text-lg font-medium text-gray-500\">(Monthly payment)</span>",
         "description": "We accompany you in the implementation of organizational transformation, with follow-up and adjustment sessions, to ensure that the evolution is carried out correctly and sustainably.",
-        "idealFor": "you need continuous support to implement organizational changes and ensure that the transformation is carried out correctly.",
+        "idealFor": "you understand that the transformation is human and value the expert support to ensure the organizational changes and transformation are sustainable in the long term.",
         "includes": {
           "title": "What is included?",
           "items": [

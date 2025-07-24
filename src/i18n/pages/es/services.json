@@ -1,11 +1,11 @@
 {
   "title": "Así es como te Ayudamos a Implementar la IA",
-  "subtitle": "Te guiamos en un viaje claro y estructurado. Empezamos con la estrategia, pasamos a la implementación técnica y culminamos con la transformación de tu Agencia.",
+  "subtitle": "Te guiamos en un viaje claro y estructurado. Empezamos con la estrategia, pasamos a la implementación técnica y culminamos con la transformación de tu Negocio.",
   
   "steps": {
     "step1": {
       "title": "Paso 1: Claridad y Estrategia",
-      "description": "Para dominar la IA, primero necesitas un plan. Esta fase se dedica a darte una claridad total: desde entender el potencial y definir por dónde empezar, hasta tener la hoja de ruta estratégica completa para implementar la IA en tu agencia con visión de largo plazo."
+      "description": "Para dominar la IA, primero necesitas un plan. Esta fase se dedica a darte una claridad total: desde entender el potencial y definir por dónde empezar, hasta tener la hoja de ruta estratégica completa para implementar la IA en tu empresa con visión de largo plazo."
     },
     "step2": {
       "title": "Paso 2: Implementación Técnica",
@@ -13,7 +13,7 @@
     },
     "step3": {
       "title": "Paso 3: Transformación Organizacional",
-      "description": "Al implementar automatizaciones y agentes de IA, tu agencia ya no es la misma. Es más rápida, más inteligente y más capaz. Esta nueva reality hace natural y necesario transformar tu modelo operativo, organizativo, comercial, de negocio, etc. para capitalizar todo ese potencial. En esta fase, te ayudamos a construir el futuro de tu agencia, tanto a nivel organizacional como comercial."
+      "description": "Al implementar automatizaciones y agentes de IA, tu empresa ya no es la misma. Es más rápida, más inteligente y más capaz. Esta nueva realidad hace natural y necesario transformar tu modelo operativo, organizativo, comercial, de negocio, etc. para capitalizar todo ese potencial. En esta fase, te ayudamos a construir el futuro de tu negocio, tanto a nivel organizacional como comercial."
     }
   },
   
@@ -23,8 +23,8 @@
         "name": "Reporte de Oportunidades",
         "title": "Reporte de Oportunidades IA",
         "price": "Gratis",
-        "description": "Solicita tu reporte personalizado y agenda una Sesión Discovery que te darán un punto de partida para visualizar el potencial de la IA en tu agencia.",
-        "idealFor": "quieres ganar claridad y entender más de cómo las Agencias están adoptando la IA. Obtendrás insight de tu industria y del tamaño de la oportunidad para tu negocio.",
+        "description": "Solicita tu reporte personalizado y agenda una Sesión Discovery que te darán un punto de partida para visualizar el potencial de la IA en tu negocio.",
+        "idealFor": "quieres ganar claridad y entender más de cómo las empresas están adoptando la IA. Obtendrás insight de tu industria y del tamaño de la oportunidad para tu negocio.",
         "includes": {
           "title": "¿Qué incluye el Reporte de Oportunidades?",
           "items": [
@@ -38,11 +38,11 @@
             },
             {
               "icon": "bullseye",
-              "text": "<strong>Top 3 Áreas de Oportunidad:</strong> Pain Points de tu agencia que podrían resolverse con IA."
+              "text": "<strong>Top 3 Áreas de Oportunidad:</strong> Pain Points de tu empresa que podrían resolverse con IA."
             },
             {
               "icon": "paperclip",
-              "text": "<strong>Anexo:</strong> Análisis de la oportunidad de la IA para Agencias en Latam."
+              "text": "<strong>Anexo:</strong> Análisis de la oportunidad de la IA para Negocios."
             }
           ]
         }
@@ -97,7 +97,7 @@
             {
               "icon": "cogs",
               "iconColor": "#1B84F3",
-              "text": "<strong>Arquitectura de IA:</strong> Diseño del sistema de gestión de la IA de tu agencia."
+              "text": "<strong>Arquitectura de IA:</strong> Diseño del sistema de gestión de la IA de tu empresa."
             }
           ]
         }
@@ -116,7 +116,7 @@
         "name": "Soluciones a Medida",
         "title": "Soluciones a Medida",
         "price": "A cotizar",
-        "description": "Para necesidades específicas. Desarrollamos herramientas, automatizaciones o agentes de IA a medida, con total flexibilidad para tu agencia.",
+        "description": "Para necesidades específicas. Desarrollamos herramientas, automatizaciones o agentes de IA a medida, con total flexibilidad para tu negocio.",
         "idealFor": "tienes una necesidad muy específica que no encaja en un plan estándar y buscas máxima flexibilidad en el desarrollo y la propiedad de la solución.",
         "includes": {
           "title": "Máxima Flexibilidad",
@@ -140,8 +140,7 @@
             {
               "title": "Ritmo de entrega:",
               "items": [
-                "Una nueva automatización cada 2-3 semanas.",
-                "4 Setups adicionales incluídos al mes (renovados por mes)."
+                "Una nueva automatización cada 2-3 semanas."
               ]
             },
             {
@@ -149,7 +148,7 @@
               "items": [
                 "Se entrega el resultado de la automatización (Ej: contenido para posts) no el código fuente.",
                 "Hosting, credenciales, código fuente y el mantenimiento asociado, va por nuestra cuenta.",
-                "Se cobra entre $$ por Setup adicional (no incluído en el plan) de la automatización."
+                "Se cobra $$ por Setup adicional (no incluído en el plan) de la automatización."
               ]
             }
           ]
@@ -167,8 +166,7 @@
             {
               "title": "Ritmo de entrega:",
               "items": [
-                "Una nueva automatización cada 2-3 semanas.",
-                "4 Setups adicionales incluídos al mes (renovados por mes)."
+                "Una nueva automatización cada 2-3 semanas."
               ]
             },
             {
@@ -177,7 +175,7 @@
                 "Hosting, credenciales, código fuente y herramientas, le pertenece a la agencia.",
                 "Se entrega documentación de la solución, se hace una sesión de handover.",
                 "Se mantiene y gestiona el ambiente de automatizaciones, así como, los Agentes y Automatizaciones de IA.",
-                "Se cobra entre $$ por Setup adicional (no incluído en el plan) de la automatización."
+                "Se cobra $$ por Setup adicional (no incluído en el plan) de la automatización."
               ]
             }
           ]
@@ -192,8 +190,8 @@
         "name": "Diagnóstico Exponencial",
         "title": "Diagnóstico Exponencial",
         "price": "<span class=\"text-lg font-medium text-gray-500\">(Pago único)</span>",
-        "description": "El primer paso para cualquier transformación real. Este diagnóstico analiza tu agencia en profundidad desde la óptica de una Organización Exponencial, permitiéndote ver con claridad qué está funcionando, qué está bloqueando tu crecimiento y qué áreas puedes activar para escalar.",
-        "idealFor": "sientes que no estás aprovechando el potencial de tu agencia y necesitas una visión externa y experta para identificar los bloqueos organizativos que impiden tu evolución.",
+        "description": "El primer paso para cualquier transformación real. Este diagnóstico analiza tu empresa en profundidad desde la óptica de una Organización Exponencial, permitiéndote ver con claridad qué está funcionando, qué está bloqueando tu crecimiento y qué áreas puedes activar para escalar.",
+        "idealFor": "sientes que no estás aprovechando el potencial de tu negocio y necesitas una visión externa y experta para identificar los bloqueos organizativos que impiden tu evolución.",
         "includes": {
           "title": "¿Qué se incluye?",
           "items": [
@@ -224,7 +222,7 @@
         "name": "Rediseño Organizativo",
         "title": "Propósito y Rediseño Organizativo",
         "price": "<span class=\"text-lg font-medium text-gray-500\">(Pago único)</span>",
-        "description": "Tu agencia ya no es la misma después de la IA. En este servicio redefinimos contigo tu propósito transformador y diseñamos una nueva estructura organizativa basada en principios ExO. Una agencia preparada para escalar de forma sostenible necesita un modelo claro, distribuido y alineado con su nueva realidad.",
+        "description": "Tu empresa ya no es la misma después de la IA. En este servicio redefinimos contigo tu propósito transformador y diseñamos una nueva estructura organizativa basada en principios ExO. Una empresa preparada para escalar de forma sostenible necesita un modelo claro, distribuido y alineado con su nueva realidad.",
         "idealFor": "ya sabes que necesitas cambiar, pero te falta la estructura y el propósito para alinear a tu equipo y rediseñar tu organización para el futuro.",
         "includes": {
           "title": "¿Qué se incluye?",
@@ -247,7 +245,7 @@
             {
               "icon": "star",
               "iconColor": "#7C3AED",
-              "text": "Atributos ExO prioritarios para escalar tu agencia"
+              "text": "Atributos ExO prioritarios para escalar tu negocio"
             }
           ]
         }
@@ -257,7 +255,7 @@
         "title": "Hoja de Ruta",
         "price": "<span class=\"text-lg font-medium text-gray-500\">(Pago único)</span>",
         "description": "Diseñamos el plan de transformación organizacional completo, con un cronograma detallado de implementación, para que puedas evolucionar de forma sostenible gracias a la IA.",
-        "idealFor": "estás listo para ir más allá de los quick-wins y necesitas el mapa estratégico completo para transformar tu agencia de forma estructurada.",
+        "idealFor": "estás listo para ir más allá de los quick-wins y necesitas el mapa estratégico completo para transformar tu empresa de forma estructurada.",
         "includes": {
           "title": "¿Qué se incluye?",
           "items": [
@@ -284,7 +282,7 @@
         "title": "Acompañamiento",
         "price": "<span class=\"text-lg font-medium text-gray-500\">(Pago mensual)</span>",
         "description": "Te acompañamos en la implementación de la transformación organizacional, con sesiones de seguimiento y ajuste, para asegurar que la evolución se realiza de forma correcta y sostenible.",
-        "idealFor": "necesitas apoyo continuo para implementar los cambios organizacionales y asegurar que la transformación se realiza correctamente.",
+        "idealFor": "entiendes que la transformación es humana y requieres de apoyo experto para asegurar que los cambios organizacionales y la transformación se sostengan en el tiempo.",
         "includes": {
           "title": "¿Qué se incluye?",
           "items": [
