@@ -8,8 +8,8 @@
     "subtitle": "Get answers to common questions about our AI solutions and implementation process",
     "questions": {
       "aiAgents": {
-        "question": "What's a AI Agent and how can it help my business?",
-        "answer": "An AI Agent is a software program powered by artificial intelligence that can autonomously handle tasks, make decisions, and learn from data or user interactions with a human-like performance. By automating repetitive processes and providing real-time insights, AI Agents help any kind of business save time, cut costs, reduce error, and boost overall efficiency."
+        "question": "What's an AI Agent and how can it help my business?",
+        "answer": "An AI Agent is a software program powered by Artificial Intelligence that can autonomously handle tasks, make decisions and learn from data or user interactions to achieve a human-like performance. By automating repetitive processes and providing real-time insights, AI Agents help any kind of business save time, cut costs, reduce error, and boost overall efficiency."
       },
       "implementation": {
         "question": "What's the difference between an Automation and an AI Agent?",
@@ -17,11 +17,11 @@
       },
       "security": {
         "question": "What's the typical ROI for an AI Automation/Agent implementation?",
-        "answer": "While results vary by industry and project scope, many businesses report a substantial return on investment -sometimes exceeding 200% in the first year- after automating key processes or enhancing customer interactions with AI Agents. For instance, a study by Deloitte indicates that organizations adopting AI-driven automations often see significant gains in productivity and cost savings. You can read more about potential ROI figures here: ROI for artificial intelligence | Deloitte Insights"
+        "answer": "While results vary by industry and project scope, many businesses report a substantial return on investment -sometimes exceeding 200% in the first year- after automating key processes or enhancing customer interactions with AI Agents."
       },
       "customization": {
         "question": "How long does it takes to deliver my Automations or AI Agents?",
-        "answer": "Delivery timelines vary based on the complexity of the agent/automation required, our common times are 1-2 week/agent for development and 1-2 week/agent for deployment. Upon receiving your project details, we'll provide an estimated timeline and keep you updated on our progress."
+        "answer": "Delivery timelines vary based on the complexity of the agent/automation required, our average times are 1-2 week/agent for development and 1-2 week/agent for deployment. Upon receiving your project requirements, we'll provide an estimated timeline and keep you updated on our progress."
       },
       "integration": {
         "question": "What's included when paying for your monthly subscription?",

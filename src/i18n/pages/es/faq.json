@@ -9,7 +9,7 @@
     "questions": {
       "aiAgents": {
         "question": "¿Qué es un Agente IA y cómo puede ayudar a mi negocio?",
-        "answer": "Un Agente IA es un programa de software impulsado por inteligencia artificial que puede manejar tareas de forma autónoma, tomar decisiones y aprender de datos o interacciones con usuarios con un performance similar al humano. Al automatizar procesos repetitivos y proporcionar información en tiempo real, los Agentes IA ayudan a cualquier tipo de negocio a ahorrar tiempo, reducir costos, disminuir errores y aumentar la eficiencia general."
+        "answer": "Un Agente IA es un programa de software impulsado por inteligencia artificial que puede manejar tareas de forma autónoma, tomar decisiones y aprender de datos o interacciones con usuarios para lograr un performance similar al humano. Al automatizar procesos repetitivos y proporcionar información en tiempo real, los Agentes IA ayudan a cualquier tipo de negocio a ahorrar tiempo, reducir costos, disminuir errores y aumentar la eficiencia general."
       },
       "implementation": {
         "question": "¿Cuál es la diferencia entre un Agente IA y una Automatización?",
@@ -21,7 +21,7 @@
       },
       "customization": {
         "question": "¿Cuánto tiempo toma implementar mis Automatizaciones o Agentes IA?",
-        "answer": "Los plazos de entrega varían según la complejidad del agentes o la automatización requeridos, nuestros tiempos comunes son 1-2 semanas/agente para desarrollo y 1-2 semanas/agente para implementación. Al recibir los detalles de su proyecto, le proporcionaremos un cronograma estimado y le mantendremos informado sobre nuestro progreso."
+        "answer": "Los plazos de entrega varían según la complejidad del agentes o la automatización requeridos, nuestros tiempos promedios son 1-2 semanas/agente para desarrollo y 1-2 semanas/agente para implementación. Al recibir los requerimientos de su proyecto, le proporcionaremos un cronograma estimado y le mantendremos informado sobre nuestro progreso."
       },
       "integration": {
         "question": "¿Qué está incluído al contratar la subscripción mensual?",
@@ -33,7 +33,7 @@
       },
       "pricing": {
         "question": "¿Hay un límite en cuántos Agentes IA puedo solicitar?",
-        "answer": "Aunque no hay un límite en el número de agentes que puede solicitar, nos enfocamos en entregarlos secuencialmente uno a la vez para asegurar que cada solución cumpla con nuestros estándares de calidad y se alinee con los objetivos de su negocio."
+        "answer": "Aunque no hay un límite en el número de agentes que puede solicitar, nos enfocamos en implementarlos secuencialmente uno a la vez para asegurar que cada solución cumpla con nuestros estándares de calidad y se alinee con los objetivos de su negocio."
       },
       "singleAgent": {
         "question": "¿Puedo solicitar un solo Agente o una sola Automatización de IA?",
