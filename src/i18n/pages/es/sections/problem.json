@@ -1,23 +1,23 @@
 {
   "problem": {
     "title": "Desafíos Empresariales Comunes",
-    "description": "Las organizaciones enfrentan una presión creciente para innovar mientras mantienen la eficiencia y la calidad",
+    "description": "Las organizaciones enfrentan una presión creciente para innovar sin perder la calidad y el nivel de 'delivery'.",
     "challenges": {
       "inefficientProcesses": "Procesos manuales que consumen tiempo y recursos valiosos",
-      "skillGap": "Dificultad para encontrar/retener profesionales de Automatizaciones/IA cualificados",
-      "integration": "Manejo de múltiples sistemas complejos que dificultan la integración",
-      "scalability": "Incapacidad para escalar operaciones eficientes",
-      "overhead": "Costes operativos y complejidad crecientes"
+      "skillGap": "Dificultad para encontrar y retener profesionales de IA, Automatizaciones y cualificados",
+      "integration": "Manejo de múltiples sistemas complejos, imposibles de integrar y que no escalan",
+      "scalability": "Crecimiento en facturación ligado al incremento de la plantilla de trabajadores",
+      "overhead": "Costes operativos y complejidad crecientes que impiden la innovación"
     }
   },
   "solution": {
     "title": "Nuestras Soluciones de IA",
-    "description": "Soluciones integrales de automatización que transforman el funcionamiento de tu empresa",
+    "description": "Soluciones integrales de automatizaciones y agentes que te permiten mantener el foco en tu negocio mientras innovas.",
     "benefits": {
-      "customAgents": "Agentes IA personalizados que se encargan por completo de procesos/roles",
-      "expertise": "Accede a las últimas Automatizaciones y Agentes de IA con un ROI muy atractivo",
-      "seamless": "Integración perfecta con tus sistemas de negocio",
-      "futureProof": "Soluciones preparadas para el futuro que crecen con tu negocio",
+      "customAgents": "Agentes y Automatizaciones de IA personalizados que se encargan por completo de procesos/roles",
+      "expertise": "Accede a un equipo de expertos 100% dedicados a la IA, Automatizaciones y Agentes",
+      "seamless": "Soluciones que se integran perfectamente con tus sistemas de negocio",
+      "futureProof": "Soluciones preparadas para el futuro de tu negocio, estables, escalables y con 'ROI' atractivo",
       "profitability": "Inversión controlada que reduce la complejidad e incrementa la rentabilidad"
     }
   },

@@ -1,23 +1,23 @@
 {
   "problem": {
     "title": "Common Business Challenges",
-    "description": "Organizations face increasing pressure to innovate while maintaining efficiency and quality",
+    "description": "Organizations face increasing pressure to innovate while maintaining quality and 'delivery' levels.",
     "challenges": {
       "inefficientProcesses": "Manual processes consuming valuable time and resources",
       "skillGap": "Difficulty finding and retaining skilled Automation/AI professionals",
-      "integration": "Complex systems that don't work well together",
-      "scalability": "Inability to scale operations efficiently",
-      "overhead": "Increasing overhead costs and business complexity"
+      "integration": "Complex systems that don't scale and wont work well together",
+      "scalability": "Turnover growth linked to an increase in the number of hires",
+      "overhead": "Increasing overhead costs, operational and business complexity stopping you from innovating"
     }
   },
   "solution": {
     "title": "Our AI-Powered Solutions",
-    "description": "Comprehensive automation solutions that transform how your business operates",
+    "description": "Comprehensive done-for-you agent and automation solutions, so you can innovate while keeping the focus on your business.",
     "benefits": {
-      "customAgents": "Custom AI agents that take care of entire processes/roles",
-      "expertise": "Cutting-Edge Automations and IA solutions with an attractive ROI",
+      "customAgents": "Custom Cutting-Edge AI Automations and Agents that take care of entire processes/roles",
+      "expertise": "Access to a team of experts fully dedicated to AI, Automations and Agents",
       "seamless": "Seamless integration with your existing systems",
-      "futureProof": "Future-proof solutions that grow with your business",
+      "futureProof": "Future-proof, stable and scalable solutions with an attractive ROI",
       "profitability": "Controlled investment that reduce complexity and increase profitability"
     }
   },
