@@ -2,7 +2,8 @@
   "confirmation": {
     "title": "Discovery Successfully Scheduled!",
     "subtitle": "Get ready for a strategic conversation that will give you clarity about the present and future of your business with AI.",
-    "important_video": "Important: please watch the video below"
+    "important_video": "Important: please watch the video below",
+    "videoUrl": "https://synthetiqpartners.com/videos/pre-discovery-ai-implementation-en.mp4"
   },
   "thanks_instructions": {
     "title": "Thank you for booking your Session",

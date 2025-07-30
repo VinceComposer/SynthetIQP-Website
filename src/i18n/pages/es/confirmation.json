@@ -2,7 +2,8 @@
   "confirmation": {
     "title": "¡Discovery agendada con éxito!",
     "subtitle": "Prepárate para una conversación estratégica que te dará claridad sobre el presente y el futuro de tu negocio con la IA.",
-    "important_video": "Importante: por favor, mira el video a continuación"
+    "important_video": "Importante: por favor, mira el video a continuación",
+    "videoUrl": "https://synthetiqpartners.com/videos/pre-discovery-implementacion-ia-es.mp4"
   },
   "thanks_instructions": {
     "title": "Gracias por reservar tu Sesión",

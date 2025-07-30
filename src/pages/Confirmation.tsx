@@ -3,9 +3,11 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion'; // Asumo que ya estás usando framer-motion por otras páginas
 
 export default function Confirmation() {
-  const { t } = useTranslation(); // Use default namespace like Discovery.tsx
+  const { t, i18n } = useTranslation(); // Use useTranslation to get t and i18n
 
-  const videoUrl = "https://synthetiqpartners.com/videos/video-test-confirmacion-discovery.mp4";
+  // Get video URL based on current language
+  const videoUrl = t('confirmationPage.confirmation.videoUrl');
+
   const imageUrl = "https://synthetiqpartners.com/images/jose-vincenzo-fundadores-synthetiq-partners.png";
 
   return (
